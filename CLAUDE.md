@@ -136,3 +136,43 @@ Before delivering any output:
 - ❌ Specs without acceptance criteria
 - ❌ Data without insights
 - ❌ Long documents without executive summary
+
+
+Archive (for reference)
+Here's what a proper Claude Code setup, with great md file orchestration, can automate for your product life (𝘯𝘰𝘵 𝘱𝘦𝘳𝘧𝘦𝘤𝘵 𝘺𝘦𝘵, 𝘣𝘶𝘵 𝘺𝘰𝘶'𝘭𝘭 𝘣𝘦 𝘢𝘯 𝘦𝘥𝘪𝘵𝘰𝘳 𝘰𝘯 𝘵𝘰𝘱):
+
+1. 𝐃𝐢𝐬𝐜𝐨𝐯𝐞𝐫𝐲 > build small agents ( .md structures) that: 
+
+    •    automate interview synthesis in minutes
+    •    create problem statements, JTBD, hypotheses
+    •    turn raw feedback into structured insights
+
+2. 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲/𝐑𝐨𝐚𝐝𝐦𝐚𝐩𝐩𝐢𝐧𝐠 > workflows to help you:
+
+    •    draft strategy docs and alternatives, get it to review your own docs
+    •    build scenario modelling (best/worst/expected) on ROI, effort v speed
+    •    create alignment memos for each stakeholder
+
+3. 𝐔𝐗 & 𝐏𝐫𝐨𝐭𝐨𝐭𝐲𝐩𝐢𝐧𝐠 > 𝐯𝐢𝐛𝐞 𝐜𝐨𝐝𝐢𝐧𝐠
+
+    •    build flows and wireframes, replace long text with POCs for designers
+    •    rewrite UX copy automatically for tone, clarity, locale
+    •    ask to review, QA, critique what the team is deciding
+
+4. 𝐄𝐱𝐞𝐜𝐮𝐭𝐢𝐨𝐧 > build copilots alongside you:
+
+    •    auto-generate acceptance criteria in line with codebase
+    •    expand specs with edge cases, test cases
+    •    translate product specs to engineering-ready codebase language
+
+5. 𝐂𝐨𝐦𝐦𝐬/𝐒𝐭𝐚𝐤𝐞𝐡𝐨𝐥𝐝𝐞𝐫𝐬 > have an agent sidekick:
+
+    •    auto-generate meeting agendas, summaries, follow-ups
+    •    create stakeholder updates, release notes, customer comms
+    •    challenge stakeholders with counterpoints (Claude Code helps if contextualised)
+
+6. 𝐃𝐚𝐭𝐚 & 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 > build your own analyst:
+
+    •    get it to query analytics using natural language, do SQL via llms
+    •    interpret results, write insights, detect anomalies
+    •    generate reports based on extracted data, tailored to recipients
