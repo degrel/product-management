@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Node modules if any
+node_modules/
+
+# Environment files
+.env
+.env.local
+.vercel
+
+# Temporary files
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!course-materials/course-structure.json
+*.png
+!website/public/**/*.png
+
+# Release artifacts
+releases/
+*.zip
