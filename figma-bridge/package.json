@@ -1,0 +1,25 @@
+{
+  "name": "figma-bridge",
+  "version": "0.1.0",
+  "description": "WebSocket bridge between Claude Code (MCP) and Figma Plugin API",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:server && npm run build:plugin",
+    "build:server": "esbuild mcp-server/src/index.ts --bundle --platform=node --format=esm --outfile=mcp-server/dist/index.js --external:@modelcontextprotocol/sdk --packages=external",
+    "build:plugin": "esbuild figma-plugin/code.ts --bundle --target=es2017 --outfile=figma-plugin/dist/code.js",
+    "dev": "npm run build -- --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "ws": "^8.18.0",
+    "zod": "^3.24.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@figma/plugin-typings": "^1.104.0",
+    "@types/ws": "^8.5.14",
+    "@types/uuid": "^9.0.8",
+    "esbuild": "^0.24.0"
+  }
+}

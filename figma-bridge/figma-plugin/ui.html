@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+  body { font-family: Inter, sans-serif; font-size: 12px; margin: 8px; display: flex; align-items: center; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .connected { background: #1bc47d; }
+  .disconnected { background: #f24822; }
+</style>
+</head>
+<body>
+  <div class="dot disconnected" id="dot"></div>
+  <span id="status">Disconnected</span>
+
+<script>
+const dot = document.getElementById('dot');
+const statusEl = document.getElementById('status');
+let ws = null;
+
+function connect() {
+  ws = new WebSocket('ws://127.0.0.1:3055');
+
+  ws.onopen = () => {
+    dot.className = 'dot connected';
+    statusEl.textContent = 'Connected';
+    // Handshake — send file info if available
+    ws.send(JSON.stringify({ hello: 'from-plugin-ui' }));
+  };
+
+  ws.onmessage = (ev) => {
+    // Forward MCP server message to plugin sandbox
+    try {
+      const msg = JSON.parse(ev.data);
+      parent.postMessage({ pluginMessage: msg }, '*');
+    } catch (e) {
+      console.error('Bridge UI: bad message from server', e);
+    }
+  };
+
+  ws.onclose = () => {
+    dot.className = 'dot disconnected';
+    statusEl.textContent = 'Disconnected';
+    setTimeout(connect, 1000);
+  };
+
+  ws.onerror = () => {
+    ws.close();
+  };
+}
+
+// Forward plugin sandbox messages to MCP server
+window.onmessage = (ev) => {
+  if (ev.data && ev.data.pluginMessage) {
+    if (ws && ws.readyState === WebSocket.OPEN) {
+      ws.send(JSON.stringify(ev.data.pluginMessage));
+    }
+  }
+};
+
+connect();
+</script>
+</body>
+</html>

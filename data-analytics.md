@@ -3,7 +3,7 @@
 ## Purpose
 Enable data-driven decisions through SQL queries, analysis, and automated reporting.
 
-## BigQuery Query Patterns
+## SQL Query Patterns
 
 ### Query Request Template
 

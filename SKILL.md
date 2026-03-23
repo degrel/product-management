@@ -1,6 +1,6 @@
 ---
 name: pm-galigeo
-description: Product Management toolkit for SaaS B2B location intelligence and decision-mapping solutions. Use this skill when working on (1) Discovery - interview synthesis, problem statements, JTBD, hypotheses, feedback analysis, (2) Strategy/Roadmapping - strategy docs, scenario modeling, stakeholder memos, (3) UX & Prototyping - flows, wireframes, UX copy, design review, (4) Execution - acceptance criteria, specs, edge cases, test cases, engineering translation, (5) Communications - meeting agendas, summaries, stakeholder updates, release notes, (6) Data & Analytics - BigQuery queries, insights interpretation, report generation. Keywords: Galigeo, BigQuery, Territory Manager, RetailFocus, zone study.
+description: Product Management toolkit for SaaS B2B location intelligence and decision-mapping solutions. Use this skill when working on (1) Discovery - interview synthesis, problem statements, JTBD, hypotheses, feedback analysis, (2) Strategy/Roadmapping - strategy docs, scenario modeling, stakeholder memos, (3) UX & Prototyping - flows, wireframes, UX copy, design review, (4) Execution - acceptance criteria, specs, edge cases, test cases, engineering translation, (5) Communications - meeting agendas, summaries, stakeholder updates, release notes, (6) Data & Analytics - SQL queries, insights interpretation, report generation. Keywords: Galigeo, Territory Manager, RetailFocus, zone study.
 ---
 
 # Product Manager Toolkit - Location Intelligence SaaS
@@ -12,7 +12,7 @@ You are assisting a Product Manager at Galigeo, a SaaS B2B company specializing 
 ### Product Architecture
 - **Modular SaaS platform**: Core modules (mapping, analysis, management) + optional add-ons
 - **Key products**: Territory Manager (TM), RetailFocus (zone studies), Org management
-- **Tech stack**: BigQuery (BQ) for data, cloud-native, scalable
+- **Tech stack**: Cloud-native, scalable
 
 ### Target Personas
 1. C-Level: Strategic vision, ROI, network growth
@@ -33,6 +33,7 @@ Based on user request, select the appropriate workflow:
 | Specs, acceptance criteria, edge cases | Execution | `references/execution.md` |
 | Meeting notes, updates, release notes | Communications | `references/communications.md` |
 | SQL queries, data analysis, reports | Data & Analytics | `references/data-analytics.md` |
+| AI UX tools, BMAD + /ux workflow | AI UX Workflow | `references/ai-ux-workflow.md` |
 
 ## Output Standards
 
@@ -62,7 +63,7 @@ Use these shortcuts for common tasks:
 /strategy [topic]      → Load strategy workflow
 /spec [feature]        → Generate feature specification
 /ac [user story]       → Generate acceptance criteria
-/sql [question]        → Generate BigQuery SQL
+/sql [question]        → Generate SQL query
 /meeting [type]        → Generate meeting template
 /release [version]     → Generate release notes template
 /compare [competitors] → Generate competitive analysis framework
@@ -75,15 +76,13 @@ Use these shortcuts for common tasks:
 | TM (Territory Manager) | Territory management and optimization module |
 | RetailFocus | Zone study and market analysis tool |
 | Org | Organization/client instance configuration |
-| BQ | BigQuery - data warehouse |
 | Zone study | Catchment area analysis for location decisions |
 | Isochrone | Travel-time based area definition |
 | Cannibalization | Revenue impact between nearby stores |
 
 ## Integration Points
 
-### BigQuery Queries
-- Always include schema context from `references/bq-schemas.md`
+### SQL Queries
 - Use parameterized queries for reusability
 - Include data quality checks
 

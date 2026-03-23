@@ -1,0 +1,13 @@
+{
+  "name": "Figma Bridge",
+  "id": "figma-bridge-claude-code",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "devAllowedDomains": ["*"],
+    "reasoning": "WebSocket connection to local MCP server for Claude Code integration"
+  }
+}
