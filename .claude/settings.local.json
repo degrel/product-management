@@ -11,7 +11,10 @@
       "mcp__figma-bridge__create_rectangle",
       "mcp__figma-bridge__set_opacity",
       "mcp__figma-bridge__create_text",
-      "mcp__figma-bridge__delete_node"
+      "mcp__figma-bridge__delete_node",
+      "mcp__figma-bridge__resize_node",
+      "mcp__figma-bridge__set_position",
+      "mcp__figma-bridge__set_auto_layout"
     ]
   },
   "enableAllProjectMcpServers": true,
