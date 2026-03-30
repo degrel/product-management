@@ -387,3 +387,53 @@ Use consistently:
 3. **Be specific**: Dates, numbers, names
 4. **Make it scannable**: Headers, bullets, bold key points
 5. **Include next steps**: Who does what by when
+
+---
+
+## Soft Skills PM
+
+Les compétences interpersonnelles qui font la différence au quotidien. Un PM passe plus de temps à négocier, convaincre et clarifier qu'à rédiger des PRDs.
+
+### Leadership
+
+Pas besoin d'être le plus visible. Le leadership PM, c'est :
+- **Prendre la responsabilité** des décisions produit, même sans autorité hiérarchique
+- **Guider les décisions** en apportant contexte, données et cadre d'analyse
+- **Créer de la clarté** quand tout est flou — transformer l'ambiguïté en plan d'action
+
+**En pratique chez Galigeo** : Quand un client retail demande 5 features en même temps, le PM structure la conversation autour de la valeur business et propose un séquencement argumenté.
+
+### Négociation
+
+Les PMs négocient en permanence — avec les stakeholders, les devs, et même avec eux-mêmes. C'est l'art d'équilibrer ce qu'on veut vs. ce qui est possible.
+
+- **Avec les stakeholders** : Écouter le besoin derrière la demande. "Je veux un dashboard" signifie souvent "Je veux comprendre la performance de mon réseau"
+- **Avec l'engineering** : Proposer des trade-offs (scope vs. timeline), pas des ultimatums
+- **Avec soi-même** : Accepter que la roadmap parfaite n'existe pas — prioriser c'est renoncer
+
+**En pratique chez Galigeo** : Arbitrer entre une demande C-Level (nouveau module stratégique) et un pain utilisateur terrain (UX d'export RetailFocus) en quantifiant l'impact de chaque option.
+
+### Problem-Solving
+
+Chaque jour amène un "ce n'était pas dans le plan". La rapidité à décomposer un problème et trouver un chemin praticable construit la confiance de l'équipe.
+
+- **Décomposer** : Séparer le problème en sous-problèmes indépendants
+- **Prioriser** : Identifier ce qui débloque le plus de valeur
+- **Proposer** : Arriver avec des options, pas juste le problème
+- **Itérer** : Première solution ≠ meilleure solution
+
+**En pratique chez Galigeo** : Un bug critique sur le calcul d'isochrones avant une démo client → identifier l'impact, proposer un workaround immédiat, planifier le fix, communiquer au client.
+
+### Communication
+
+La moitié du rôle PM est de la traduction :
+- **Vision → tâches** : Transformer une direction stratégique en items de backlog actionnables
+- **Pain client → roadmap** : Convertir les retours terrain en opportunités produit priorisées
+- **Objectifs leadership → métriques** : Traduire "on veut croître" en KPIs mesurables et actionnables
+
+**Principes clés** :
+- Adapter le niveau de détail à l'audience (cf. tableau Audience Adaptation ci-dessus)
+- Une communication claire est ce qui permet de scaler l'alignement
+- Préférer l'écrit pour les décisions, l'oral pour l'alignement émotionnel
+
+**En pratique chez Galigeo** : Le même sujet (nouvelle feature de cannibalization analysis) se présente différemment au C-Level (impact sur le ROI réseau), au dev (spec technique + edge cases), et au client (bénéfice concret sur sa décision d'implantation).

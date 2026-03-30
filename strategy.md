@@ -312,6 +312,52 @@ Create strategic documents that align stakeholders and guide product decisions.
 | [A over B] | [Why] | [Yes/No] |
 ```
 
+## Product KPIs Framework
+
+Métriques essentielles pour piloter un produit. À adapter au contexte Galigeo.
+
+### Retention Rate
+Mesure si les utilisateurs continuent à utiliser le produit dans le temps. Signal fort de product-market fit.
+
+- **Formule** : `Returning Users / Total Users`
+- **Fréquence** : Hebdomadaire ou mensuelle
+- **Contexte Galigeo** : Taux de réutilisation de TM ou RetailFocus après première session. Un utilisateur qui revient créer des études de zone = signal positif.
+
+### North Star Metric
+Métrique unique qui capture la valeur fondamentale délivrée aux utilisateurs. Aligne produit, croissance et engineering.
+
+- **Exemples** : Messages envoyés (Slack), Équipes actives par semaine (Teams)
+- **Comment la choisir** :
+  1. Reflète la valeur reçue par l'utilisateur (pas le revenu)
+  2. Mesurable et actionnable
+  3. Un leading indicator du succès business
+- **Contexte Galigeo** : Candidats possibles — nombre d'études de zone réalisées, nombre de territoires optimisés, nombre de décisions d'implantation informées par la plateforme.
+
+### Customer Effort Score (CES)
+Mesure la facilité pour l'utilisateur d'accomplir une tâche clé. Moins d'effort = plus de satisfaction.
+
+- **Question type** : "Sur une échelle de 1 à 7, dans quelle mesure a-t-il été facile de [réaliser cette tâche] ?"
+- **Quand l'utiliser** : Après un parcours critique (onboarding, première étude de zone, export de rapport)
+- **Contexte Galigeo** : Mesurer après la création d'une première zone isochrone ou l'export d'un rapport RetailFocus.
+
+### Net Promoter Score (NPS)
+Mesure la satisfaction globale et la loyauté. Basé sur une seule question.
+
+- **Question** : "Quelle est la probabilité que vous recommandiez [produit] à un collègue ?" (0-10)
+- **Formule** : `NPS = % Promoteurs (9-10) − % Détracteurs (0-6)`
+- **Seuils** : < 0 = problème, 0-30 = correct, 30-50 = bon, > 50 = excellent
+- **Contexte Galigeo** : Segmenter par persona (C-Level vs. Network Manager) — les attentes et la perception de valeur diffèrent.
+
+### Guide : choisir ses KPIs Galigeo
+
+| Phase produit | KPIs prioritaires |
+|---------------|-------------------|
+| **Lancement / PMF** | Retention Rate, CES, activation (1ère étude complétée) |
+| **Croissance** | North Star Metric, NPS, adoption par persona |
+| **Maturité** | Churn, revenue expansion, NPS par segment |
+
+---
+
 ## Review & Challenge Framework
 
 When reviewing strategy documents:

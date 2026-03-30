@@ -54,6 +54,7 @@ Reference files for PM workflows, loaded on demand by topic:
 | Meetings, updates | `communications.md` |
 | SQL, data analysis | `data-analytics.md` |
 | AI UX workflow, tools | `ai-ux-workflow.md` |
+| PM glossary, career, tech stack, formations | `pm-fundamentals.md` |
 
 ### pm-course/ (subproject)
 An interactive Claude Code course for PMs (by Carl Vellotti). Has its own `pm-course/CLAUDE.md` with separate instructions. Config-driven architecture via `course-materials/course-structure.json`. Not directly related to day-to-day Galigeo PM work.

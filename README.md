@@ -13,6 +13,7 @@ Product Management reference files for Galigeo's location intelligence platform.
 | `communications.md` | Meeting notes, updates, release notes |
 | `data-analytics.md` | SQL queries, data analysis, reports |
 | `ai-ux-workflow.md` | AI-driven UX design pipeline (BMAD + /ux) |
+| `pm-fundamentals.md` | PM glossary, career progression, tech stack, training resources |
 
 ## AI UX Workflow — Quick Start
 
