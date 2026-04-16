@@ -40,60 +40,116 @@ You are a Product Management co-pilot for a PM at Galigeo, a SaaS B2B company sp
 
 ## Repository Structure
 
-This repo has two main areas:
+```
+product-management/
+├── CLAUDE.md                          # Project identity & context (this file)
+├── README.md                          # Usage guide & installation
+│
+├── .claude/skills/                    # All skills (auto-routed by Claude Code)
+│   ├── pm-help/                       # Guide: list skills, orient user
+│   ├── pm-discovery/                  # Interview synthesis, JTBD, feedback
+│   ├── pm-strategy/                   # Strategy, roadmap, ROI, PRDs
+│   ├── pm-execution/                  # Specs, acceptance criteria, handoff
+│   ├── pm-ux/                         # Flows, wireframes, UX copy, review
+│   ├── pm-communications/             # Meetings, updates, release notes
+│   ├── pm-data-analytics/             # SQL, reports, dashboards
+│   ├── pm-ai-ux/                      # AI-driven UX pipeline (BMAD + /ux)
+│   ├── bmad-*/                        # BMAD framework skills (12 skills)
+│   └── figma-use/                     # Figma MCP integration skill
+│
+├── knowledge/                         # Deep reference, loaded on demand
+│   ├── ux-design/                     # UX psychology (106 biases), articles
+│   │   ├── ux-psychology/             # Growth.design cognitive biases
+│   │   └── ...                        # Progressive disclosure, etc.
+│   └── pm-course/                     # PM training modules (Carl Vellotti)
+│       └── course-materials/          # PRD writing, data analysis, strategy
+│
+├── references/                        # Quick-lookup files
+│   ├── pm-fundamentals.md             # PM glossary, career, tech stack
+│   └── claude-power-user-checklist.md # Claude Code power user checklist
+│
+├── galigeo/                           # Company-specific context
+│   ├── 1-PLG.md                       # Product-led growth strategy
+│   ├── Product-manager-Galigeo.md     # PM role at Galigeo
+│   └── Produits et ICP.md             # Products & ideal customer profiles
+│
+├── docs/                              # Project documents & feature specs
+│   ├── feature-cpo-cockpit.md
+│   └── chief-of-staff.md
+│
+├── _bmad/                             # BMAD framework (v6.3.0)
+│   ├── _config/                       # Framework configuration
+│   └── core/                          # Agents, tasks, workflows
+│
+├── figma-bridge/                      # Figma MCP server & plugin
+│   ├── mcp-server/
+│   ├── figma-plugin/
+│   └── ds-extractor/
+│
+└── bmad_output/                       # BMAD-generated artifacts
+```
 
-### Root-level PM toolkit (Galigeo-specific)
-Reference files for PM workflows, loaded on demand by topic:
+### Architecture: 3 layers
 
-| Task | File |
-|------|------|
-| User research, feedback | `discovery.md` |
-| Strategy, roadmap | `strategy.md` |
-| Wireframes, UX copy | `ux-prototyping.md` |
-| Specs, acceptance criteria | `execution.md` |
-| Meetings, updates | `communications.md` |
-| SQL, data analysis | `data-analytics.md` |
-| AI UX workflow, tools | `ai-ux-workflow.md` |
-| PM glossary, career, tech stack, formations | `pm-fundamentals.md` |
+```
+Layer              Location                    Portable?
+─────────────────────────────────────────────────────────
+Skills (Action)    .claude/skills/pm-*         Yes — symlinked to ~/.claude/skills/
+Knowledge (Depth)  knowledge/                  Yes — loaded on demand by skills
+Context (Company)  galigeo/, CLAUDE.md         No — project-specific
+```
 
-### pm-course/ (subproject)
-An interactive Claude Code course for PMs (by Carl Vellotti). Has its own `pm-course/CLAUDE.md` with separate instructions. Config-driven architecture via `course-materials/course-structure.json`. Not directly related to day-to-day Galigeo PM work.
+### PM Skills
 
-### _bmad/ (BMAD Method framework)
-Installed framework (v6.0.0-Beta.8) providing structured workflows via slash commands:
+Run `/pm-help` to see all skills and get oriented. Each skill is invocable via slash command:
 
 | Command | Purpose |
 |---------|---------|
-| `/bmad-help` | Show next workflow steps, get unstuck |
+| `/pm-help` | List all PM skills, decision tree for which to use |
+| `/pm-discovery` | Interview synthesis, JTBD, feedback triage |
+| `/pm-strategy` | Strategy docs, roadmap, ROI, PRDs, KPIs |
+| `/pm-execution` | Feature specs, acceptance criteria, engineering handoff |
+| `/pm-ux` | User flows, wireframes, UX copy, design review, cognitive biases |
+| `/pm-communications` | Meetings, updates, release notes, soft skills |
+| `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
+| `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
+
+### BMAD Commands (v6.3.0)
+
+| Command | Purpose |
+|---------|---------|
+| `/bmad-help` | Workflow guidance, next steps |
 | `/bmad-brainstorming` | Interactive ideation sessions |
 | `/bmad-party-mode` | Multi-agent discussions |
 | `/bmad-editorial-review-prose` | Review text for clarity and tone |
 | `/bmad-editorial-review-structure` | Propose document reorganization |
 | `/bmad-review-adversarial-general` | Critical quality review |
+| `/bmad-review-edge-case-hunter` | Exhaustive edge-case analysis |
 | `/bmad-shard-doc` | Split large docs into smaller files |
 | `/bmad-index-docs` | Generate doc index for scanning |
+| `/bmad-distillator` | Lossless document compression |
+| `/bmad-advanced-elicitation` | Deep critique (socratic, red team, etc.) |
+| `/bmad-init` | Initialize/configure BMAD project |
 
-BMAD output goes to `bmad_output/`. Config lives in `_bmad/_config/`. Run `/bmad-help` to see what's available and what to do next.
+### Updating BMAD
 
-## Capabilities
+```bash
+npx bmad-method@next install
+```
 
-### 1. Discovery
-- Interview synthesis, problem statements, JTBD, hypotheses, feedback triage
+### Using PM skills globally (all projects)
 
-### 2. Strategy & Roadmapping
-- Strategy docs, one-pagers, scenario modeling, ROI calculations, stakeholder memos
+Skills are symlinked to `~/.claude/skills/` so they work everywhere:
 
-### 3. UX & Prototyping
-- User flows, wireframe specs, UX copy, design critique
+```bash
+# Install all PM skills globally
+mkdir -p ~/.claude/skills
+for skill in /Users/gregoire/Dev/product-management/.claude/skills/pm-*; do
+  ln -sf "$skill" ~/.claude/skills/$(basename "$skill")
+done
+```
 
-### 4. Execution
-- Feature specs, acceptance criteria (Gherkin), edge cases, test cases, engineering translation
-
-### 5. Communications
-- Meeting agendas/summaries, status updates, release notes, stakeholder announcements
-
-### 6. Data & Analytics
-- SQL queries, data interpretation, reports, anomaly detection
+To remove: `rm ~/.claude/skills/pm-*`
 
 ## Output Principles
 

@@ -1,69 +1,124 @@
-# PM Toolkit — Galigeo
+# PM Toolkit
 
-Product Management reference files for Galigeo's location intelligence platform.
+Product Management knowledge base and portable skills for Claude Code.
 
-## Reference Files
+## Project Structure
 
-| File | Purpose |
-|------|---------|
-| `discovery.md` | User research, interview synthesis, JTBD, feedback analysis |
-| `strategy.md` | Strategy docs, roadmap, scenario modeling |
-| `ux-prototyping.md` | Wireframes, UX copy, design review |
-| `execution.md` | Specs, acceptance criteria, edge cases |
-| `communications.md` | Meeting notes, updates, release notes |
-| `data-analytics.md` | SQL queries, data analysis, reports |
-| `ai-ux-workflow.md` | AI-driven UX design pipeline (BMAD + /ux) |
-| `pm-fundamentals.md` | PM glossary, career progression, tech stack, training resources |
+```
+product-management/
+├── CLAUDE.md                          # Project identity & Galigeo context
+├── README.md                          # This file
+│
+├── .claude/skills/                    # All skills (auto-routed by Claude Code)
+│   ├── pm-help/                       # List skills, orient user
+│   ├── pm-discovery/                  # Interview synthesis, JTBD, feedback
+│   ├── pm-strategy/                   # Strategy, roadmap, ROI, PRDs
+│   ├── pm-execution/                  # Specs, acceptance criteria, handoff
+│   ├── pm-ux/                         # Flows, wireframes, UX copy, review
+│   ├── pm-communications/             # Meetings, updates, release notes
+│   ├── pm-data-analytics/             # SQL, reports, dashboards
+│   ├── pm-ai-ux/                      # AI-driven UX pipeline (BMAD + /ux)
+│   ├── bmad-*/                        # BMAD framework skills (12 skills)
+│   └── figma-use/                     # Figma MCP integration
+│
+├── knowledge/                         # Deep reference, loaded on demand
+│   ├── ux-design/                     # UX psychology (106 biases), articles
+│   │   ├── ux-psychology/             # Growth.design cognitive biases
+│   │   └── ...                        # Progressive disclosure, etc.
+│   └── pm-course/                     # PM training modules (Carl Vellotti)
+│       └── course-materials/          # PRD writing, data analysis, strategy
+│
+├── references/                        # Quick-lookup files
+│   ├── pm-fundamentals.md             # PM glossary, career, tech stack
+│   └── claude-power-user-checklist.md # Claude Code power user checklist
+│
+├── galigeo/                           # Company-specific context
+│   ├── 1-PLG.md                       # Product-led growth strategy
+│   ├── Product-manager-Galigeo.md     # PM role at Galigeo
+│   └── Produits et ICP.md             # Products & ideal customer profiles
+│
+├── docs/                              # Project documents & feature specs
+├── _bmad/                             # BMAD framework (v6.3.0)
+├── figma-bridge/                      # Figma MCP server & plugin
+└── bmad_output/                       # BMAD-generated artifacts
+```
 
-## AI UX Workflow — Quick Start
+## Architecture
 
-### Daily use
+```
+┌─────────────────────────────────────────────────┐
+│  CLAUDE.md — Context Layer                      │
+│  Company identity, personas, glossary           │
+│  Project-specific, not portable                 │
+├─────────────────────────────────────────────────┤
+│  .claude/skills/pm-* — Action Layer             │
+│  Templates, workflows, slash commands           │
+│  Portable: symlinked to ~/.claude/skills/       │
+├─────────────────────────────────────────────────┤
+│  knowledge/ — Depth Layer                       │
+│  UX psychology, PM course, articles             │
+│  Loaded on demand by skills                     │
+├─────────────────────────────────────────────────┤
+│  references/ — Quick Lookup Layer               │
+│  Glossary, checklists                           │
+│  Loaded on demand                               │
+└─────────────────────────────────────────────────┘
+```
 
-Starting a new feature:
-1. Write a PRD (use the Problem Brief template in Phase 1)
-2. Run `/bmad-bmm-create-ux-design` with that PRD → BMAD generates mockups
-3. Run `/ux review` on the mockups → catches a11y, touch targets, missing states
-4. During implementation, run `/ux <topic>` for component guidance (e.g. `/ux forms` for a login page)
-5. Before merge, run `/ux review` on the code → quality gate
+## PM Skills
 
-### Quick decisions
+Run `/pm-help` to see all skills and a decision tree for which to use.
 
-Check the decision tree first:
-- **Reversible** (button color, label)? → Just do it, `/ux topic` if unsure
-- **Not reversible** (new navigation, info architecture)? → Full pipeline + user test
+| Command | Purpose |
+|---------|---------|
+| `/pm-help` | List all PM skills, orient on which to use |
+| `/pm-discovery` | Interview synthesis, JTBD, feedback triage |
+| `/pm-strategy` | Strategy docs, roadmap, ROI, PRDs, KPIs |
+| `/pm-execution` | Feature specs, acceptance criteria, engineering handoff |
+| `/pm-ux` | User flows, wireframes, UX copy, design review, cognitive biases |
+| `/pm-communications` | Meetings, updates, release notes, soft skills |
+| `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
+| `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
 
-### Cheat sheet
+## BMAD Framework (v6.3.0)
 
-| Building… | Run… |
-|---|---|
-| Forms | `/ux forms` |
-| Mobile | `/ux mobile` |
-| Components | `/ux components` |
-| Navigation | `/ux navigation` |
-| Accessibility | `/ux accessibility` |
+Structured workflows for ideation, review, and document management.
 
-### Example: login form
+| Command | Purpose |
+|---------|---------|
+| `/bmad-help` | Workflow guidance, next steps |
+| `/bmad-brainstorming` | Interactive ideation sessions |
+| `/bmad-party-mode` | Multi-agent discussions |
+| `/bmad-editorial-review-prose` | Review text for clarity and tone |
+| `/bmad-editorial-review-structure` | Propose document reorganization |
+| `/bmad-review-adversarial-general` | Critical quality review |
+| `/bmad-review-edge-case-hunter` | Exhaustive edge-case analysis |
+| `/bmad-shard-doc` | Split large docs into smaller files |
+| `/bmad-index-docs` | Generate doc index |
+| `/bmad-distillator` | Lossless document compression |
+| `/bmad-advanced-elicitation` | Deep critique (socratic, red team, etc.) |
+| `/bmad-init` | Initialize/configure BMAD project |
 
-1. PRD exists? → check pm/ brief
-2. BMAD spec? → `/bmad-bmm-create-ux-design`
-3. Review mockup? → `/ux review _bmad-output/design-mockups/login.html`
-4. Implementation? → `/ux forms` + `/ux accessibility`
-5. Pre-merge? → `/ux review` on the PR files
+Update: `npx bmad-method@next install`
 
-The templates in each phase section of `ai-ux-workflow.md` are copy-paste ready — fill in the brackets and go.
+## Using PM skills in another project
 
-## Config
+The PM skills are already symlinked globally to `~/.claude/skills/` — they work in every project automatically.
 
-| File | Purpose |
-|------|---------|
-| `CLAUDE.md` | Claude Code project instructions |
-| `SKILL.md` | Skill routing and workflow selection |
+To install manually in a specific project:
 
-## Subfolders
+```bash
+# Symlink all PM skills
+for skill in /path/to/product-management/.claude/skills/pm-*; do
+  ln -s "$skill" .claude/skills/$(basename "$skill")
+done
 
-| Folder | Purpose |
-|--------|---------|
-| `_bmad/` | BMAD Method framework (v6.0.0-Beta.8) — agents, templates, slash commands |
-| `bmad_output/` | BMAD-generated artifacts (specs, mockups, PRDs) |
-| `pm-course/` | Interactive Claude Code course for PMs (separate project) |
-| `galigeo/` | Galigeo-specific context and domain files |
+# Optionally, link the knowledge base (for ux-psychology, pm-course refs)
+ln -s /path/to/product-management/knowledge knowledge
+```
+
+Each skill is self-contained. Your project's own `CLAUDE.md` provides company context — the skills are generic PM methodology that adapts to any domain.
+
+## Figma Integration
+
+Figma Bridge MCP server in `figma-bridge/`. Use `/figma-use` skill before any `use_figma` tool call.
