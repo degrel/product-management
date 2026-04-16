@@ -14,7 +14,11 @@
       "mcp__figma-bridge__delete_node",
       "mcp__figma-bridge__resize_node",
       "mcp__figma-bridge__set_position",
-      "mcp__figma-bridge__set_auto_layout"
+      "mcp__figma-bridge__set_auto_layout",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__notion__API-retrieve-a-database",
+      "mcp__notion__API-query-data-source",
+      "mcp__notion__API-post-search"
     ]
   },
   "enableAllProjectMcpServers": true,

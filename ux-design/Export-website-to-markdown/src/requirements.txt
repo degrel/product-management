@@ -1,0 +1,4 @@
+playwright>=1.40
+beautifulsoup4>=4.12
+requests>=2.31
+html2text>=2024.2

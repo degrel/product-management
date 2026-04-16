@@ -1,0 +1,634 @@
+[
+  {
+    "url": "https://blog.prototypr.io/designing-for-progressive-disclosure-aabb5ddfbab4",
+    "domain": "blog.prototypr.io",
+    "status": "ok",
+    "note": "",
+    "title": "Designing for Progressive Disclosure",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/blog.prototypr.io/designing-for-progressive-disclosure-aabb5ddfbab4_1eed097b.md"
+  },
+  {
+    "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.320.8769",
+    "domain": "citeseerx.ist.psu.edu",
+    "status": "error",
+    "note": "Connection error: HTTPSConnectionPool(host='citeseerx.ist.psu.edu', port=443): Max retries exceeded with url: /viewdoc/summary?doi=10.1.1.320.8769 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://copyhackers.com/2014/04/curiosity-gap",
+    "domain": "copyhackers.com",
+    "status": "ok",
+    "note": "",
+    "title": "Should You Use a Curiosity Gap to Persuade Your Visitors to Click?",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/copyhackers.com/curiosity-gap_a84fa9d6.md"
+  },
+  {
+    "url": "https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm",
+    "domain": "econpapers.repec.org",
+    "status": "ok",
+    "note": "",
+    "title": "Experimental Tests of the Endowment Effect and the Coase Theorem",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/econpapers.repec.org/v-3a98-3ay-3a1990-3ai-3a6-3ap-3a1325-48htm_bff050be.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/chunking-psychology_673d2856.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fitts%27s_law",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/fitts27s-law_0e211b91.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hawthorne_effect",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/hawthorne-effect_5257cae1.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kano_model",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/kano-model_390e5482.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/occam27s-razor_bceb4cae.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Perverse_incentive",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/perverse-incentive_be90345a.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Priming_(psychology)",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/priming-psychology_75984c2c.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Reactance_(psychology)",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/reactance-psychology_f0707207.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/reciprocity-social-psychology_b7287811.md"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sensory_branding",
+    "domain": "en.wikipedia.org",
+    "status": "ok",
+    "note": "",
+    "title": "",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/en.wikipedia.org/sensory-branding_5ed560e3.md"
+  },
+  {
+    "url": "https://fs.blog/2017/05/confirmation-bias/",
+    "domain": "fs.blog",
+    "status": "ok",
+    "note": "",
+    "title": "Confirmation Bias And the Power of Disconfirming Evidence",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/fs.blog/confirmation-bias_246c2a58.md"
+  },
+  {
+    "url": "https://fs.blog/goal-gradient-hypothesis/",
+    "domain": "fs.blog",
+    "status": "ok",
+    "note": "",
+    "title": "Moving the Finish Line: The Goal Gradient Hypothesis",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/fs.blog/goal-gradient-hypothesis_3639be00.md"
+  },
+  {
+    "url": "https://hbr.org/2015/03/the-science-of-sensory-marketing",
+    "domain": "hbr.org",
+    "status": "ok",
+    "note": "",
+    "title": "The Science of Sensory Marketing",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/hbr.org/the-science-of-sensory-marketing_e88c67b7.md"
+  },
+  {
+    "url": "https://instapage.com/blog/landing-page-conversion-rate-optimization",
+    "domain": "instapage.com",
+    "status": "ok",
+    "note": "",
+    "title": "Fact: Navigation Links Kill Your Landing Page Conversions",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/instapage.com/landing-page-conversion-rate-optimization_13e1811a.md"
+  },
+  {
+    "url": "https://jamesclear.com/temptation-bundling",
+    "domain": "jamesclear.com",
+    "status": "ok",
+    "note": "",
+    "title": "Temptation Bundling: A Simple Way to Boost Your Willpower",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/jamesclear.com/temptation-bundling_c1576878.md"
+  },
+  {
+    "url": "https://jonyablonski.medium.com/designing-with-occams-razor-3692df2f3c7f",
+    "domain": "jonyablonski.medium.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39",
+    "domain": "journals.sagepub.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://kenthendricks.com/decoy-effect/",
+    "domain": "kenthendricks.com",
+    "status": "ok",
+    "note": "",
+    "title": "The decoy effect: Why you make irrational choices every day (without even knowing it) - Kent Hendricks",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/kenthendricks.com/decoy-effect_6c9c1326.md"
+  },
+  {
+    "url": "https://medium.com/@aidanhornsby/notes-on-made-to-stick-b23250f564ec",
+    "domain": "medium.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://medium.com/@coffeeandjunk/design-psychology-zeigarnik-effect-a53688b7f6d1",
+    "domain": "medium.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6",
+    "domain": "medium.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://overcast.fm/+NvJ9veSFI",
+    "domain": "overcast.fm",
+    "status": "ok",
+    "note": "",
+    "title": "20. Defaults: Why The Pre-Selected Choice Wins More Often Than Not — The Brainy Business | Understanding the Psychology of Why People Buy | Behavioral Economics — Overcast",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/overcast.fm/nvj9vesfi_8a665f66.md"
+  },
+  {
+    "url": "https://pony.studio/design-for-growth/how-to-discover-your-aha-moment",
+    "domain": "pony.studio",
+    "status": "ok",
+    "note": "",
+    "title": "How to Discover Your Product's Aha! Moment",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/pony.studio/how-to-discover-your-aha-moment_941ae519.md"
+  },
+  {
+    "url": "https://psycnet.apa.org/record/1927-02365-001",
+    "domain": "psycnet.apa.org",
+    "status": "ok",
+    "note": "",
+    "title": "APA PsycNet",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/psycnet.apa.org/1927-02365-001_85432909.md"
+  },
+  {
+    "url": "https://psycnet.apa.org/record/1968-12019-001",
+    "domain": "psycnet.apa.org",
+    "status": "ok",
+    "note": "",
+    "title": "APA PsycNet",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/psycnet.apa.org/1968-12019-001_3d555d6f.md"
+  },
+  {
+    "url": "https://psycnet.apa.org/record/1999-02842-000",
+    "domain": "psycnet.apa.org",
+    "status": "ok",
+    "note": "",
+    "title": "APA PsycNet",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/psycnet.apa.org/1999-02842-000_06c0c282.md"
+  },
+  {
+    "url": "https://scholar.princeton.edu/sites/default/files/kahneman/files/anomalies_dk_jlk_rht_1991.pdf",
+    "domain": "scholar.princeton.edu",
+    "status": "ok",
+    "note": "",
+    "title": "Princeton Site Builder",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/scholar.princeton.edu/anomalies-dk-jlk-rht-1991pdf_dc847f6c.md"
+  },
+  {
+    "url": "https://sketchplanations.com/the-singularity-effect",
+    "domain": "sketchplanations.com",
+    "status": "ok",
+    "note": "",
+    "title": "The singularity effect - Sketchplanations",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/sketchplanations.com/the-singularity-effect_a2865795.md"
+  },
+  {
+    "url": "https://thedecisionlab.com/biases/decoy-effect/",
+    "domain": "thedecisionlab.com",
+    "status": "ok",
+    "note": "",
+    "title": "Decoy Effect",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thedecisionlab.com/decoy-effect_f248d152.md"
+  },
+  {
+    "url": "https://thedecisionlab.com/biases/dunning-kruger-effect/",
+    "domain": "thedecisionlab.com",
+    "status": "ok",
+    "note": "",
+    "title": "Dunning–Kruger Effect",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thedecisionlab.com/dunning-kruger-effect_3cbb3e12.md"
+  },
+  {
+    "url": "https://thedecisionlab.com/biases/law-of-the-instrument/",
+    "domain": "thedecisionlab.com",
+    "status": "ok",
+    "note": "",
+    "title": "Law of the Instrument",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thedecisionlab.com/law-of-the-instrument_3b96850d.md"
+  },
+  {
+    "url": "https://thedecisionlab.com/biases/noble-edge-effect/",
+    "domain": "thedecisionlab.com",
+    "status": "ok",
+    "note": "",
+    "title": "Noble Edge Effect",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thedecisionlab.com/noble-edge-effect_4b81e568.md"
+  },
+  {
+    "url": "https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/",
+    "domain": "thedecisionlab.com",
+    "status": "ok",
+    "note": "",
+    "title": "Lead me not into temptation. For, I know the way!",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thedecisionlab.com/lead-me-not-into-temptation-for-i-know-the-way_b90f6619.md"
+  },
+  {
+    "url": "https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a",
+    "domain": "uxdesign.cc",
+    "status": "ok",
+    "note": "",
+    "title": "Scarcity in UX: The psychological bias that became the norm",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a_1bae10f3.md"
+  },
+  {
+    "url": "https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec",
+    "domain": "uxdesign.cc",
+    "status": "ok",
+    "note": "",
+    "title": "The framing effect in UX",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/uxdesign.cc/the-framing-effect-in-ux-d77df34369ec_b93e0e50.md"
+  },
+  {
+    "url": "https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84",
+    "domain": "uxdesign.cc",
+    "status": "ok",
+    "note": "",
+    "title": "Don Norman’s seven fundamental design principles",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84_adf1d808.md"
+  },
+  {
+    "url": "https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632",
+    "domain": "uxplanet.org",
+    "status": "ok",
+    "note": "",
+    "title": "Design principle: Hick’s Law — quick decision making",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632_a8a0b441.md"
+  },
+  {
+    "url": "https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93",
+    "domain": "uxplanet.org",
+    "status": "ok",
+    "note": "",
+    "title": "Getting real about delightful design",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/uxplanet.org/getting-real-about-delightful-design-24af65ebbe93_e26bae3d.md"
+  },
+  {
+    "url": "https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp",
+    "domain": "akamai.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.appcues.com/blog/aha-moment-guide",
+    "domain": "appcues.com",
+    "status": "ok",
+    "note": "",
+    "title": "The aha moment guide: How to find, optimize, and design for your product",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/appcues.com/aha-moment-guide_396ee455.md"
+  },
+  {
+    "url": "https://www.crazyegg.com/blog/science-of-micro-commitments/",
+    "domain": "crazyegg.com",
+    "status": "error",
+    "note": "HTTP 502",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.designingmindfulness.com/principles/provide-exit-points",
+    "domain": "designingmindfulness.com",
+    "status": "not_found",
+    "note": "404 Not Found",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.forbes.com/sites/kimelsesser/2021/10/05/heres-how-instagram-harms-young-women-according-to-research/?sh=741211ab255a",
+    "domain": "forbes.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00043/full",
+    "domain": "frontiersin.org",
+    "status": "ok",
+    "note": "",
+    "title": "Novelty vs. familiarity principles in preference decisions: task context of past experience matters",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/frontiersin.org/full_375bc391.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Thinking, Fast and Slow by Daniel Kahneman | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/11468377-thinking-fast-and-slow_a8ef943c.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions by Dan Ariely | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/1713426predictably-irrational_704aaff2.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability by Steve Krug | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/18197267-don-t-make-me-think-revisited_b5e5ef44.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/22668729-hooked",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Hooked: How to Build Habit-Forming Products by Nir   Eyal | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/22668729-hooked_a9e08b97.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/28815.Influence",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Influence: The Psychology of Persuasion by Robert B. Cialdini | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/28815influence_5f378a18.md"
+  },
+  {
+    "url": "https://www.goodreads.com/book/show/3450744-nudge",
+    "domain": "goodreads.com",
+    "status": "ok",
+    "note": "",
+    "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness by Richard H. Thaler | Goodreads",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/goodreads.com/3450744-nudge_aee5ffbd.md"
+  },
+  {
+    "url": "https://www.interaction-design.org/literature/article/make-it-easy-on-the-user-designing-for-discoverability-within-mobile-apps",
+    "domain": "interaction-design.org",
+    "status": "ok",
+    "note": "",
+    "title": "Make it Easy on the User: Designing for Discoverability within Mobile Apps | IxDF",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/interaction-design.org/make-it-easy-on-the-user-designing-for-discoverability-within-mobile-apps_52644b70.md"
+  },
+  {
+    "url": "https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism",
+    "domain": "interaction-design.org",
+    "status": "ok",
+    "note": "",
+    "title": "Skeuomorphism is dead, long live skeuomorphism | IxDF",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/interaction-design.org/skeuomorphism-is-dead-long-live-skeuomorphism_e58c4df5.md"
+  },
+  {
+    "url": "https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/",
+    "domain": "mindtheproduct.com",
+    "status": "ok",
+    "note": "",
+    "title": "Priming and the Science behind Onboarding",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/mindtheproduct.com/priming-and-the-science-behind-onboarding_7c8890d6.md"
+  },
+  {
+    "url": "https://www.nirandfar.com/makeyourusersdothework/",
+    "domain": "nirandfar.com",
+    "status": "ok",
+    "note": "",
+    "title": "User Investment: Make Your Users Do the Work",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nirandfar.com/makeyourusersdothework_444a6c3c.md"
+  },
+  {
+    "url": "https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/",
+    "domain": "nirandfar.com",
+    "status": "ok",
+    "note": "",
+    "title": "Variable Rewards: Want To Hook Users? Drive Them Crazy",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nirandfar.com/want-to-hook-your-users-drive-them-crazy_83acbd95.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Banner Blindness Revisited: Users Dodge Ads on Mobile and Desktop - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/banner-blindness-old-and-new-findings_53a6fdcf.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/chunking/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "How Chunking Helps Content Processing - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/chunking_6c806691.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/guidelines-for-visualizing-links/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Guidelines for Visualizing Links - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/guidelines-for-visualizing-links_30e82fda.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/mental-models/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Mental Models and User Experience Design - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/mental-models_0a7bf15f.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/minimize-cognitive-load/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Minimize Cognitive Load to Maximize Usability - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/minimize-cognitive-load_55fbbdca.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Progressive Disclosure - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/progressive-disclosure_db0e25d7.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/prospect-theory/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Prospect Theory and Loss Aversion: How Users Make Decisions - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/prospect-theory_973c8a1d.md"
+  },
+  {
+    "url": "https://www.nngroup.com/articles/scarcity-principle-ux/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Scarcity Principle in UI Design: Making Users Click RIGHT NOW or Lose Out - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/scarcity-principle-ux_6280d5ab.md"
+  },
+  {
+    "url": "https://www.nngroup.com/videos/fittss-law/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Fitts's Law (Video) - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/fittss-law_936e8101.md"
+  },
+  {
+    "url": "https://www.nngroup.com/videos/hicks-law-long-menus/",
+    "domain": "nngroup.com",
+    "status": "ok",
+    "note": "",
+    "title": "Hick's Law: Designing Long Menu Lists (Video) - NN/G",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/nngroup.com/hicks-law-long-menus_ed7b6db0.md"
+  },
+  {
+    "url": "https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory",
+    "domain": "psychologistworld.com",
+    "status": "ok",
+    "note": "",
+    "title": "The Zeigarnik Effect Explained - Psychologist World",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/psychologistworld.com/zeigarnik-effect-interruptions-memory_d4e76a1e.md"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost",
+    "domain": "researchgate.net",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336",
+    "domain": "sciencedirect.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167487013000834",
+    "domain": "sciencedirect.com",
+    "status": "blocked",
+    "note": "403 Forbidden (likely paywall)",
+    "title": "",
+    "local_path": ""
+  },
+  {
+    "url": "https://www.simplypsychology.org/framing-effect.html",
+    "domain": "simplypsychology.org",
+    "status": "ok",
+    "note": "",
+    "title": "Framing Effect In Psychology",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/simplypsychology.org/framing-effecthtml_a220711b.md"
+  },
+  {
+    "url": "https://www.skipprichard.com/10-examples-of-nudge-theory/",
+    "domain": "skipprichard.com",
+    "status": "ok",
+    "note": "",
+    "title": "10 Examples of Nudge Theory",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/skipprichard.com/10-examples-of-nudge-theory_02bcf6ec.md"
+  },
+  {
+    "url": "https://www.smashingmagazine.com/2012/02/redefining-hicks-law/",
+    "domain": "smashingmagazine.com",
+    "status": "ok",
+    "note": "",
+    "title": "Redefining Hick’s Law — Smashing Magazine",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/smashingmagazine.com/redefining-hicks-law_be343ab4.md"
+  },
+  {
+    "url": "https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/",
+    "domain": "theatlantic.com",
+    "status": "ok",
+    "note": "",
+    "title": "Why Some Apps Use Fake Progress Bars - The Atlantic",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/theatlantic.com/517233_a3bd4a0f.md"
+  },
+  {
+    "url": "https://www.thoughtco.com/sensory-marketing-4153908",
+    "domain": "thoughtco.com",
+    "status": "ok",
+    "note": "",
+    "title": "Psychological Marketing: How Our Senses Sell Us",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/thoughtco.com/sensory-marketing-4153908_77b2530d.md"
+  },
+  {
+    "url": "https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012",
+    "domain": "verywellmind.com",
+    "status": "ok",
+    "note": "",
+    "title": "Variable-Ratio Schedule Characteristics and Examples",
+    "local_path": "/Users/gregoire/Downloads/-Galigeo-downloads/UX Design/Mystery School - Make art not content/src/output/sources/verywellmind.com/what-is-a-variable-ratio-schedule-2796012_a63f2f19.md"
+  }
+]

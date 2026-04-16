@@ -1,0 +1,2653 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e932]:
+    - banner [ref=e933]:
+      - navigation [ref=e936]:
+        - generic [ref=e938]:
+          - generic [ref=e939]:
+            - link "Growth Design Logo" [ref=e941] [cursor=pointer]:
+              - /url: /
+              - img "Growth Design Logo" [ref=e942]
+            - generic [ref=e943]:
+              - link "Case Studies" [ref=e944] [cursor=pointer]:
+                - /url: /case-studies
+              - link "Psychology" [ref=e945] [cursor=pointer]:
+                - /url: /psychology
+              - link "UX Course" [ref=e946] [cursor=pointer]:
+                - /url: ""
+              - link "UI Course" [ref=e947] [cursor=pointer]:
+                - /url: ""
+          - button "gdelaporte@galigeo.com" [ref=e952] [cursor=pointer]:
+            - generic [ref=e953]: gdelaporte@galigeo.com
+            - img [ref=e954]
+    - generic [ref=e956]:
+      - generic [ref=e957]:
+        - heading "🧠 106 Cognitive Biases & Principles …that Affect Your UX" [level=1] [ref=e960]:
+          - generic [ref=e961]: 🧠 106 Cognitive Biases & Principles
+          - generic [ref=e962]: …that Affect Your UX
+        - img [ref=e964]
+      - generic [ref=e968]:
+        - paragraph [ref=e969]: "Every time users interact with your product, they:"
+        - list [ref=e970]:
+          - listitem [ref=e971]:
+            - text: 🙈 Filter the
+            - strong [ref=e972]: information
+          - listitem [ref=e973]:
+            - text: 🔮 Seek the
+            - strong [ref=e974]: meaning
+            - text: of it
+          - listitem [ref=e975]:
+            - text: ⏰ Act within a given
+            - strong [ref=e976]: time
+          - listitem [ref=e977]:
+            - text: 💾 Store bits of the interaction in their
+            - strong [ref=e978]: memories
+        - paragraph [ref=e979]:
+          - text: So to
+          - strong [ref=e980]: improve your user experience
+          - text: ", you need to understand the biases & heuristics affecting those four decision-cycle steps."
+        - paragraph [ref=e981]:
+          - text: Below is a
+          - strong [ref=e982]: list of cognitive biases
+          - text: and design principles (with examples and tips) for each category. Let’s dive right in.
+        - paragraph [ref=e983]: "PS: Don’t have time to read the whole list? Get the cheat sheet"
+      - generic [ref=e984]:
+        - img [ref=e986]
+        - generic [ref=e988]:
+          - generic [ref=e989]:
+            - paragraph [ref=e990]: 🙈 Information
+            - paragraph [ref=e991]: Users filter out a lot of the information that they receive, even when it could be important.
+          - generic [ref=e992]:
+            - generic [ref=e993]:
+              - generic [ref=e994] [cursor=pointer]:
+                - generic [ref=e995]: 👀
+                - generic [ref=e996]:
+                  - heading "Hick's Law" [level=2] [ref=e997]
+                  - paragraph [ref=e998]: More options leads to harder decisions
+                - generic [ref=e999]: Collapse ↑
+              - generic [ref=e1001]:
+                - generic [ref=e1002]:
+                  - heading "Hick's Law definition" [level=3] [ref=e1003]
+                  - paragraph [ref=e1005]: Hick’s Law predicts that the time and the effort it takes to make a decision, increases with the number of options. The more choices, the more time users take to make their decisions.
+                - generic [ref=e1006]:
+                  - heading "Hick's Law examples" [level=3] [ref=e1007]
+                  - list [ref=e1008]:
+                    - listitem [ref=e1009]:
+                      - paragraph [ref=e1010]:
+                        - text: In a travel booking app like
+                        - link "Airbnb, having too many options" [ref=e1011] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/airbnb-personalization/#/20/0/3
+                        - text: "can lead to a paradox of choice (and a churn!):"
+                      - 'link "Airbnb: How To Reduce Churn With Personalization Case Study Tile Airbnb: How To Reduce Churn With Personalization Growth.Design Case Study (slide #20)" [ref=e1012] [cursor=pointer]':
+                        - /url: /case-studies/airbnb-personalization/#/20/0/3
+                        - 'img "Airbnb: How To Reduce Churn With Personalization Case Study Tile" [ref=e1013]'
+                        - generic [ref=e1014]:
+                          - generic [ref=e1015]: "Airbnb: How To Reduce Churn With Personalization"
+                          - generic [ref=e1016]: "Growth.Design Case Study (slide #20)"
+                    - listitem [ref=e1017]:
+                      - paragraph [ref=e1018]:
+                        - link "Trello’s 3rd signup step" [ref=e1019] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/trello-user-onboarding/#/7
+                        - text: "has a dropdown with 15 options. That makes it hard to pick one:"
+                      - 'link "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile Trello User Onboarding: 7 Tactics To Inspire You Growth.Design Case Study (slide #8)" [ref=e1020] [cursor=pointer]':
+                        - /url: /case-studies/trello-user-onboarding/#/7
+                        - 'img "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile" [ref=e1021]'
+                        - generic [ref=e1022]:
+                          - generic [ref=e1023]: "Trello User Onboarding: 7 Tactics To Inspire You"
+                          - generic [ref=e1024]: "Growth.Design Case Study (slide #8)"
+                    - listitem [ref=e1025]:
+                      - paragraph [ref=e1026]:
+                        - link "Duolingo’s list of lessons" [ref=e1027] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/5/0/1
+                        - text: "can sometimes be overwhelming:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #6)" [ref=e1028] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/5/0/1
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e1029]'
+                        - generic [ref=e1030]:
+                          - generic [ref=e1031]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e1032]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e1033]:
+                      - paragraph [ref=e1034]:
+                        - link "Zapier showed too many navigation links during their upgrade flow" [ref=e1035] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/zapier-upgrade/#/14
+                        - text: "which distracts you from crucial checkout steps:"
+                      - 'link "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile 9 Ways To Boost SaaS Revenues With A Better Upgrade UX Growth.Design Case Study (slide #15)" [ref=e1036] [cursor=pointer]':
+                        - /url: /case-studies/zapier-upgrade/#/14
+                        - img "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile" [ref=e1037]
+                        - generic [ref=e1038]:
+                          - generic [ref=e1039]: 9 Ways To Boost SaaS Revenues With A Better Upgrade UX
+                          - generic [ref=e1040]: "Growth.Design Case Study (slide #15)"
+                - generic [ref=e1041]:
+                  - heading "Hick's Law checklist" [level=3] [ref=e1042]
+                  - list [ref=e1044]:
+                    - listitem [ref=e1045]: Find an area where you have a lot of options or a lot of repetitions.
+                    - listitem [ref=e1046]:
+                      - text: Try to either reduce the number of options or find ways to hide items. (Do they all need to be displayed at once?
+                      - link "#progressive disclosure" [ref=e1047] [cursor=pointer]:
+                        - /url: https://growth.design/psychology/#progressive-disclosure
+                      - text: )
+                    - listitem [ref=e1048]:
+                      - text: If you can’t minimize the options, try to put them in an easily skimmable order and
+                      - link "make sure the items are familiar;" [ref=e1049] [cursor=pointer]:
+                        - /url: https://www.nngroup.com/videos/hicks-law-long-menus/
+                      - text: else, it won’t work
+                - list [ref=e1053]:
+                  - listitem [ref=e1054]:
+                    - link "Redefining Hick’s Law, Smashing Magazine (2020)" [ref=e1055] [cursor=pointer]:
+                      - /url: https://www.smashingmagazine.com/2012/02/redefining-hicks-law/
+                  - listitem [ref=e1056]:
+                    - link "Page Conversion Rate Optimization, Instapage (2020)" [ref=e1057] [cursor=pointer]:
+                      - /url: https://instapage.com/blog/landing-page-conversion-rate-optimization
+                  - listitem [ref=e1058]:
+                    - 'link "Design principle: Hick’s Law — quick decision making, Anton Nikolov (2017)" [ref=e1059] [cursor=pointer]':
+                      - /url: https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632
+            - generic [ref=e1060]:
+              - generic [ref=e1061] [cursor=pointer]:
+                - generic [ref=e1062]: 💼
+                - generic [ref=e1063]:
+                  - heading "Confirmation Bias" [level=2] [ref=e1064]
+                  - paragraph [ref=e1065]: People look for evidence that confirms what they think
+                - generic [ref=e2690]: Collapse ↑
+              - generic [ref=e2692]:
+                - generic [ref=e2693]:
+                  - heading "Confirmation Bias definition" [level=3] [ref=e2694]
+                  - paragraph [ref=e2696]: People tend to search for, interpret, prefer, and recall information in a way that reinforces their personal beliefs or hypotheses.
+                - generic [ref=e2697]:
+                  - heading "Confirmation Bias examples" [level=3] [ref=e2698]
+                  - list [ref=e2699]:
+                    - listitem [ref=e2700]:
+                      - img "confirmation bias cartoon" [ref=e2701]
+                    - listitem [ref=e2702]:
+                      - paragraph [ref=e2703]:
+                        - text: In times of crisis it’s hard not to
+                        - link "look for what we want to believe in:" [ref=e2704] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/coronavirus-dashboard-ux/#/3/0/2
+                      - 'link "Coronavirus Dashboard UX: How Design Impacts Your Perception Case Study Tile Coronavirus Dashboard UX: How Design Impacts Your Perception Growth.Design Case Study (slide #4)" [ref=e2705] [cursor=pointer]':
+                        - /url: /case-studies/coronavirus-dashboard-ux/#/3/0/2
+                        - 'img "Coronavirus Dashboard UX: How Design Impacts Your Perception Case Study Tile" [ref=e2706]'
+                        - generic [ref=e2707]:
+                          - generic [ref=e2708]: "Coronavirus Dashboard UX: How Design Impacts Your Perception"
+                          - generic [ref=e2709]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e2710]:
+                      - paragraph [ref=e2711]: "Facebook optimizes for what users want to see and creates “filter bubbles”. Their feed shows you more of the information that confirms what you believe in (whether that’s true or not):"
+                      - 'link "The Psychology of Misinformation on Facebook Case Study Tile The Psychology of Misinformation on Facebook Growth.Design Case Study (slide #6)" [ref=e2712] [cursor=pointer]':
+                        - /url: /case-studies/facebook-misinformation/#/5/0/0
+                        - img "The Psychology of Misinformation on Facebook Case Study Tile" [ref=e2713]
+                        - generic [ref=e2714]:
+                          - generic [ref=e2715]: The Psychology of Misinformation on Facebook
+                          - generic [ref=e2716]: "Growth.Design Case Study (slide #6)"
+                - list [ref=e2720]:
+                  - listitem [ref=e2721]:
+                    - link "Confirmation Bias And the Power of Disconfirming Evidence, Farnam Street (2020)" [ref=e2722] [cursor=pointer]:
+                      - /url: https://fs.blog/2017/05/confirmation-bias/
+                  - listitem [ref=e2723]:
+                    - link "Why you think you’re right, even if you’re wrong, TED (2016)" [ref=e2724] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=w4RLfVxTGH4
+            - generic [ref=e1067]:
+              - generic [ref=e1068] [cursor=pointer]:
+                - generic [ref=e1069]: 👁
+                - generic [ref=e1070]:
+                  - heading "Priming" [level=2] [ref=e1071]
+                  - paragraph [ref=e1072]: Previous stimuli influence users' decision
+                - generic [ref=e1073]: Collapse ↑
+              - generic [ref=e1075]:
+                - generic [ref=e1076]:
+                  - heading "Priming definition" [level=3] [ref=e1077]
+                  - paragraph [ref=e1079]: Subtle visual or verbal suggestions help users recall specific information, influencing how they respond. Priming works by activating an association or representation in users short-term memory just before another stimulus or task is introduced.
+                - generic [ref=e1080]:
+                  - heading "Priming examples" [level=3] [ref=e1081]
+                  - list [ref=e1082]:
+                    - listitem [ref=e1083]:
+                      - paragraph [ref=e1084]:
+                        - text: The
+                        - link "friendly-looking airport landscape" [ref=e1085] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/hopper-permission-requests-ux/#/2/0/2
+                        - text: "lets the users dream about their next trip increasing the chances of a positive experience:"
+                      - 'link "How Hopper Perfectly Nails Permission Requests UX Case Study Tile How Hopper Perfectly Nails Permission Requests UX Growth.Design Case Study (slide #3)" [ref=e1086] [cursor=pointer]':
+                        - /url: /case-studies/hopper-permission-requests-ux/#/2/0/2
+                        - img "How Hopper Perfectly Nails Permission Requests UX Case Study Tile" [ref=e1087]
+                        - generic [ref=e1088]:
+                          - generic [ref=e1089]: How Hopper Perfectly Nails Permission Requests UX
+                          - generic [ref=e1090]: "Growth.Design Case Study (slide #3)"
+                    - listitem [ref=e1091]:
+                      - paragraph [ref=e1092]:
+                        - text: Superhuman’s onboarding includes a priming on the fact that you’ll
+                        - link "receive some helpful onboarding emails" [ref=e1093] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/superhuman-user-onboarding/#/26/0/0
+                        - text: from their CEO
+                      - 'link "Superhuman''s Secret 1-on-1 Onboarding Revealed Case Study Tile Superhuman''s Secret 1-on-1 Onboarding Revealed Growth.Design Case Study (slide #27)" [ref=e1094] [cursor=pointer]':
+                        - /url: /case-studies/superhuman-user-onboarding/#/26/0/0
+                        - img "Superhuman's Secret 1-on-1 Onboarding Revealed Case Study Tile" [ref=e1095]
+                        - generic [ref=e1096]:
+                          - generic [ref=e1097]: Superhuman's Secret 1-on-1 Onboarding Revealed
+                          - generic [ref=e1098]: "Growth.Design Case Study (slide #27)"
+                    - listitem [ref=e1099]:
+                      - paragraph [ref=e1100]:
+                        - text: "Anti-Example: Tinder misses a great opportunity to"
+                        - link "prime new singles" [ref=e1101] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/2/0/1
+                        - text: "during the onboarding:"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #3)" [ref=e1102] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/2/0/1
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e1103]
+                        - generic [ref=e1104]:
+                          - generic [ref=e1105]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e1106]: "Growth.Design Case Study (slide #3)"
+                    - listitem [ref=e1107]:
+                      - paragraph [ref=e1108]: "Brave primes you to focus on the importance of privacy during their onboarding, making you more likely to choose DuckDuckGo instead of Google search. Brave can hence subtly (but respectfully) reduce the brand awareness of their number one competitor: Google."
+                      - 'link "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile Chrome vs Brave: How To Use Ethical Design To Win Customers Growth.Design Case Study (slide #17)" [ref=e1109] [cursor=pointer]':
+                        - /url: /case-studies/brave-browser-onboarding/#/16/0/1
+                        - 'img "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile" [ref=e1110]'
+                        - generic [ref=e1111]:
+                          - generic [ref=e1112]: "Chrome vs Brave: How To Use Ethical Design To Win Customers"
+                          - generic [ref=e1113]: "Growth.Design Case Study (slide #17)"
+                - list [ref=e1117]:
+                  - listitem [ref=e1118]:
+                    - link "Priming and the science behind onboarding, Mind the product (2019)" [ref=e1119] [cursor=pointer]:
+                      - /url: https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/
+                  - listitem [ref=e1120]:
+                    - link "Priming Psychology, Wikipedia (2020)" [ref=e1121] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Priming_(psychology)
+            - generic [ref=e1122]:
+              - generic [ref=e1123] [cursor=pointer]:
+                - generic [ref=e1124]: 🚛
+                - generic [ref=e1125]:
+                  - heading "Cognitive Load" [level=2] [ref=e1126]
+                  - paragraph [ref=e1127]: Total amount of mental effort that is required to complete a task
+                - generic [ref=e2725]: Collapse ↑
+              - generic [ref=e2727]:
+                - generic [ref=e2728]:
+                  - heading "Cognitive Load definition" [level=3] [ref=e2729]
+                  - paragraph [ref=e2731]: Cognitive load is the total amount of mental effort that is required to complete a task. You can think of it as the processing power needed by the user to interact with a product. If the information that needs to be processed exceeds the user’s ability to handle it, the cognitive load is too high.
+                - generic [ref=e2732]:
+                  - heading "Cognitive Load examples" [level=3] [ref=e2733]
+                  - list [ref=e2734]:
+                    - listitem [ref=e2735]:
+                      - paragraph [ref=e2736]:
+                        - text: A great example of
+                        - link "reducing the load" [ref=e2737] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/3/0/0
+                        - text: "is Tinder’s profile onboarding:"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #4)" [ref=e2738] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/3/0/0
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e2739]
+                        - generic [ref=e2740]:
+                          - generic [ref=e2741]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e2742]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e2743]:
+                      - paragraph [ref=e2744]:
+                        - text: Hopper’s results page has loads of information to parse, making the
+                        - link "task of choosing a date harder" [ref=e2745] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/hopper-permission-requests-ux/#/8/0/0
+                        - text: ":"
+                      - 'link "How Hopper Perfectly Nails Permission Requests UX Case Study Tile How Hopper Perfectly Nails Permission Requests UX Growth.Design Case Study (slide #9)" [ref=e2746] [cursor=pointer]':
+                        - /url: /case-studies/hopper-permission-requests-ux/#/8/0/0
+                        - img "How Hopper Perfectly Nails Permission Requests UX Case Study Tile" [ref=e2747]
+                        - generic [ref=e2748]:
+                          - generic [ref=e2749]: How Hopper Perfectly Nails Permission Requests UX
+                          - generic [ref=e2750]: "Growth.Design Case Study (slide #9)"
+                    - listitem [ref=e2751]:
+                      - paragraph [ref=e2752]:
+                        - text: Mario Kart’s home page is packed with graphics and gizmos. However, it wasn’t random,
+                        - link "find out why they designed it that way" [ref=e2753] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/mario-kart-revenue-model/#/2/0/1
+                        - text: ":"
+                      - 'link "6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Case Study Tile 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Growth.Design Case Study (slide #3)" [ref=e2754] [cursor=pointer]':
+                        - /url: /case-studies/mario-kart-revenue-model/#/2/0/1
+                        - img "6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Case Study Tile" [ref=e2755]
+                        - generic [ref=e2756]:
+                          - generic [ref=e2757]: 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money
+                          - generic [ref=e2758]: "Growth.Design Case Study (slide #3)"
+                - list [ref=e2762]:
+                  - listitem [ref=e2763]:
+                    - link "Cognitive load, Steve Krug (2019)" [ref=e2764] [cursor=pointer]:
+                      - /url: https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited
+                  - listitem [ref=e2765]:
+                    - link "Minimize Cognitive Load to Maximize Usability, NNGroup (2013)" [ref=e2766] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/minimize-cognitive-load/
+            - generic [ref=e1129]:
+              - generic [ref=e1130] [cursor=pointer]:
+                - generic [ref=e1131]: ⚓️
+                - generic [ref=e1132]:
+                  - heading "Anchoring Bias" [level=2] [ref=e1133]
+                  - paragraph [ref=e1134]: Users rely heavily on the first piece of information they see
+                - generic [ref=e1135]: Collapse ↑
+              - generic [ref=e1137]:
+                - generic [ref=e1138]:
+                  - heading "Anchoring Bias definition" [level=3] [ref=e1139]
+                  - paragraph [ref=e1141]: The initial information that users get affects subsequent judgments. Anchoring often works even when the nature of the anchor doesn’t have any relation with the decision at hand. It’s useful to increase perceived value.
+                - generic [ref=e1142]:
+                  - heading "Anchoring Bias examples" [level=3] [ref=e1143]
+                  - list [ref=e1144]:
+                    - listitem [ref=e1145]:
+                      - paragraph [ref=e1146]:
+                        - text: Tinder’s pricing table shows the
+                        - link "most expensive subscription plan first (the anchor)" [ref=e1147] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/10/0/5
+                        - text: "so that the other plans look inexpensive in comparison:"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #11)" [ref=e1148] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/10/0/5
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e1149]
+                        - generic [ref=e1150]:
+                          - generic [ref=e1151]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e1152]: "Growth.Design Case Study (slide #11)"
+                    - listitem [ref=e1153]:
+                      - paragraph [ref=e1154]: Brick and mortar shops often display very expensive items in the front with visible price tags so that the item you end up seeking seems cheaper.
+                - list [ref=e1158]:
+                  - listitem [ref=e1159]:
+                    - link "Not all anchors are created equal, Journal of Economic Psychology (2013)" [ref=e1160] [cursor=pointer]:
+                      - /url: https://www.sciencedirect.com/science/article/pii/S0167487013000834
+                  - listitem [ref=e1161]:
+                    - link "Predictably Irrational, Dan Ariely (2008)" [ref=e1162] [cursor=pointer]:
+                      - /url: https://www.goodreads.com/book/show/1713426.Predictably_Irrational
+            - generic [ref=e1163]:
+              - generic [ref=e1164] [cursor=pointer]:
+                - generic [ref=e1165]: 👉
+                - generic [ref=e1166]:
+                  - heading "Nudge" [level=2] [ref=e1167]
+                  - paragraph [ref=e1168]: Subtle hints can affect users' decisions
+                - generic [ref=e2767]: Collapse ↑
+              - generic [ref=e2769]:
+                - generic [ref=e2770]:
+                  - heading "Nudge definition" [level=3] [ref=e2771]
+                  - paragraph [ref=e2773]:
+                    - text: People tend to make decisions unconsciously. Small cues or context changes can encourage users to make a certain decision without forcing them. This is typically done through
+                    - link "priming" [ref=e2774] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#priming
+                    - text: ","
+                    - link "default option" [ref=e2775] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#default-bias
+                    - text: ", salience and perceived variety."
+                - generic [ref=e2776]:
+                  - heading "Nudge examples" [level=3] [ref=e2777]
+                  - list [ref=e2778]:
+                    - listitem [ref=e2779]:
+                      - paragraph [ref=e2780]:
+                        - text: While you search for a place to stay,
+                        - link "Airbnb nudges you" [ref=e2781] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/airbnb-personalization/#/5/0/1
+                        - text: "to add a date and number of guests instead of forcing those filter:"
+                      - 'link "Airbnb: How To Reduce Churn With Personalization Case Study Tile Airbnb: How To Reduce Churn With Personalization Growth.Design Case Study (slide #6)" [ref=e2782] [cursor=pointer]':
+                        - /url: /case-studies/airbnb-personalization/#/5/0/1
+                        - 'img "Airbnb: How To Reduce Churn With Personalization Case Study Tile" [ref=e2783]'
+                        - generic [ref=e2784]:
+                          - generic [ref=e2785]: "Airbnb: How To Reduce Churn With Personalization"
+                          - generic [ref=e2786]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e2787]:
+                      - paragraph [ref=e2788]:
+                        - link "Amazon uses status quo bias to encourage behaviors" [ref=e2789] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/amazon-purchase-ux#/5/0/1
+                        - text: "that aren’t necessarily to the user’s advantage:"
+                      - 'link "The Psychology Behind Amazon''s Purchase Experience Case Study Tile The Psychology Behind Amazon''s Purchase Experience Growth.Design Case Study (slide #5)" [ref=e2790] [cursor=pointer]':
+                        - /url: /case-studies/amazon-purchase-ux/#/5/0/1
+                        - img "The Psychology Behind Amazon's Purchase Experience Case Study Tile" [ref=e2791]
+                        - generic [ref=e2792]:
+                          - generic [ref=e2793]: The Psychology Behind Amazon's Purchase Experience
+                          - generic [ref=e2794]: "Growth.Design Case Study (slide #5)"
+                - list [ref=e2798]:
+                  - listitem [ref=e2799]:
+                    - 'link "Nudge: Improving Decisions About Health, Wealth, and Happiness (Book), Richard Thaler & Cass Sunstein (2008)" [ref=e2800] [cursor=pointer]':
+                      - /url: https://www.goodreads.com/book/show/3450744-nudge
+                  - listitem [ref=e2801]:
+                    - link "10 Examples of Nudge Theory (2020)" [ref=e2802] [cursor=pointer]:
+                      - /url: https://www.skipprichard.com/10-examples-of-nudge-theory/
+            - generic [ref=e1170]:
+              - generic [ref=e1171] [cursor=pointer]:
+                - generic [ref=e1172]: 🍰
+                - generic [ref=e1173]:
+                  - heading "Progressive Disclosure" [level=2] [ref=e1174]
+                  - paragraph [ref=e1175]: Users are less overwhelmed if they're exposed to complex features later
+                - generic [ref=e1176]: Collapse ↑
+              - generic [ref=e1178]:
+                - generic [ref=e1179]:
+                  - heading "Progressive Disclosure definition" [level=3] [ref=e1180]
+                  - paragraph [ref=e1182]: An interface is easier to use when complex features are gradually revealed later. During the onboarding, show only the core features of your product, and as users get familiar, unveil new options. It keeps the interface simple for new users and progressively brings power to advanced users.
+                - generic [ref=e1183]:
+                  - heading "Progressive Disclosure examples" [level=3] [ref=e1184]
+                  - list [ref=e1185]:
+                    - listitem [ref=e1186]:
+                      - paragraph [ref=e1187]:
+                        - text: One of the best examples of
+                        - link "progressive disclosure" [ref=e1188] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/10/0/1
+                        - text: we’ve ever seen in an onboarding!
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #11)" [ref=e1189] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/10/0/1
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e1190]
+                        - generic [ref=e1191]:
+                          - generic [ref=e1192]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e1193]: "Growth.Design Case Study (slide #11)"
+                    - listitem [ref=e1194]:
+                      - paragraph [ref=e1195]:
+                        - text: Hopper only shows the
+                        - link "bare minimum features" [ref=e1196] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/hopper-permission-requests-ux/#/2/0/6
+                        - text: "when you start searching for a flight:"
+                      - 'link "How Hopper Perfectly Nails Permission Requests UX Case Study Tile How Hopper Perfectly Nails Permission Requests UX Growth.Design Case Study (slide #3)" [ref=e1197] [cursor=pointer]':
+                        - /url: /case-studies/hopper-permission-requests-ux/#/2/0/6
+                        - img "How Hopper Perfectly Nails Permission Requests UX Case Study Tile" [ref=e1198]
+                        - generic [ref=e1199]:
+                          - generic [ref=e1200]: How Hopper Perfectly Nails Permission Requests UX
+                          - generic [ref=e1201]: "Growth.Design Case Study (slide #3)"
+                - list [ref=e1205]:
+                  - listitem [ref=e1206]:
+                    - link "Progressive Disclosure, NN Group (2006)" [ref=e1207] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/progressive-disclosure/
+                  - listitem [ref=e1208]:
+                    - link "Designing for Progressive Disclosure, Gabriella Campagna (2019)" [ref=e1209] [cursor=pointer]:
+                      - /url: https://blog.prototypr.io/designing-for-progressive-disclosure-aabb5ddfbab4
+            - generic [ref=e1210]:
+              - generic [ref=e1211] [cursor=pointer]:
+                - generic [ref=e1212]: 🎯
+                - generic [ref=e1213]:
+                  - heading "Fitts's Law" [level=2] [ref=e1214]
+                  - paragraph [ref=e1215]: Large and close elements are easier to interact with
+                - generic [ref=e2803]: Collapse ↑
+              - generic [ref=e2805]:
+                - generic [ref=e2806]:
+                  - heading "Fitts's Law definition" [level=3] [ref=e2807]
+                  - paragraph [ref=e2809]:
+                    - text: Fitts’s law is a predictive model which states that the time to acquire a target is a function of the
+                    - strong [ref=e2810]: distance
+                    - text: to and
+                    - strong [ref=e2811]: size
+                    - text: of the target. This is mainly used to model the act of pointing, either physically (e.g., with a hand) or virtually (e.g., with a computer mouse).
+                - generic [ref=e2812]:
+                  - heading "Fitts's Law examples" [level=3] [ref=e2813]
+                  - list [ref=e2814]:
+                    - listitem [ref=e2815]:
+                      - paragraph [ref=e2816]:
+                        - text: Amazon’s purchase screen dedicates one third of the screen to your subscription setup vs. a tiny radio button for the one-time purchase.
+                        - link "Most people will likely start setting up their subscription" [ref=e2817] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/amazon-purchase-ux#/4/0/0
+                        - text: as a result.
+                      - 'link "The Psychology Behind Amazon''s Purchase Experience Case Study Tile The Psychology Behind Amazon''s Purchase Experience Growth.Design Case Study (slide #4)" [ref=e2818] [cursor=pointer]':
+                        - /url: /case-studies/amazon-purchase-ux/#/4/0/0
+                        - img "The Psychology Behind Amazon's Purchase Experience Case Study Tile" [ref=e2819]
+                        - generic [ref=e2820]:
+                          - generic [ref=e2821]: The Psychology Behind Amazon's Purchase Experience
+                          - generic [ref=e2822]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e2823]:
+                      - paragraph [ref=e2824]: Adobe uses a tiny subscription management link in their auto-renewal email to discourage people from cancelling their subscription. This is a common dark pattern unfortunately.
+                      - 'link "Adobe: The Psychology of User Offboarding Case Study Tile Adobe: The Psychology of User Offboarding Growth.Design Case Study (slide #4)" [ref=e2825] [cursor=pointer]':
+                        - /url: /case-studies/adobe-cancel-subscription/#/3/0/4
+                        - 'img "Adobe: The Psychology of User Offboarding Case Study Tile" [ref=e2826]'
+                        - generic [ref=e2827]:
+                          - generic [ref=e2828]: "Adobe: The Psychology of User Offboarding"
+                          - generic [ref=e2829]: "Growth.Design Case Study (slide #4)"
+                - list [ref=e2833]:
+                  - listitem [ref=e2834]:
+                    - link "Fitts’s Law, Wikipedia" [ref=e2835] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Fitts%27s_law
+                  - listitem [ref=e2836]:
+                    - link "Fitts’s Law, NN/G" [ref=e2837] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/videos/fittss-law/
+            - generic [ref=e1217]:
+              - generic [ref=e1218] [cursor=pointer]:
+                - generic [ref=e1219]: 🕶
+                - generic [ref=e1220]:
+                  - heading "Banner Blindness" [level=2] [ref=e1221]
+                  - paragraph [ref=e1222]: Users tune out the stuff they get repeatedly exposed to
+                - generic [ref=e1223]: Collapse ↑
+              - generic [ref=e1225]:
+                - generic [ref=e1226]:
+                  - heading "Banner Blindness definition" [level=3] [ref=e1227]
+                  - paragraph [ref=e1229]: Users have learned to ignore content that resembles ads, is close to ads, or appears in locations traditionally dedicated to ads.
+                - generic [ref=e1230]:
+                  - heading "Banner Blindness examples" [level=3] [ref=e1231]
+                  - list [ref=e1232]:
+                    - listitem [ref=e1233]:
+                      - paragraph [ref=e1234]:
+                        - text: When your
+                        - link "most important CTA for revenues" [ref=e1235] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/signal-revenue#/5/0/0
+                        - text: is mistaken for an ad...
+                      - 'link "Signal: How To Ethically Boost Your Revenues Case Study Tile Signal: How To Ethically Boost Your Revenues Growth.Design Case Study (slide #5)" [ref=e1236] [cursor=pointer]':
+                        - /url: /case-studies/signal-revenue/#/5/0/0
+                        - 'img "Signal: How To Ethically Boost Your Revenues Case Study Tile" [ref=e1237]'
+                        - generic [ref=e1238]:
+                          - generic [ref=e1239]: "Signal: How To Ethically Boost Your Revenues"
+                          - generic [ref=e1240]: "Growth.Design Case Study (slide #5)"
+                    - listitem [ref=e1241]:
+                      - paragraph [ref=e1242]:
+                        - text: When you
+                        - link "mix real content with ads" [ref=e1243] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/instagram-monetization#/11/0/1
+                        - text: ", people start blocking everything..."
+                      - 'link "The Scary Future Of Instagram Case Study Tile The Scary Future Of Instagram Growth.Design Case Study (slide #11)" [ref=e1244] [cursor=pointer]':
+                        - /url: /case-studies/instagram-monetization/#11/0/1
+                        - img "The Scary Future Of Instagram Case Study Tile" [ref=e1245]
+                        - generic [ref=e1246]:
+                          - generic [ref=e1247]: The Scary Future Of Instagram
+                          - generic [ref=e1248]: "Growth.Design Case Study (slide #11)"
+                - generic [ref=e1249]:
+                  - heading "Banner Blindness checklist" [level=3] [ref=e1250]
+                  - generic [ref=e1251]:
+                    - list [ref=e1252]:
+                      - listitem [ref=e1253]: Is your important information in the usual location of ads?
+                      - listitem [ref=e1254]: Is it close to ads?
+                      - listitem [ref=e1255]: Does it look like ads?
+                    - paragraph [ref=e1256]: If yes, then there are some good chances, it’ll be blocked by people’s brain.
+                - list [ref=e1260]:
+                  - listitem [ref=e1261]:
+                    - link "Banner Blindness Revisited - NNGroup (2018)" [ref=e1262] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/
+            - generic [ref=e1263]:
+              - generic [ref=e1264] [cursor=pointer]:
+                - generic [ref=e1265]: 🕺
+                - generic [ref=e1266]:
+                  - heading "Decoy Effect" [level=2] [ref=e1267]
+                  - paragraph [ref=e1268]: Create a new option that's easy to discard
+                - generic [ref=e2838]: Collapse ↑
+              - generic [ref=e2840]:
+                - generic [ref=e2841]:
+                  - heading "Decoy Effect definition" [level=3] [ref=e2842]
+                  - paragraph [ref=e2844]: "When we are choosing between two alternatives, the addition of a third, less attractive option (the decoy) can influence our perception of the original two choices. Decoys are “asymmetrically dominated”: they are completely inferior to one option (the target) but only partially inferior to the other (the competitor). For this reason, the decoy effect is sometimes called the “asymmetric dominance effect.”"
+                - generic [ref=e2845]:
+                  - heading "Decoy Effect examples" [level=3] [ref=e2846]
+                  - list [ref=e2847]:
+                    - listitem [ref=e2848]:
+                      - paragraph [ref=e2849]:
+                        - text: Reimagining
+                        - link "YouTube’s recommendation experience" [ref=e2850] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/youtube-user-retention#/5/0/5
+                        - text: ":"
+                      - 'link "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile YouTube’s Attempt To Solve The Paradox of Choice Growth.Design Case Study (slide #5)" [ref=e2851] [cursor=pointer]':
+                        - /url: /case-studies/youtube-user-retention/#/5/0/5
+                        - img "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile" [ref=e2852]
+                        - generic [ref=e2853]:
+                          - generic [ref=e2854]: YouTube’s Attempt To Solve The Paradox of Choice
+                          - generic [ref=e2855]: "Growth.Design Case Study (slide #5)"
+                    - listitem [ref=e2856]:
+                      - paragraph [ref=e2857]: "The Economist subscription page ran a successful decoy a few years ago. They offered three subscriptions at the following prices:"
+                      - img "The Economist's subscription plans" [ref=e2858]
+                      - paragraph [ref=e2859]: The decoy was the “Print only” plan at the same price as the “Print + Web” plan, and most people bought the latter!
+                - list [ref=e2863]:
+                  - listitem [ref=e2864]:
+                    - link "Decoy Effect - The Decision Lab" [ref=e2865] [cursor=pointer]:
+                      - /url: https://thedecisionlab.com/biases/decoy-effect/
+                  - listitem [ref=e2866]:
+                    - 'link "The decoy effect: Why you make irrational choices every day (without even knowing it) - Kent Hendricks (2018)" [ref=e2867] [cursor=pointer]':
+                      - /url: https://kenthendricks.com/decoy-effect/
+            - generic [ref=e1270]:
+              - generic [ref=e1271] [cursor=pointer]:
+                - generic [ref=e1272]: 🖼
+                - generic [ref=e1273]:
+                  - heading "Framing" [level=2] [ref=e1274]
+                  - paragraph [ref=e1275]: The way information is presented affects how users make decisions
+                - generic [ref=e1276]: Collapse ↑
+              - generic [ref=e1278]:
+                - generic [ref=e1279]:
+                  - heading "Framing definition" [level=3] [ref=e1280]
+                  - paragraph [ref=e1282]:
+                    - text: The framing effect happens when your decision is influenced more by how the information is presented (or worded) than by the information itself. It’s partly due to the fact that people evaluate their losses and acquire insight in an asymmetric fashion (see
+                    - link "Loss Aversion" [ref=e1283] [cursor=pointer]:
+                      - /url: "#loss-aversion"
+                    - text: and Prospect Theory, by Daniel Kahneman and Amos Tversky).
+                - generic [ref=e1284]:
+                  - heading "Framing examples" [level=3] [ref=e1285]
+                  - list [ref=e1286]:
+                    - listitem [ref=e1287]:
+                      - paragraph [ref=e1288]: Blinkist could anchor the status quo (reading without Blinkist) as very time-consuming helps users see the value of their product and frame the main benefit of their app (saving time)
+                      - 'link "One Simple Psychology Framework To Improve Your Onboarding Case Study Tile One Simple Psychology Framework To Improve Your Onboarding Growth.Design Case Study (slide #14)" [ref=e1289] [cursor=pointer]':
+                        - /url: /case-studies/blinkist-user-onboarding/#/13/0/1
+                        - img "One Simple Psychology Framework To Improve Your Onboarding Case Study Tile" [ref=e1290]
+                        - generic [ref=e1291]:
+                          - generic [ref=e1292]: One Simple Psychology Framework To Improve Your Onboarding
+                          - generic [ref=e1293]: "Growth.Design Case Study (slide #14)"
+                    - listitem [ref=e1294]:
+                      - paragraph [ref=e1295]: "Tesla’s charging interface highlights the costs, but not the benefits of being electric. Framing the charging experience around that benefit (while still displaying the costs for transparency) could have addressed this issue:"
+                      - 'link "Tesla: How To Grow Through Word-of-Mouth Case Study Tile Tesla: How To Grow Through Word-of-Mouth Growth.Design Case Study (slide #4)" [ref=e1296] [cursor=pointer]':
+                        - /url: /case-studies/tesla-word-of-mouth/#/3/0/4
+                        - 'img "Tesla: How To Grow Through Word-of-Mouth Case Study Tile" [ref=e1297]'
+                        - generic [ref=e1298]:
+                          - generic [ref=e1299]: "Tesla: How To Grow Through Word-of-Mouth"
+                          - generic [ref=e1300]: "Growth.Design Case Study (slide #4)"
+                - list [ref=e1304]:
+                  - listitem [ref=e1305]:
+                    - link "The Framing Effect, UXDesign (2019)" [ref=e1306] [cursor=pointer]:
+                      - /url: https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec
+                  - listitem [ref=e1307]:
+                    - link "Framing, SimplyPsychology (2022)" [ref=e1308] [cursor=pointer]:
+                      - /url: https://www.simplypsychology.org/framing-effect.html
+                  - listitem [ref=e1309]:
+                    - link "Thinking, Fast and Slow, by Daniel Kahneman (2014)" [ref=e1310] [cursor=pointer]:
+                      - /url: https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow
+            - generic [ref=e1312] [cursor=pointer]:
+              - generic [ref=e1313]: 🐠
+              - generic [ref=e1314]:
+                - heading "Attentional Bias" [level=2] [ref=e1315]
+                - paragraph [ref=e1316]: Users' thoughts filter what they pay attention to
+              - generic [ref=e1317]: Coming Soon
+            - generic [ref=e1319] [cursor=pointer]:
+              - generic [ref=e1320]: 💔
+              - generic [ref=e1321]:
+                - heading "Empathy Gap" [level=2] [ref=e1322]
+                - paragraph [ref=e1323]: People underestimate how much emotions influence user behaviors
+              - generic [ref=e1324]: Coming Soon
+            - generic [ref=e1326] [cursor=pointer]:
+              - generic [ref=e1327]: ⛵️
+              - generic [ref=e1328]:
+                - heading "Visual Anchors" [level=2] [ref=e1329]
+                - paragraph [ref=e1330]: Elements used to guide users' eyes
+              - generic [ref=e1331]: Coming Soon
+            - generic [ref=e1333] [cursor=pointer]:
+              - generic [ref=e1334]: 🌶
+              - generic [ref=e1335]:
+                - heading "Von Restorff Effect" [level=2] [ref=e1336]
+                - paragraph [ref=e1337]: People notice items that stand out more
+              - generic [ref=e1338]: Coming Soon
+            - generic [ref=e1340] [cursor=pointer]:
+              - generic [ref=e1341]: 🎖
+              - generic [ref=e1342]:
+                - heading "Visual Hierarchy" [level=2] [ref=e1343]
+                - paragraph [ref=e1344]: The order in which people perceive what they see
+              - generic [ref=e1345]: Coming Soon
+            - generic [ref=e1347] [cursor=pointer]:
+              - generic [ref=e1348]: 🔭
+              - generic [ref=e1349]:
+                - heading "Selective Attention" [level=2] [ref=e1350]
+                - paragraph [ref=e1351]: People filter out things from their environment when in focus
+              - generic [ref=e1352]: Coming Soon
+            - generic [ref=e1354] [cursor=pointer]:
+              - generic [ref=e1355]: ✈️
+              - generic [ref=e1356]:
+                - heading "Survivorship Bias" [level=2] [ref=e1357]
+                - paragraph [ref=e1358]: People neglect things that don't make it past a selection process
+              - generic [ref=e1359]: Coming Soon
+            - generic [ref=e1361] [cursor=pointer]:
+              - generic [ref=e1362]: 🍒
+              - generic [ref=e1363]:
+                - heading "Juxtaposition" [level=2] [ref=e1364]
+                - paragraph [ref=e1365]: Elements that are close and similar are perceived as a single unit
+              - generic [ref=e1366]: Coming Soon
+            - generic [ref=e1368] [cursor=pointer]:
+              - generic [ref=e1369]: 🚦
+              - generic [ref=e1370]:
+                - heading "Signifiers" [level=2] [ref=e1371]
+                - paragraph [ref=e1372]: Elements that communicate what they will do
+              - generic [ref=e1373]: Coming Soon
+            - generic [ref=e1375] [cursor=pointer]:
+              - generic [ref=e1376]: 🎭
+              - generic [ref=e1377]:
+                - heading "Contrast" [level=2] [ref=e1378]
+                - paragraph [ref=e1379]: Users' attention is drawn to higher visual weights
+              - generic [ref=e1380]: Coming Soon
+            - generic [ref=e1382] [cursor=pointer]:
+              - generic [ref=e1383]: 🚨
+              - generic [ref=e1384]:
+                - heading "External Trigger" [level=2] [ref=e1385]
+                - paragraph [ref=e1386]: When the information on what to do next is within the prompt itself
+              - generic [ref=e1387]: Coming Soon
+            - generic [ref=e1389] [cursor=pointer]:
+              - generic [ref=e1390]: 🎪
+              - generic [ref=e1391]:
+                - heading "Centre-Stage Effect" [level=2] [ref=e1392]
+                - paragraph [ref=e1393]: People tend to choose the middle option in a set of items
+              - generic [ref=e1394]: Coming Soon
+            - generic [ref=e1396] [cursor=pointer]:
+              - generic [ref=e1397]: 🍣
+              - generic [ref=e1398]:
+                - heading "Law of Proximity" [level=2] [ref=e1399]
+                - paragraph [ref=e1400]: Elements close to each other are usually considered related
+              - generic [ref=e1401]: Coming Soon
+            - generic [ref=e1403] [cursor=pointer]:
+              - generic [ref=e1404]: 🍬
+              - generic [ref=e1405]:
+                - heading "Tesler's Law" [level=2] [ref=e1406]
+                - paragraph [ref=e1407]: If you simplify too much, you'll transfer some complexity to the users
+              - generic [ref=e1408]: Coming Soon
+            - generic [ref=e1410] [cursor=pointer]:
+              - generic [ref=e1411]: 🧨
+              - generic [ref=e1412]:
+                - heading "Spark Effect" [level=2] [ref=e1413]
+                - paragraph [ref=e1414]: Users are more likely to take action when the effort is small
+              - generic [ref=e1415]: Coming Soon
+            - generic [ref=e1417] [cursor=pointer]:
+              - generic [ref=e1418]: 🥏
+              - generic [ref=e1419]:
+                - heading "Feedback Loop" [level=2] [ref=e1420]
+                - paragraph [ref=e1421]: When users take action, feedback communicates what happened
+              - generic [ref=e1422]: Coming Soon
+            - generic [ref=e1424] [cursor=pointer]:
+              - generic [ref=e1425]: 😻
+              - generic [ref=e1426]:
+                - heading "Expectations Bias" [level=2] [ref=e1427]
+                - paragraph [ref=e1428]: People tend to be influenced by their own expectations
+              - generic [ref=e1429]: Coming Soon
+            - generic [ref=e1431] [cursor=pointer]:
+              - generic [ref=e1432]: 🚆
+              - generic [ref=e1433]:
+                - heading "Aesthetic-Usability Effect" [level=2] [ref=e1434]
+                - paragraph [ref=e1435]: People perceive designs with great aesthetics as easier to use
+              - generic [ref=e1436]: Coming Soon
+      - generic [ref=e1437]:
+        - img [ref=e1439]
+        - generic [ref=e1441]:
+          - generic [ref=e1442]:
+            - paragraph [ref=e1443]: 🔮 Meaning
+            - paragraph [ref=e1444]: When users try to give sense to information, they make stories and assumptions to fill the gaps.
+          - generic [ref=e1445]:
+            - generic [ref=e1446]:
+              - generic [ref=e1447] [cursor=pointer]:
+                - generic [ref=e1448]: 👥
+                - generic [ref=e1449]:
+                  - heading "Social Proof" [level=2] [ref=e1450]
+                  - paragraph [ref=e1451]: Users adapt their behaviors based on what others do
+                - generic [ref=e2868]: Collapse ↑
+              - generic [ref=e2870]:
+                - generic [ref=e2871]:
+                  - heading "Social Proof definition" [level=3] [ref=e2872]
+                  - paragraph [ref=e2874]: Social proof is a convenient shortcut that users take to determine how to behave. When they are unsure or when the situation is ambiguous, they are most likely to look and accept the actions of others as correct. The greater the number of people, the more appropriate the action seems.
+                - generic [ref=e2875]:
+                  - heading "Social Proof examples" [level=3] [ref=e2876]
+                  - list [ref=e2877]:
+                    - listitem [ref=e2878]:
+                      - paragraph [ref=e2879]:
+                        - text: Entice users to take action by showing the number of people who did it, like
+                        - link "Calm does" [ref=e2880] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/calm-growth-referral-tactics/#/17/0/0
+                        - text: ":"
+                      - 'link "Calm Referral Strategy: Drive Viral Growth With Simple Rewards Case Study Tile Calm Referral Strategy: Drive Viral Growth With Simple Rewards Growth.Design Case Study (slide #18)" [ref=e2881] [cursor=pointer]':
+                        - /url: /case-studies/calm-growth-referral-tactics/#/17/0/0
+                        - 'img "Calm Referral Strategy: Drive Viral Growth With Simple Rewards Case Study Tile" [ref=e2882]'
+                        - generic [ref=e2883]:
+                          - generic [ref=e2884]: "Calm Referral Strategy: Drive Viral Growth With Simple Rewards"
+                          - generic [ref=e2885]: "Growth.Design Case Study (slide #18)"
+                    - listitem [ref=e2886]:
+                      - paragraph [ref=e2887]:
+                        - text: For pricing pages, social proof is often used to represent the most popular package just like in
+                        - link "Tinder’s “rewind” upsell" [ref=e2888] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/10/0/5
+                        - text: ":"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #18)" [ref=e2889] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/10/0/5
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e2890]
+                        - generic [ref=e2891]:
+                          - generic [ref=e2892]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e2893]: "Growth.Design Case Study (slide #18)"
+                    - listitem [ref=e2894]:
+                      - paragraph [ref=e2895]:
+                        - link "Amazon shows the most common choice" [ref=e2896] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/amazon-purchase-ux#/4/0/1
+                        - text: "of previous buyers like yourself:"
+                      - 'link "The Psychology Behind Amazon''s Purchase Experience Case Study Tile The Psychology Behind Amazon''s Purchase Experience Growth.Design Case Study (slide #4)" [ref=e2897] [cursor=pointer]':
+                        - /url: /case-studies/amazon-purchase-ux/#/4/0/1
+                        - img "The Psychology Behind Amazon's Purchase Experience Case Study Tile" [ref=e2898]
+                        - generic [ref=e2899]:
+                          - generic [ref=e2900]: The Psychology Behind Amazon's Purchase Experience
+                          - generic [ref=e2901]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e2902]:
+                      - paragraph [ref=e2903]:
+                        - link "Airbnb shows the most popular filters" [ref=e2904] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/airbnb-personalization/#/11/0/2
+                        - text: "per destination, but that can sometimes back-fire:"
+                      - 'link "Airbnb: How To Reduce Churn With Personalization Case Study Tile Airbnb: How To Reduce Churn With Personalization Growth.Design Case Study (slide #12)" [ref=e2905] [cursor=pointer]':
+                        - /url: /case-studies/airbnb-personalization/#/11/0/2
+                        - 'img "Airbnb: How To Reduce Churn With Personalization Case Study Tile" [ref=e2906]'
+                        - generic [ref=e2907]:
+                          - generic [ref=e2908]: "Airbnb: How To Reduce Churn With Personalization"
+                          - generic [ref=e2909]: "Growth.Design Case Study (slide #12)"
+                    - listitem [ref=e2910]:
+                      - paragraph [ref=e2911]: "Spotify’s podcast didn’t include social proof, making it hard to know if an episode was worth your time:"
+                      - 'link "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Case Study Tile Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Growth.Design Case Study (slide #9)" [ref=e2912] [cursor=pointer]':
+                        - /url: /case-studies/spotify-vs-apple-podcast-ep2/#/8/0/1
+                        - 'img "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Case Study Tile" [ref=e2913]'
+                        - generic [ref=e2914]:
+                          - generic [ref=e2915]: "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2)"
+                          - generic [ref=e2916]: "Growth.Design Case Study (slide #9)"
+                - list [ref=e2920]:
+                  - listitem [ref=e2921]:
+                    - link "Growth·Design, 7 Practical Examples For Product Teams (2019)" [ref=e2922] [cursor=pointer]:
+                      - /url: https://growth.design/library/social-proof/
+                  - listitem [ref=e2923]:
+                    - 'link "Robert B. Cialdini, Influence: The Psychology of Persuasion (2006)" [ref=e2924] [cursor=pointer]':
+                      - /url: https://www.goodreads.com/book/show/28815.Influence
+            - generic [ref=e1453]:
+              - generic [ref=e1454] [cursor=pointer]:
+                - generic [ref=e1455]: 🦄
+                - generic [ref=e1456]:
+                  - heading "Scarcity" [level=2] [ref=e1457]
+                  - paragraph [ref=e1458]: People value things more when they're in limited supply
+                - generic [ref=e1459]: Collapse ↑
+              - generic [ref=e1461]:
+                - generic [ref=e1462]:
+                  - heading "Scarcity definition" [level=3] [ref=e1463]
+                  - paragraph [ref=e1465]:
+                    - text: "While scarcity is typically invoked to encourage purchasing behaviors, it can also be used to increase quality by encouraging people to be more judicious with the actions they take. It can come in different forms: Time-limited, Quantity limited, Access-limited. Never fake scarcity if you don’t want"
+                    - link "reactance!" [ref=e1466] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#reactance
+                - generic [ref=e1467]:
+                  - heading "Scarcity examples" [level=3] [ref=e1468]
+                  - list [ref=e1469]:
+                    - listitem [ref=e1470]:
+                      - paragraph [ref=e1471]:
+                        - text: Uber Eats is one of the rare apps that
+                        - link "uses scarcity in a positive way." [ref=e1472] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/uber-eats-scarcity/#/7/0/2
+                        - text: "They offer users to share the costs delivery with other people if they order quickly enough:"
+                      - 'link "Uber Eats Case Study - Scarcity Example From Growth.Design’s Uber Eats Case Study (slide #8)" [ref=e1474] [cursor=pointer]':
+                        - /url: /case-studies/uber-eats-scarcity#7/0/1
+                        - img "Uber Eats Case Study - Scarcity Example" [ref=e1475]
+                        - generic [ref=e1476]:
+                          - text: From Growth.Design’s
+                          - generic [ref=e1477]: "Uber Eats Case Study (slide #8)"
+                    - listitem [ref=e1478]:
+                      - paragraph [ref=e1479]:
+                        - text: "Dark Pattern: Mario Kart offers Tours and special items for a"
+                        - link "limited time to increase conversion rates" [ref=e1480] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/mario-kart-revenue-model/#/5/0/0
+                        - text: ":"
+                      - 'link "Mario Kart Case Study - Scarcity Example From Growth.Design’s Mario Kart Case Study (slide #6)" [ref=e1482] [cursor=pointer]':
+                        - /url: /case-studies/mario-kart-revenue-model#5
+                        - img "Mario Kart Case Study - Scarcity Example" [ref=e1483]
+                        - generic [ref=e1484]:
+                          - text: From Growth.Design’s
+                          - generic [ref=e1485]: "Mario Kart Case Study (slide #6)"
+                    - listitem [ref=e1486]:
+                      - paragraph [ref=e1487]:
+                        - text: "Dark Pattern: Sleepzy uses"
+                        - link "unjustified scarcity" [ref=e1488] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid/#/4/0/3
+                        - text: "to pressure new users into buying:"
+                      - 'link "Sleepzy Case Study - Scarcity Example From Growth.Design’s Sleepzy Case Study (slide #5)" [ref=e1490] [cursor=pointer]':
+                        - /url: /case-studies/5-product-onboarding-mistakes-to-avoid#4/0/3
+                        - img "Sleepzy Case Study - Scarcity Example" [ref=e1491]
+                        - generic [ref=e1492]:
+                          - text: From Growth.Design’s
+                          - generic [ref=e1493]: "Sleepzy Case Study (slide #5)"
+                - list [ref=e1497]:
+                  - listitem [ref=e1498]:
+                    - 'link "Scarcity Principle: Making Users Click RIGHT NOW or Lose Out, NN Group (2014)" [ref=e1499] [cursor=pointer]':
+                      - /url: https://www.nngroup.com/articles/scarcity-principle-ux/
+                  - listitem [ref=e1500]:
+                    - 'link "Scarcity in UX: The psychological bias that became the norm, David Teodorescu (2018)" [ref=e1501] [cursor=pointer]':
+                      - /url: https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a
+            - generic [ref=e1502]:
+              - generic [ref=e1503] [cursor=pointer]:
+                - generic [ref=e1504]: 💭
+                - generic [ref=e1505]:
+                  - heading "Curiosity Gap" [level=2] [ref=e1506]
+                  - paragraph [ref=e1507]: Users have a desire to seek out missing information
+                - generic [ref=e2925]: Collapse ↑
+              - generic [ref=e2927]:
+                - generic [ref=e2928]:
+                  - heading "Curiosity Gap definition" [level=3] [ref=e2929]
+                  - paragraph [ref=e2931]: The curiosity gap is the space between what users know and what they want or need to know. Gaps cause pain, and to take it away, users need to fill the knowledge gap.
+                - generic [ref=e2932]:
+                  - heading "Curiosity Gap examples" [level=3] [ref=e2933]
+                  - list [ref=e2934]:
+                    - listitem [ref=e2935]:
+                      - paragraph [ref=e2936]:
+                        - text: Morning Brew uses copywriting open loops and
+                        - link "split quiz at the end of their email" [ref=e2937] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/morning-brew-newsletter-retention/#/10/0/0
+                        - text: ":"
+                      - 'link "How Morning Brew Grew To 1.5 Million Subs In 5 Years Case Study Tile How Morning Brew Grew To 1.5 Million Subs In 5 Years Growth.Design Case Study (slide #11)" [ref=e2938] [cursor=pointer]':
+                        - /url: /case-studies/morning-brew-newsletter-retention/#/10/0/0
+                        - img "How Morning Brew Grew To 1.5 Million Subs In 5 Years Case Study Tile" [ref=e2939]
+                        - generic [ref=e2940]:
+                          - generic [ref=e2941]: How Morning Brew Grew To 1.5 Million Subs In 5 Years
+                          - generic [ref=e2942]: "Growth.Design Case Study (slide #11)"
+                    - listitem [ref=e2943]:
+                      - paragraph [ref=e2944]:
+                        - link "Tinder shows blurry pictures" [ref=e2945] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/13/0/3
+                        - text: "of people who want to “match” with you:"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #14)" [ref=e2946] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/13/0/3
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e2947]
+                        - generic [ref=e2948]:
+                          - generic [ref=e2949]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e2950]: "Growth.Design Case Study (slide #14)"
+                - list [ref=e2954]:
+                  - listitem [ref=e2955]:
+                    - link "Chip & Dan Heath, Made to stick (2007)" [ref=e2956] [cursor=pointer]:
+                      - /url: https://medium.com/@aidanhornsby/notes-on-made-to-stick-b23250f564ec
+                  - listitem [ref=e2957]:
+                    - link "Copyhackers, How the curiosity gap brought in a 927% lift - Copyhackers(2014)" [ref=e2958] [cursor=pointer]:
+                      - /url: https://copyhackers.com/2014/04/curiosity-gap
+            - generic [ref=e1509]:
+              - generic [ref=e1510] [cursor=pointer]:
+                - generic [ref=e1511]: 🖲
+                - generic [ref=e1512]:
+                  - heading "Mental Model" [level=2] [ref=e1513]
+                  - paragraph [ref=e1514]: Users have a preconceived opinion of how things work
+                - generic [ref=e1515]: Collapse ↑
+              - generic [ref=e1517]:
+                - generic [ref=e1518]:
+                  - heading "Mental Model definition" [level=3] [ref=e1519]
+                  - paragraph [ref=e1521]: A mental model is an explanation of someone’s thought process about how something works in the real world. It is a representation of the surrounding world, which might be accurate or not. What users believe they know about your product changes how they use it.
+                - generic [ref=e1522]:
+                  - heading "Mental Model examples" [level=3] [ref=e1523]
+                  - list [ref=e1524]:
+                    - listitem [ref=e1525]:
+                      - paragraph [ref=e1526]:
+                        - link "Trello does a mental model migration" [ref=e1527] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/trello-user-onboarding/#/12/0/1
+                        - text: "by gradually persuading new users that their Trello “cards”, “boards” and “lists” are better alternatives to traditional “todo lists”:"
+                      - 'link "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile Trello User Onboarding: 7 Tactics To Inspire You Growth.Design Case Study (slide #13)" [ref=e1528] [cursor=pointer]':
+                        - /url: /case-studies/trello-user-onboarding/#/12/0/1
+                        - 'img "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile" [ref=e1529]'
+                        - generic [ref=e1530]:
+                          - generic [ref=e1531]: "Trello User Onboarding: 7 Tactics To Inspire You"
+                          - generic [ref=e1532]: "Growth.Design Case Study (slide #13)"
+                - list [ref=e1536]:
+                  - listitem [ref=e1537]:
+                    - link "Mental Models, NNGroup (2010)" [ref=e1538] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/mental-models/
+            - generic [ref=e1539]:
+              - generic [ref=e1540] [cursor=pointer]:
+                - generic [ref=e1541]: 👨‍👩‍👧‍👦
+                - generic [ref=e1542]:
+                  - heading "Familiarity Bias" [level=2] [ref=e1543]
+                  - paragraph [ref=e1544]: People prefer familiar experiences
+                - generic [ref=e2959]: Collapse ↑
+              - generic [ref=e2961]:
+                - generic [ref=e2962]:
+                  - heading "Familiarity Bias definition" [level=3] [ref=e2963]
+                  - paragraph [ref=e2965]: Users have an innate desire for things they’re already familiar with. And the more we experience something, the more likely we are to like it. So, try to use common patterns when creating new experiences.
+                - generic [ref=e2966]:
+                  - heading "Familiarity Bias examples" [level=3] [ref=e2967]
+                  - list [ref=e2968]:
+                    - listitem [ref=e2969]:
+                      - paragraph [ref=e2970]:
+                        - link "Superhuman uses familiar keyboard shortcuts" [ref=e2971] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/superhuman-user-onboarding/#/16
+                        - text: "to ease the learning curve:"
+                      - 'link "Superhuman''s Secret 1-on-1 Onboarding Revealed Case Study Tile Superhuman''s Secret 1-on-1 Onboarding Revealed Growth.Design Case Study (slide #17)" [ref=e2972] [cursor=pointer]':
+                        - /url: /case-studies/superhuman-user-onboarding/#/16
+                        - img "Superhuman's Secret 1-on-1 Onboarding Revealed Case Study Tile" [ref=e2973]
+                        - generic [ref=e2974]:
+                          - generic [ref=e2975]: Superhuman's Secret 1-on-1 Onboarding Revealed
+                          - generic [ref=e2976]: "Growth.Design Case Study (slide #17)"
+                    - listitem [ref=e2977]:
+                      - paragraph [ref=e2978]:
+                        - text: Spotify’s podcast play screen is
+                        - link "very similar" [ref=e2979] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/spotify-vs-apple-analysis/#/5/0/0
+                        - text: "to their song play screen, which eases adoption:"
+                      - 'link "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 1) Case Study Tile Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 1) Growth.Design Case Study (slide #6)" [ref=e2980] [cursor=pointer]':
+                        - /url: /case-studies/spotify-vs-apple-analysis/#/5/0/0
+                        - 'img "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 1) Case Study Tile" [ref=e2981]'
+                        - generic [ref=e2982]:
+                          - generic [ref=e2983]: "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 1)"
+                          - generic [ref=e2984]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e2985]:
+                      - paragraph [ref=e2986]:
+                        - text: Remember
+                        - link "Snapchat’s big redesign?" [ref=e2987] [cursor=pointer]:
+                          - /url: https://techcrunch.com/2018/01/11/snapchat-redesign-uninstall
+                        - text: Well its users remember very well... And they didn’t like it! A strong case of familiarity bias.
+                    - listitem [ref=e2988]:
+                      - paragraph [ref=e2989]: Brave uses Chromium, the open-source browser project used by 80% of internet users (Chrome included).
+                      - 'link "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile Chrome vs Brave: How To Use Ethical Design To Win Customers Growth.Design Case Study (slide #5)" [ref=e2990] [cursor=pointer]':
+                        - /url: /case-studies/brave-browser-onboarding/#/4/0/1
+                        - 'img "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile" [ref=e2991]'
+                        - generic [ref=e2992]:
+                          - generic [ref=e2993]: "Chrome vs Brave: How To Use Ethical Design To Win Customers"
+                          - generic [ref=e2994]: "Growth.Design Case Study (slide #5)"
+                    - listitem [ref=e2995]:
+                      - paragraph [ref=e2996]: "Charging a car is still a new concept for most of the population. Displaying a 3D car & a battery widget similar to those in smartphones makes this technology more approachable partly because of Familiarity Bias (and skeuomorphism):"
+                      - 'link "Tesla: How To Grow Through Word-of-Mouth Case Study Tile Tesla: How To Grow Through Word-of-Mouth Growth.Design Case Study (slide #4)" [ref=e2997] [cursor=pointer]':
+                        - /url: /case-studies/tesla-word-of-mouth/#/3/0/0
+                        - 'img "Tesla: How To Grow Through Word-of-Mouth Case Study Tile" [ref=e2998]'
+                        - generic [ref=e2999]:
+                          - generic [ref=e3000]: "Tesla: How To Grow Through Word-of-Mouth"
+                          - generic [ref=e3001]: "Growth.Design Case Study (slide #4)"
+                - list [ref=e3005]:
+                  - listitem [ref=e3006]:
+                    - 'link "Novelty vs. familiarity principles in preference decisions: task context of past experience matters, Frontiers in psychology (2011)" [ref=e3007] [cursor=pointer]':
+                      - /url: https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00043/full
+                  - listitem [ref=e3008]:
+                    - link "Attitudinal effects of mere exposure, R. Zajonc (1968)" [ref=e3009] [cursor=pointer]:
+                      - /url: https://psycnet.apa.org/record/1968-12019-001
+            - generic [ref=e1546]:
+              - generic [ref=e1547] [cursor=pointer]:
+                - generic [ref=e1548]: 🕹
+                - generic [ref=e1549]:
+                  - heading "Skeuomorphism" [level=2] [ref=e1550]
+                  - paragraph [ref=e1551]: Users adapt more easily to things that look like real-world objects
+                - generic [ref=e1552]: Collapse ↑
+              - generic [ref=e1554]:
+                - generic [ref=e1555]:
+                  - heading "Skeuomorphism definition" [level=3] [ref=e1556]
+                  - generic [ref=e1557]:
+                    - paragraph [ref=e1558]:
+                      - text: Skeuomorphism is where an interface object mimics its real world counterpart to facilitate transition to new technology. The digital object imitates reality by how it appears or how the user can interact with it. Skeuomorphism partly relies
+                      - link "Familiarity Bias" [ref=e1559] [cursor=pointer]:
+                        - /url: "#familiarity-bias"
+                      - text: and on a usability concept called “Affordance” (the actions which users consider possible while interacting with an object).
+                    - paragraph [ref=e1560]: Skeuomorphism is best used to get users to adapt to new interfaces and new technology. Especially since nowadays, most users have become used to interacting with graphical user interfaces. That’s why creating a skeuomorphic interface strictly for aesthetic reasons won’t always work and might even clutter the interface.
+                - generic [ref=e1561]:
+                  - heading "Skeuomorphism examples" [level=3] [ref=e1562]
+                  - list [ref=e1563]:
+                    - listitem [ref=e1564]:
+                      - paragraph [ref=e1565]: The recycle/trash bin icon on your PC/Mac to delete files.
+                      - img "Skeuomorphism Recycle bin on desktop" [ref=e1566]
+                    - listitem [ref=e1567]:
+                      - paragraph [ref=e1568]: "Charging a car like a Tesla is still a new concept for most of the population. Displaying a 3D car & a battery widget similar to those in smartphones makes this technology more approachable:"
+                      - 'link "Tesla: How To Grow Through Word-of-Mouth Case Study Tile Tesla: How To Grow Through Word-of-Mouth Growth.Design Case Study (slide #4)" [ref=e1569] [cursor=pointer]':
+                        - /url: /case-studies/tesla-word-of-mouth/#/3/0/1
+                        - 'img "Tesla: How To Grow Through Word-of-Mouth Case Study Tile" [ref=e1570]'
+                        - generic [ref=e1571]:
+                          - generic [ref=e1572]: "Tesla: How To Grow Through Word-of-Mouth"
+                          - generic [ref=e1573]: "Growth.Design Case Study (slide #4)"
+                - list [ref=e1577]:
+                  - listitem [ref=e1578]:
+                    - link "Skeuomorphism, Interaction-Design.org" [ref=e1579] [cursor=pointer]:
+                      - /url: https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism
+                  - listitem [ref=e1580]:
+                    - link "Link Affordance, NN/G" [ref=e1581] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/guidelines-for-visualizing-links/
+            - generic [ref=e1582]:
+              - generic [ref=e1583] [cursor=pointer]:
+                - generic [ref=e1584]: 🎁
+                - generic [ref=e1585]:
+                  - heading "Reciprocity" [level=2] [ref=e1586]
+                  - paragraph [ref=e1587]: People feel the need to reciprocate when they receive something
+                - generic [ref=e3010]: Collapse ↑
+              - generic [ref=e3012]:
+                - generic [ref=e3013]:
+                  - heading "Reciprocity definition" [level=3] [ref=e3014]
+                  - paragraph [ref=e3016]: Reciprocity is a social norm of responding to a positive action with another positive action, rewarding kind actions. In the context of digital product experiences, users are more likely to engage with your product if you first provide them value. They’ll be more likely to trust you and reciprocate. That’s even more important when you’re about to ask for something big from your users (sign up, paywall, etc).
+                - generic [ref=e3017]:
+                  - heading "Reciprocity examples" [level=3] [ref=e3018]
+                  - list [ref=e3019]:
+                    - listitem [ref=e3020]:
+                      - paragraph [ref=e3021]: Brave asked new users to make Brave their default browser before they even showed the application.
+                      - 'link "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile Chrome vs Brave: How To Use Ethical Design To Win Customers Growth.Design Case Study (slide #11)" [ref=e3022] [cursor=pointer]':
+                        - /url: /case-studies/brave-browser-onboarding/#/10/0/1
+                        - 'img "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile" [ref=e3023]'
+                        - generic [ref=e3024]:
+                          - generic [ref=e3025]: "Chrome vs Brave: How To Use Ethical Design To Win Customers"
+                          - generic [ref=e3026]: "Growth.Design Case Study (slide #11)"
+                - list [ref=e3030]:
+                  - listitem [ref=e3031]:
+                    - link "Reciprocity Psychology, Wikipedia (2021)" [ref=e3032] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)
+            - generic [ref=e1589]:
+              - generic [ref=e1590] [cursor=pointer]:
+                - generic [ref=e1591]: 🤝
+                - generic [ref=e1592]:
+                  - heading "Singularity Effect" [level=2] [ref=e1593]
+                  - paragraph [ref=e1594]: Users care disproportionately about an individual as compared to a group
+                - generic [ref=e1595]: Collapse ↑
+              - generic [ref=e1597]:
+                - generic [ref=e1598]:
+                  - heading "Singularity Effect definition" [level=3] [ref=e1599]
+                  - paragraph [ref=e1601]: People are more willing to empathize with a single, identifiable person than large abstract groups. This means that the addition of more people doesn’t increase your willingness to help proportionally. On the opposite, your compassion fades as more people are involved. The Singularity Effect, combined with the Character Identification Effect and the Narrative Bias explains why you tend to remember stories with vivid characters much better than abstract statistics and data (see examples below).
+                - generic [ref=e1602]:
+                  - heading "Singularity Effect examples" [level=3] [ref=e1603]
+                  - list [ref=e1604]:
+                    - listitem [ref=e1605]:
+                      - paragraph [ref=e1606]: "Think of the emotional difference between the statement “16% of Adobe’s users are frustrated by their subscription cancellation experience” and the frustration (and empathy) you feel while you watch the following case study:"
+                      - 'link "Adobe: The Psychology of User Offboarding Case Study Tile Adobe: The Psychology of User Offboarding Growth.Design Case Study (slide #17)" [ref=e1607] [cursor=pointer]':
+                        - /url: /case-studies/adobe-cancel-subscription/#/16/0/1
+                        - 'img "Adobe: The Psychology of User Offboarding Case Study Tile" [ref=e1608]'
+                        - generic [ref=e1609]:
+                          - generic [ref=e1610]: "Adobe: The Psychology of User Offboarding"
+                          - generic [ref=e1611]: "Growth.Design Case Study (slide #17)"
+                    - listitem [ref=e1612]:
+                      - paragraph [ref=e1613]: Most companies with a very strong brand have a one or two identifiable individuals who represent the values of the company and who make customers feel like they are supporting them directly (e.g., Apple and Steve Jobs, Tesla and Elon Musk, etc).
+                      - img "Brand personality singularity effect" [ref=e1614]
+                    - listitem [ref=e1615]:
+                      - paragraph [ref=e1616]: "Think of the emotional difference between the statement “1,517 lives were lost when the Titanic sank” vs how many people cried for Leonardo DiCaprio at the end of the classic movie “Titanic”. Same goes for the movie “Saving Private Ryan” vs the number of deaths per year due to war (unfortunately). This image from Sketchplanations summarizes it well:"
+                      - img "Singularity effect chart" [ref=e1617]
+                - list [ref=e1621]:
+                  - listitem [ref=e1622]:
+                    - link "Singularity Effect, Sketchplanations" [ref=e1623] [cursor=pointer]:
+                      - /url: https://sketchplanations.com/the-singularity-effect
+                  - listitem [ref=e1624]:
+                    - link "The singularity effect of identified victims in separate and joint evaluations" [ref=e1625] [cursor=pointer]:
+                      - /url: https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336
+            - generic [ref=e1626]:
+              - generic [ref=e1627] [cursor=pointer]:
+                - generic [ref=e1628]: 🎰
+                - generic [ref=e1629]:
+                  - heading "Variable Reward" [level=2] [ref=e1630]
+                  - paragraph [ref=e1631]: People especially enjoy unexpected rewards
+                - generic [ref=e3033]: Collapse ↑
+              - generic [ref=e3035]:
+                - generic [ref=e3036]:
+                  - heading "Variable Reward definition" [level=3] [ref=e3037]
+                  - paragraph [ref=e3039]: In the operant conditioning method, a variable-ratio schedule is a schedule of reinforcement where a response is reinforced after an unpredictable number of responses. This unexpected schedule creates a steady, high rate of responding.
+                - generic [ref=e3040]:
+                  - heading "Variable Reward examples" [level=3] [ref=e3041]
+                  - list [ref=e3042]:
+                    - listitem [ref=e3043]:
+                      - paragraph [ref=e3044]: "Everything you flick your finger on TikTok, a new video will immersive you. You’ll either learn, laugh or be weirded out, but you always get something personalized and surprising. This mix of very low cognitive task and high variability makes TikTok a textbook example of “addiction-forming design”:"
+                      - 'link "The Psychology Behind TikTok''s Addictive Feed Case Study Tile The Psychology Behind TikTok''s Addictive Feed Growth.Design Case Study (slide #19)" [ref=e3045] [cursor=pointer]':
+                        - /url: /case-studies/tiktok-feed-psychology/#/18/0/2
+                        - img "The Psychology Behind TikTok's Addictive Feed Case Study Tile" [ref=e3046]
+                        - generic [ref=e3047]:
+                          - generic [ref=e3048]: The Psychology Behind TikTok's Addictive Feed
+                          - generic [ref=e3049]: "Growth.Design Case Study (slide #19)"
+                - list [ref=e3053]:
+                  - listitem [ref=e3054]:
+                    - link "Variable-Ratio Schedules Characteristics, Very Well Mind" [ref=e3055] [cursor=pointer]:
+                      - /url: https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012
+                  - listitem [ref=e3056]:
+                    - link "Variable rewards, Nir Eyal" [ref=e3057] [cursor=pointer]:
+                      - /url: https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/
+            - generic [ref=e1633]:
+              - generic [ref=e1634] [cursor=pointer]:
+                - generic [ref=e1635]: 🎉
+                - generic [ref=e1636]:
+                  - heading "Aha! moment" [level=2] [ref=e1637]
+                  - paragraph [ref=e1638]: When new users first realize the value of your product
+                - generic [ref=e1639]: Collapse ↑
+              - generic [ref=e1641]:
+                - generic [ref=e1642]:
+                  - heading "Aha! moment definition" [level=3] [ref=e1643]
+                  - paragraph [ref=e1645]: The aha moment is a moment of sudden insight or discovery. In software, it’s the pivotal moment when a new user first realizes the value of your product and why they need it.
+                - generic [ref=e1646]:
+                  - heading "Aha! moment examples" [level=3] [ref=e1647]
+                  - list [ref=e1648]:
+                    - listitem [ref=e1649]:
+                      - paragraph [ref=e1650]: "A rocket start is met by an unsure end during Hey’s onboarding:"
+                      - 'link "User Onboarding: Is HEY Email Worth It? Case Study Tile User Onboarding: Is HEY Email Worth It? Growth.Design Case Study (slide #15)" [ref=e1651] [cursor=pointer]':
+                        - /url: /case-studies/hey-user-onboarding/#/15/0/4
+                        - 'img "User Onboarding: Is HEY Email Worth It? Case Study Tile" [ref=e1652]'
+                        - generic [ref=e1653]:
+                          - generic [ref=e1654]: "User Onboarding: Is HEY Email Worth It?"
+                          - generic [ref=e1655]: "Growth.Design Case Study (slide #15)"
+                - list [ref=e1659]:
+                  - listitem [ref=e1660]:
+                    - link "The aha moment guide - Appcues" [ref=e1661] [cursor=pointer]:
+                      - /url: https://www.appcues.com/blog/aha-moment-guide
+                  - listitem [ref=e1662]:
+                    - link "How to Discover Your Product’s Aha! Moment" [ref=e1663] [cursor=pointer]:
+                      - /url: https://pony.studio/design-for-growth/how-to-discover-your-aha-moment
+            - generic [ref=e1664]:
+              - generic [ref=e1665] [cursor=pointer]:
+                - generic [ref=e1666]: 🥅
+                - generic [ref=e1667]:
+                  - heading "Goal Gradient Effect" [level=2] [ref=e1668]
+                  - paragraph [ref=e1669]: Motivation increases as users get closer to their goal
+                - generic [ref=e3058]: Collapse ↑
+              - generic [ref=e3060]:
+                - generic [ref=e3061]:
+                  - heading "Goal Gradient Effect definition" [level=3] [ref=e3062]
+                  - paragraph [ref=e3064]: The closer users are to reaching a milestone (e.g., completing a task, reaching a goal, etc), the faster they work towards reaching it. Interestingly, even artificial or estimated progress indicators can help to motivate users. That’s why it’s crucial that your experience provides a clear indication of progress to provide this feedback to your users.
+                - generic [ref=e3065]:
+                  - heading "Goal Gradient Effect examples" [level=3] [ref=e3066]
+                  - list [ref=e3067]:
+                    - listitem [ref=e3068]:
+                      - paragraph [ref=e3069]: "A 10-stamp loyalty card pre-stamped twice will be completed faster than an 8-stamp one with 0 pre-stamps:"
+                      - img "10-stamp loyalty card vs 8-stamp loyalty card" [ref=e3070]
+                    - listitem [ref=e3071]:
+                      - paragraph [ref=e3072]: "This redesign of a trial paywall uses a timeline. This helps users understand that their journey already has started, which might increase the conversion rate:"
+                      - 'link "How Blinkist Increased Trial Conversions by 23% (Ethically) Case Study Tile How Blinkist Increased Trial Conversions by 23% (Ethically) Growth.Design Case Study (slide #8)" [ref=e3073] [cursor=pointer]':
+                        - /url: /case-studies/trial-paywall-challenge/#/7/0/1
+                        - img "How Blinkist Increased Trial Conversions by 23% (Ethically) Case Study Tile" [ref=e3074]
+                        - generic [ref=e3075]:
+                          - generic [ref=e3076]: How Blinkist Increased Trial Conversions by 23% (Ethically)
+                          - generic [ref=e3077]: "Growth.Design Case Study (slide #8)"
+                - list [ref=e3081]:
+                  - listitem [ref=e3082]:
+                    - link "Goal-Gradient Effect, fs.blog (2021)" [ref=e3083] [cursor=pointer]:
+                      - /url: https://fs.blog/goal-gradient-hypothesis/
+                  - listitem [ref=e3084]:
+                    - link "Research paper on goal-gradient, K. Zheng (2006)" [ref=e3085] [cursor=pointer]:
+                      - /url: https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39
+                  - listitem [ref=e3086]:
+                    - link "Laws of UX, Goal Gradient Effect (2022)" [ref=e3087] [cursor=pointer]:
+                      - /url: https://lawsofux.com/goal-gradient-effect/
+            - generic [ref=e1671]:
+              - generic [ref=e1672] [cursor=pointer]:
+                - generic [ref=e1673]: 💈
+                - generic [ref=e1674]:
+                  - heading "Occam’s Razor" [level=2] [ref=e1675]
+                  - paragraph [ref=e1676]: Simple solutions are often better than the more complex ones
+                - generic [ref=e1677]: Collapse ↑
+              - generic [ref=e1679]:
+                - generic [ref=e1680]:
+                  - heading "Occam’s Razor definition" [level=3] [ref=e1681]
+                  - paragraph [ref=e1683]:
+                    - text: Occam’s razor is a mental model which states that “it is futile to do with more what can be done with fewer”—in other words,
+                    - strong [ref=e1684]: the simplest explanation is most likely the right one.
+                    - text: Be careful, simple does not mean ignoring important facts in an attempt to reduce the complexity. It requires open mindedness to seek a better solution with less complexity and less assumptions, exploring a better way of doing things.
+                - heading "Occam’s Razor examples" [level=3] [ref=e1686]
+                - generic [ref=e1687]:
+                  - heading "Occam’s Razor checklist" [level=3] [ref=e1688]
+                  - generic [ref=e1689]:
+                    - paragraph [ref=e1690]: "Next time you open Figma/Sketch to begin a new design, ask yourself these questions:"
+                    - list [ref=e1691]:
+                      - listitem [ref=e1692]: What’s the minimum of information needed to complete the job?
+                      - listitem [ref=e1693]: Would someone without my knowledge find this action confusing?
+                      - listitem [ref=e1694]: How can I reduce the effort in half?
+                - list [ref=e1698]:
+                  - listitem [ref=e1699]:
+                    - link "Designing with Occam’s Razor (2017)" [ref=e1700] [cursor=pointer]:
+                      - /url: https://jonyablonski.medium.com/designing-with-occams-razor-3692df2f3c7f
+                  - listitem [ref=e1701]:
+                    - link "Occam’s razor - Wikipedia (2022)" [ref=e1702] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Occam%27s_razor
+            - generic [ref=e1703]:
+              - generic [ref=e1704] [cursor=pointer]:
+                - generic [ref=e1705]: 🎗
+                - generic [ref=e1706]:
+                  - heading "Noble Edge Effect" [level=2] [ref=e1707]
+                  - paragraph [ref=e1708]: Users tend to prefer socially responsible companies
+                - generic [ref=e3088]: Collapse ↑
+              - generic [ref=e3090]:
+                - generic [ref=e3091]:
+                  - heading "Noble Edge Effect definition" [level=3] [ref=e3092]
+                  - paragraph [ref=e3094]: When companies demonstrate genuine caring and social responsibility, they tend to be rewarded with increased brand loyalty, and greater profits.
+                - generic [ref=e3095]:
+                  - heading "Noble Edge Effect examples" [level=3] [ref=e3096]
+                  - list [ref=e3097]:
+                    - listitem [ref=e3098]:
+                      - paragraph [ref=e3099]: "While Adobe customers try to cancel their plan, Adobe could have shown empathy for their users by offering people whose career was affected by COVID-19 a simple option to pause their subscription:"
+                      - 'link "Adobe: The Psychology of User Offboarding Case Study Tile Adobe: The Psychology of User Offboarding Growth.Design Case Study (slide #18)" [ref=e3100] [cursor=pointer]':
+                        - /url: /case-studies/adobe-cancel-subscription/#/17/0/2
+                        - 'img "Adobe: The Psychology of User Offboarding Case Study Tile" [ref=e3101]'
+                        - generic [ref=e3102]:
+                          - generic [ref=e3103]: "Adobe: The Psychology of User Offboarding"
+                          - generic [ref=e3104]: "Growth.Design Case Study (slide #18)"
+                - list [ref=e3108]:
+                  - listitem [ref=e3109]:
+                    - link "Noble Edge Effect, Decision Lab (2021)" [ref=e3110] [cursor=pointer]:
+                      - /url: https://thedecisionlab.com/biases/noble-edge-effect/
+            - generic [ref=e1710]:
+              - generic [ref=e1711] [cursor=pointer]:
+                - generic [ref=e1712]: 🧿
+                - generic [ref=e1713]:
+                  - heading "Hawthorne Effect" [level=2] [ref=e1714]
+                  - paragraph [ref=e1715]: Users change their behavior when they know they are being observed
+                - generic [ref=e1716]: Collapse ↑
+              - generic [ref=e1718]:
+                - generic [ref=e1719]:
+                  - heading "Hawthorne Effect definition" [level=3] [ref=e1720]
+                  - paragraph [ref=e1722]: The Hawthorne effect is a theory that describes a type of reactivity in which individuals modify an aspect of their behavior in response to their awareness of being observed.
+                - generic [ref=e1723]:
+                  - heading "Hawthorne Effect examples" [level=3] [ref=e1724]
+                  - list [ref=e1725]:
+                    - listitem [ref=e1726]:
+                      - paragraph [ref=e1727]: For apps that rely on behavior-based personalization (like TikTok), that’s a problem because people will eventually hesitate to explore, fearing that they’ll get stuck in the same content rabbit hole.
+                      - 'link "The Psychology Behind TikTok''s Addictive Feed Case Study Tile The Psychology Behind TikTok''s Addictive Feed Growth.Design Case Study (slide #17)" [ref=e1728] [cursor=pointer]':
+                        - /url: /case-studies/tiktok-feed-psychology/#/16/0/1
+                        - img "The Psychology Behind TikTok's Addictive Feed Case Study Tile" [ref=e1729]
+                        - generic [ref=e1730]:
+                          - generic [ref=e1731]: The Psychology Behind TikTok's Addictive Feed
+                          - generic [ref=e1732]: "Growth.Design Case Study (slide #17)"
+                    - listitem [ref=e1733]: Have you ever used an incognito in Chrome or Youtube? That’s partly because you care about your privacy, but also because you know you’ll be retargeted by ads related to the content you search. Hence why you change your behavior.
+                - list [ref=e1737]:
+                  - listitem [ref=e1738]:
+                    - link "Hawthorne Effect, Wikipedia" [ref=e1739] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Hawthorne_effect
+            - generic [ref=e1741] [cursor=pointer]:
+              - generic [ref=e1742]: 👼
+              - generic [ref=e1743]:
+                - heading "Halo Effect" [level=2] [ref=e1744]
+                - paragraph [ref=e1745]: People judge things (or people) based on their feelings towards one trait
+              - generic [ref=e1746]: Coming Soon
+            - generic [ref=e1748] [cursor=pointer]:
+              - generic [ref=e1749]: ☎️
+              - generic [ref=e1750]:
+                - heading "Miller’s Law" [level=2] [ref=e1751]
+                - paragraph [ref=e1752]: Users can only keep 7±2 items in their working memory
+              - generic [ref=e1753]: Coming Soon
+            - generic [ref=e1755] [cursor=pointer]:
+              - generic [ref=e1756]: 🍱
+              - generic [ref=e1757]:
+                - heading "Unit Bias" [level=2] [ref=e1758]
+                - paragraph [ref=e1759]: One unit of something feels like the optimal amount
+              - generic [ref=e1760]: Coming Soon
+            - generic [ref=e1762] [cursor=pointer]:
+              - generic [ref=e1763]: 🌊
+              - generic [ref=e1764]:
+                - heading "Flow State" [level=2] [ref=e1765]
+                - paragraph [ref=e1766]: Being fully immersed and focused on a task
+              - generic [ref=e1767]: Coming Soon
+            - generic [ref=e1769] [cursor=pointer]:
+              - generic [ref=e1770]: 👑
+              - generic [ref=e1771]:
+                - heading "Authority Bias" [level=2] [ref=e1772]
+                - paragraph [ref=e1773]: Users attribute more importance to the opinion of an authority figure
+              - generic [ref=e1774]: Coming Soon
+            - generic [ref=e1776] [cursor=pointer]:
+              - generic [ref=e1777]: 🏺
+              - generic [ref=e1778]:
+                - heading "Pseudo-Set Framing" [level=2] [ref=e1779]
+                - paragraph [ref=e1780]: Tasks that are part of a group are more tempting to complete
+              - generic [ref=e1781]: Coming Soon
+            - generic [ref=e1783] [cursor=pointer]:
+              - generic [ref=e1784]: 🎊
+              - generic [ref=e1785]:
+                - heading "Group Attractiveness Effect" [level=2] [ref=e1786]
+                - paragraph [ref=e1787]: Individual items seem more attractive when presented in a group
+              - generic [ref=e1788]: Coming Soon
+            - generic [ref=e1790] [cursor=pointer]:
+              - generic [ref=e1791]: 🚰
+              - generic [ref=e1792]:
+                - heading "Curse of Knowledge" [level=2] [ref=e1793]
+                - paragraph [ref=e1794]: Not realizing that people don't have the same level of knowledge
+              - generic [ref=e1795]: Coming Soon
+            - generic [ref=e1797] [cursor=pointer]:
+              - generic [ref=e1798]: 📮
+              - generic [ref=e1799]:
+                - heading "Self-Initiated Triggers" [level=2] [ref=e1800]
+                - paragraph [ref=e1801]: Users are more likely to interact with prompts they setup for themselves
+              - generic [ref=e1802]: Coming Soon
+            - generic [ref=e1804] [cursor=pointer]:
+              - generic [ref=e1805]: ✏️
+              - generic [ref=e1806]:
+                - heading "Survey Bias" [level=2] [ref=e1807]
+                - paragraph [ref=e1808]: Users tend to skew survey answers towards what's socially acceptable
+              - generic [ref=e1809]: Coming Soon
+            - generic [ref=e1811] [cursor=pointer]:
+              - generic [ref=e1812]: 🎭
+              - generic [ref=e1813]:
+                - heading "Cognitive Dissonance" [level=2] [ref=e1814]
+                - paragraph [ref=e1815]: It's painful to hold two opposing ideas in our mind
+              - generic [ref=e1816]: Coming Soon
+            - generic [ref=e1818] [cursor=pointer]:
+              - generic [ref=e1819]: 💫
+              - generic [ref=e1820]:
+                - heading "Feedforward" [level=2] [ref=e1821]
+                - paragraph [ref=e1822]: When users know what to expect before they take action
+              - generic [ref=e1823]: Coming Soon
+            - generic [ref=e1825] [cursor=pointer]:
+              - generic [ref=e1826]: 🏒
+              - generic [ref=e1827]:
+                - heading "Hindsight Bias" [level=2] [ref=e1828]
+                - paragraph [ref=e1829]: People overestimate their ability to predict outcomes after the fact
+              - generic [ref=e1830]: Coming Soon
+            - generic [ref=e1832] [cursor=pointer]:
+              - generic [ref=e1833]: 🎏
+              - generic [ref=e1834]:
+                - heading "Law of Similarity" [level=2] [ref=e1835]
+                - paragraph [ref=e1836]: Users perceive a relationship between elements that look similar
+              - generic [ref=e1837]: Coming Soon
+            - generic [ref=e1839] [cursor=pointer]:
+              - generic [ref=e1840]: 🌓
+              - generic [ref=e1841]:
+                - heading "Law of Prägnanz" [level=2] [ref=e1842]
+                - paragraph [ref=e1843]: Users interpret ambiguous images in a simpler and more complete form
+              - generic [ref=e1844]: Coming Soon
+            - generic [ref=e1846] [cursor=pointer]:
+              - generic [ref=e1847]: 🐘
+              - generic [ref=e1848]:
+                - heading "Streisand Effect" [level=2] [ref=e1849]
+                - paragraph [ref=e1850]: When trying to censor information ends up increasing awareness of that information
+              - generic [ref=e1851]: Coming Soon
+            - generic [ref=e1853] [cursor=pointer]:
+              - generic [ref=e1854]: 🔦
+              - generic [ref=e1855]:
+                - heading "Spotlight Effect" [level=2] [ref=e1856]
+                - paragraph [ref=e1857]: People tend to believe they are being noticed more than they really are
+              - generic [ref=e1858]: Coming Soon
+            - generic [ref=e1860] [cursor=pointer]:
+              - generic [ref=e1861]: 🗓
+              - generic [ref=e1862]:
+                - heading "Fresh Start Effect" [level=2] [ref=e1863]
+                - paragraph [ref=e1864]: Users are more likely to take action if there's a feeling of new beginnings
+              - generic [ref=e1865]: Coming Soon
+      - generic [ref=e1866]:
+        - img [ref=e1868]
+        - generic [ref=e1870]:
+          - generic [ref=e1871]:
+            - paragraph [ref=e1872]: ⏰ Time
+            - paragraph [ref=e1873]: Users are busy so they look for shortcuts and jump to conclusions quickly.
+          - generic [ref=e1874]:
+            - generic [ref=e1875]:
+              - generic [ref=e1876] [cursor=pointer]:
+                - generic [ref=e1877]: 🧗‍♂️
+                - generic [ref=e1878]:
+                  - heading "Labor Illusion" [level=2] [ref=e1879]
+                  - paragraph [ref=e1880]: People value things more when they see the work behind them
+                - generic [ref=e3111]: Collapse ↑
+              - generic [ref=e3113]:
+                - generic [ref=e3114]:
+                  - heading "Labor Illusion definition" [level=3] [ref=e3115]
+                  - paragraph [ref=e3117]: Making users wait for something they requested while showing them how it is being prepared creates the appearance of effort. Customers are usually more likely to appreciate the results of that effort. This is also called the “KAYAK Effect” (based on the travel booking site that used that tactic).
+                - generic [ref=e3118]:
+                  - heading "Labor Illusion examples" [level=3] [ref=e3119]
+                  - list [ref=e3120]:
+                    - listitem [ref=e3121]:
+                      - paragraph [ref=e3122]:
+                        - text: The first time you see your potential matches after you complete your profile,
+                        - link "Tinder shows the results so quickly that you might doubt of their quality" [ref=e3123] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/7/0/4
+                        - text: ":"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #8)" [ref=e3124] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/7/0/4
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e3125]
+                        - generic [ref=e3126]:
+                          - generic [ref=e3127]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e3128]: "Growth.Design Case Study (slide #8)"
+                    - listitem [ref=e3129]:
+                      - paragraph [ref=e3130]: KAYAK (travel booking site) once delayed the time search results page to show that it is “crunching data”.
+                    - listitem [ref=e3131]:
+                      - paragraph [ref=e3132]: TurboTax showed “validation and analysis” screens when you submit your taxes.
+                    - listitem [ref=e3133]:
+                      - 'link "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile Chrome vs Brave: How To Use Ethical Design To Win Customers Growth.Design Case Study (slide #15)" [ref=e3134] [cursor=pointer]':
+                        - /url: /case-studies/brave-browser-onboarding/#/14/0/3
+                        - 'img "Chrome vs Brave: How To Use Ethical Design To Win Customers Case Study Tile" [ref=e3135]'
+                        - generic [ref=e3136]:
+                          - generic [ref=e3137]: "Chrome vs Brave: How To Use Ethical Design To Win Customers"
+                          - generic [ref=e3138]: "Growth.Design Case Study (slide #15)"
+                - list [ref=e3142]:
+                  - listitem [ref=e3143]:
+                    - link "Response Time Thresholds, Akamai (2009)" [ref=e3144] [cursor=pointer]:
+                      - /url: https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp
+                  - listitem [ref=e3145]:
+                    - link "Why Some Apps Use Fake Progress Bars, The Atlantic (2017)" [ref=e3146] [cursor=pointer]:
+                      - /url: https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/
+            - generic [ref=e1882]:
+              - generic [ref=e1883] [cursor=pointer]:
+                - generic [ref=e1884]: 🚶‍♂️
+                - generic [ref=e1885]:
+                  - heading "Default Bias" [level=2] [ref=e1886]
+                  - paragraph [ref=e1887]: Users tend not to change an established behavior
+                - generic [ref=e1888]: Collapse ↑
+              - generic [ref=e1890]:
+                - generic [ref=e1891]:
+                  - heading "Default Bias definition" [level=3] [ref=e1892]
+                  - paragraph [ref=e1894]: Unless the incentive to change is compelling, people are more likely to stick to the default situation presented to them. This is also called the Status quo bias. It can be a powerful actor when trying to change behaviors.
+                - generic [ref=e1895]:
+                  - heading "Default Bias examples" [level=3] [ref=e1896]
+                  - list [ref=e1897]:
+                    - listitem [ref=e1898]:
+                      - paragraph [ref=e1899]:
+                        - text: The
+                        - link "default purchase option on some Amazon" [ref=e1900] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/amazon-purchase-ux#/2/0/1
+                        - text: "products is a “subscription”. They incentivize this automatic recurring purchase by offering a discount:"
+                      - 'link "The Psychology Behind Amazon''s Purchase Experience Case Study Tile The Psychology Behind Amazon''s Purchase Experience Growth.Design Case Study (slide #2)" [ref=e1901] [cursor=pointer]':
+                        - /url: /case-studies/amazon-purchase-ux/#/2/0/1
+                        - img "The Psychology Behind Amazon's Purchase Experience Case Study Tile" [ref=e1902]
+                        - generic [ref=e1903]:
+                          - generic [ref=e1904]: The Psychology Behind Amazon's Purchase Experience
+                          - generic [ref=e1905]: "Growth.Design Case Study (slide #2)"
+                    - listitem [ref=e1906]:
+                      - paragraph [ref=e1907]:
+                        - text: Uber Eats’
+                        - link "default option is to NOT provide you with disposable items that pollute" [ref=e1908] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/uber-eats-scarcity/#/5/0/3
+                        - text: ":"
+                      - 'link "Uber Eats: How To Ethically Use Scarcity To Increase Sales Case Study Tile Uber Eats: How To Ethically Use Scarcity To Increase Sales Growth.Design Case Study (slide #6)" [ref=e1909] [cursor=pointer]':
+                        - /url: /case-studies/uber-eats-scarcity/#/5/0/3
+                        - 'img "Uber Eats: How To Ethically Use Scarcity To Increase Sales Case Study Tile" [ref=e1910]'
+                        - generic [ref=e1911]:
+                          - generic [ref=e1912]: "Uber Eats: How To Ethically Use Scarcity To Increase Sales"
+                          - generic [ref=e1913]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e1914]:
+                      - paragraph [ref=e1915]:
+                        - link "Some Airbnb filters are OFF by default" [ref=e1916] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/airbnb-personalization/#/9/0/1
+                        - text: ", which can lead to confusion as to what will happen if you switch them ON:"
+                      - 'link "Airbnb: How To Reduce Churn With Personalization Case Study Tile Airbnb: How To Reduce Churn With Personalization Growth.Design Case Study (slide #10)" [ref=e1917] [cursor=pointer]':
+                        - /url: /case-studies/airbnb-personalization/#/9/0/1
+                        - 'img "Airbnb: How To Reduce Churn With Personalization Case Study Tile" [ref=e1918]'
+                        - generic [ref=e1919]:
+                          - generic [ref=e1920]: "Airbnb: How To Reduce Churn With Personalization"
+                          - generic [ref=e1921]: "Growth.Design Case Study (slide #10)"
+                    - listitem [ref=e1922]:
+                      - paragraph [ref=e1923]: Adobe generates revenues from “zombie customers”. Those are users who don’t cancel their subscription because of this human tendance to leave things as they are. That’s amplified by the fact that Adobe is concealing their subscription reminders, the user incentives to change (e.g., cost) and the shortcuts to cancel.
+                      - 'link "Adobe: The Psychology of User Offboarding Case Study Tile Adobe: The Psychology of User Offboarding Growth.Design Case Study (slide #5)" [ref=e1924] [cursor=pointer]':
+                        - /url: /case-studies/adobe-cancel-subscription/#/4/0/3
+                        - 'img "Adobe: The Psychology of User Offboarding Case Study Tile" [ref=e1925]'
+                        - generic [ref=e1926]:
+                          - generic [ref=e1927]: "Adobe: The Psychology of User Offboarding"
+                          - generic [ref=e1928]: "Growth.Design Case Study (slide #5)"
+                - list [ref=e1932]:
+                  - listitem [ref=e1933]:
+                    - 'link "Brainy Business, Defaults: Why The Pre-Selected Choice Wins More Often Than Not (2018)" [ref=e1934] [cursor=pointer]':
+                      - /url: https://overcast.fm/+NvJ9veSFI
+            - generic [ref=e1935]:
+              - generic [ref=e1936] [cursor=pointer]:
+                - generic [ref=e1937]: 🏦
+                - generic [ref=e1938]:
+                  - heading "Investment Loops" [level=2] [ref=e1939]
+                  - paragraph [ref=e1940]: When users invest themselves, they're more likely to come back
+                - generic [ref=e3147]: Collapse ↑
+              - generic [ref=e3149]:
+                - generic [ref=e3150]:
+                  - heading "Investment Loops definition" [level=3] [ref=e3151]
+                  - paragraph [ref=e3153]: People invest time, money, information, or effort into a product in anticipation of future benefits. It makes them more likely to return because of the increase in perceived value. When executed properly, user investments load the next trigger to use your product.
+                - generic [ref=e3154]:
+                  - heading "Investment Loops examples" [level=3] [ref=e3155]
+                  - list [ref=e3156]:
+                    - listitem [ref=e3157]:
+                      - paragraph [ref=e3158]:
+                        - text: Morning Brew could use personalization to
+                        - link "get people to customize the stocks" [ref=e3159] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/morning-brew-newsletter-retention/#/5/0/4
+                        - text: "displayed at the top:"
+                      - 'link "How Morning Brew Grew To 1.5 Million Subs In 5 Years Case Study Tile How Morning Brew Grew To 1.5 Million Subs In 5 Years Growth.Design Case Study (slide #6)" [ref=e3160] [cursor=pointer]':
+                        - /url: /case-studies/morning-brew-newsletter-retention/#/5/0/4
+                        - img "How Morning Brew Grew To 1.5 Million Subs In 5 Years Case Study Tile" [ref=e3161]
+                        - generic [ref=e3162]:
+                          - generic [ref=e3163]: How Morning Brew Grew To 1.5 Million Subs In 5 Years
+                          - generic [ref=e3164]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e3165]:
+                      - paragraph [ref=e3166]:
+                        - link "Strava encourages you to set personal goals" [ref=e3167] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/strava-freemium-conversion/#/4/0/2
+                        - text: ", which will serve as a reminder for you to exercise later on:"
+                      - 'link "Strava: 7 Strategies To Convert More Freemium Users Case Study Tile Strava: 7 Strategies To Convert More Freemium Users Growth.Design Case Study (slide #5)" [ref=e3168] [cursor=pointer]':
+                        - /url: /case-studies/strava-freemium-conversion/#/4/0/2
+                        - 'img "Strava: 7 Strategies To Convert More Freemium Users Case Study Tile" [ref=e3169]'
+                        - generic [ref=e3170]:
+                          - generic [ref=e3171]: "Strava: 7 Strategies To Convert More Freemium Users"
+                          - generic [ref=e3172]: "Growth.Design Case Study (slide #5)"
+                    - listitem [ref=e3173]:
+                      - paragraph [ref=e3174]: "Spotify could encourage users to invest time to take podcast notes in-app:"
+                      - 'link "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Case Study Tile Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Growth.Design Case Study (slide #19)" [ref=e3175] [cursor=pointer]':
+                        - /url: /case-studies/spotify-vs-apple-podcast-ep2/#/18/0/2
+                        - 'img "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2) Case Study Tile" [ref=e3176]'
+                        - generic [ref=e3177]:
+                          - generic [ref=e3178]: "Spotify vs Apple: How Spotify is betting $230M on podcasts to win over Apple users (Ep. 2)"
+                          - generic [ref=e3179]: "Growth.Design Case Study (slide #19)"
+                - list [ref=e3183]:
+                  - listitem [ref=e3184]:
+                    - 'link "Hooked: How to Build Habit-Forming Products, Nir Eyal (2014)" [ref=e3185] [cursor=pointer]':
+                      - /url: https://www.goodreads.com/book/show/22668729-hooked
+                  - listitem [ref=e3186]:
+                    - 'link "User Investment: Make Your Users Do the Work, Nir Eyal (2012)" [ref=e3187] [cursor=pointer]':
+                      - /url: https://www.nirandfar.com/makeyourusersdothework/
+            - generic [ref=e1942]:
+              - generic [ref=e1943] [cursor=pointer]:
+                - generic [ref=e1944]: 🕯
+                - generic [ref=e1945]:
+                  - heading "Loss Aversion" [level=2] [ref=e1946]
+                  - paragraph [ref=e1947]: People prefer to avoid losses more than earning equivalent gains
+                - generic [ref=e1948]: Collapse ↑
+              - generic [ref=e1950]:
+                - generic [ref=e1951]:
+                  - heading "Loss Aversion definition" [level=3] [ref=e1952]
+                  - paragraph [ref=e1954]:
+                    - text: We hate losing or letting go of what we have (even if more could be had). Prospect theory says that a loss hurts more than an equal gain feels good. In other words, losing $1,000 will “hurt” more than the joy of gaining $1,000. Loss aversion can also lead to
+                    - link "sunk cost fallacy" [ref=e1955] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#sunk-cost
+                    - text: ". (Related:"
+                    - link "Endowment Effect" [ref=e1956] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#endowment-effect
+                    - text: )
+                - generic [ref=e1957]:
+                  - heading "Loss Aversion examples" [level=3] [ref=e1958]
+                  - list [ref=e1959]:
+                    - listitem [ref=e1960]:
+                      - paragraph [ref=e1961]:
+                        - text: Your
+                        - link "fear of losing the Duolingo gems you wager" [ref=e1962] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/19/0/2
+                        - text: "encourages you to maintain the practice streak to which you committed:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #20)" [ref=e1963] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/19/0/2
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e1964]'
+                        - generic [ref=e1965]:
+                          - generic [ref=e1966]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e1967]: "Growth.Design Case Study (slide #20)"
+                    - listitem [ref=e1968]:
+                      - paragraph [ref=e1969]:
+                        - text: When you go over the usage limit,
+                        - link "Zapier reminds you that you have 30 days to upgrade before you lose your data" [ref=e1970] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/zapier-upgrade/#/6/0/1
+                        - text: ". It’s a powerful incentive to take action now:"
+                      - 'link "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile 9 Ways To Boost SaaS Revenues With A Better Upgrade UX Growth.Design Case Study (slide #7)" [ref=e1971] [cursor=pointer]':
+                        - /url: /case-studies/zapier-upgrade/#/6/0/1
+                        - img "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile" [ref=e1972]
+                        - generic [ref=e1973]:
+                          - generic [ref=e1974]: 9 Ways To Boost SaaS Revenues With A Better Upgrade UX
+                          - generic [ref=e1975]: "Growth.Design Case Study (slide #7)"
+                    - listitem [ref=e1976]:
+                      - paragraph [ref=e1977]:
+                        - link "Trello’s “deferred account creation”" [ref=e1978] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/trello-user-onboarding/#/6/0/0
+                        - text: "relies on the fact that you’ll want to confirm your account email AFTER you’ve created boards, lists and cards because you won’t want to lose them:"
+                      - 'link "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile Trello User Onboarding: 7 Tactics To Inspire You Growth.Design Case Study (slide #7)" [ref=e1979] [cursor=pointer]':
+                        - /url: /case-studies/trello-user-onboarding/#/6/0/0
+                        - 'img "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile" [ref=e1980]'
+                        - generic [ref=e1981]:
+                          - generic [ref=e1982]: "Trello User Onboarding: 7 Tactics To Inspire You"
+                          - generic [ref=e1983]: "Growth.Design Case Study (slide #7)"
+                - list [ref=e1987]:
+                  - listitem [ref=e1988]:
+                    - link "Prospect Theory, NNGroup (2020)" [ref=e1989] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/prospect-theory/
+                  - listitem [ref=e1990]:
+                    - 'link "“Advances in prospect theory: Cumulative representation of uncertainty”, Kahneman & Tversky (1992)" [ref=e1991] [cursor=pointer]':
+                      - /url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.320.8769
+            - generic [ref=e1992]:
+              - generic [ref=e1993] [cursor=pointer]:
+                - generic [ref=e1994]: 👞
+                - generic [ref=e1995]:
+                  - heading "Commitment & Consistency" [level=2] [ref=e1996]
+                  - paragraph [ref=e1997]: Users tend to be consistent with their previous actions
+                - generic [ref=e3188]: Collapse ↑
+              - generic [ref=e3190]:
+                - generic [ref=e3191]:
+                  - heading "Commitment & Consistency definition" [level=3] [ref=e3192]
+                  - paragraph [ref=e3194]: When users are asked to do something, their brain instinctually perceive it as a threat. The smaller the initial ask, the smaller the fight or flight response and the more likely they are to agree to gradually bigger requests. Especially since the brain likes to be consistent with its previous actions. It’s part of the reason why multi-step forms can perform up to 271% better than a big single-step form.
+                - generic [ref=e3195]:
+                  - heading "Commitment & Consistency examples" [level=3] [ref=e3196]
+                  - list [ref=e3197]:
+                    - listitem [ref=e3198]:
+                      - paragraph [ref=e3199]:
+                        - text: Tinder’s onboarding
+                        - link "splits their signup form in 6 single-question steps" [ref=e3200] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/tinder-monetization/#/3/0/0
+                        - text: "to leverage the power of micro-commitment:"
+                      - 'link "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Growth.Design Case Study (slide #4)" [ref=e3201] [cursor=pointer]':
+                        - /url: /case-studies/tinder-monetization/#/3/0/0
+                        - img "How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. Case Study Tile" [ref=e3202]
+                        - generic [ref=e3203]:
+                          - generic [ref=e3204]: How Tinder Converts 8% Of Singles Into Customers In Less Than 15min.
+                          - generic [ref=e3205]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e3206]:
+                      - paragraph [ref=e3207]:
+                        - text: Duolingo email notifications cleverly use the fact that
+                        - link "you committed to practice a language to ask you if you “still want to learn it”" [ref=e3208] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/2/0/1
+                        - text: ":"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #3)" [ref=e3209] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/2/0/1
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e3210]'
+                        - generic [ref=e3211]:
+                          - generic [ref=e3212]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e3213]: "Growth.Design Case Study (slide #3)"
+                    - listitem [ref=e3214]:
+                      - paragraph [ref=e3215]: Depending of the visitors context, some of our Growth.Design newsletter opt-in prompts use two steps. We AB tested it against a single step (email field) variant and it generated a lift of +11%.
+                - list [ref=e3219]:
+                  - listitem [ref=e3220]:
+                    - 'link "Influence: The Psychology of Persuasion, Robert Cialdini (2006)" [ref=e3221] [cursor=pointer]':
+                      - /url: https://www.goodreads.com/book/show/28815.Influence
+                  - listitem [ref=e3222]:
+                    - link "The Science of Micro-Commitments, CrazyEgg (2017)" [ref=e3223] [cursor=pointer]:
+                      - /url: https://www.crazyegg.com/blog/science-of-micro-commitments/
+            - generic [ref=e1999]:
+              - generic [ref=e2000] [cursor=pointer]:
+                - generic [ref=e2001]: 🏝
+                - generic [ref=e2002]:
+                  - heading "Sunk Cost Effect" [level=2] [ref=e2003]
+                  - paragraph [ref=e2004]: Users are reluctant to pull out of something they're invested in.
+                - generic [ref=e2005]: Collapse ↑
+              - generic [ref=e2007]:
+                - generic [ref=e2008]:
+                  - heading "Sunk Cost Effect definition" [level=3] [ref=e2009]
+                  - paragraph [ref=e2011]: People experience the sunk cost effect when they keep doing something as a result of previously invested resources (time, effort, money, etc). That effect becomes a fallacy if it’s pushing them to do things that won’t make them happier.
+                - generic [ref=e2012]:
+                  - heading "Sunk Cost Effect examples" [level=3] [ref=e2013]
+                  - list [ref=e2014]:
+                    - listitem [ref=e2015]:
+                      - paragraph [ref=e2016]:
+                        - link "Duolingo encourages you to bet gems" [ref=e2017] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/19/0/2
+                        - text: "if you think you can keep a practice streak for one week:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #20)" [ref=e2018] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/19/0/2
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e2019]'
+                        - generic [ref=e2020]:
+                          - generic [ref=e2021]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e2022]: "Growth.Design Case Study (slide #20)"
+                    - listitem [ref=e2023]:
+                      - paragraph [ref=e2024]: "Netflix: Have you ever watched a boring movie until the end, simply because you started it? That’s sunk cost fallacy in action."
+                    - listitem [ref=e2025]:
+                      - paragraph [ref=e2026]: "World of Warcraft MMORPG: millions of players keep playing (and paying 15$/month) partly because they’ve already invested so much time and money in the virtual game."
+                - list [ref=e2030]:
+                  - listitem [ref=e2031]:
+                    - link "Arkes, Hal R., and Catherine Blumer, The psychology of sunk cost (1995)" [ref=e2032] [cursor=pointer]:
+                      - /url: https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost
+            - generic [ref=e2033]:
+              - generic [ref=e2034] [cursor=pointer]:
+                - generic [ref=e2035]: 🌋
+                - generic [ref=e2036]:
+                  - heading "Reactance" [level=2] [ref=e2037]
+                  - paragraph [ref=e2038]: Users are less likely to adopt a behavior when they feel forced
+                - generic [ref=e3224]: Collapse ↑
+              - generic [ref=e3226]:
+                - generic [ref=e3227]:
+                  - heading "Reactance definition" [level=3] [ref=e3228]
+                  - paragraph [ref=e3230]: Reactance occurs when a person feels that someone or something is taking away their choices or limiting the range of alternatives. It’ll trigger an opposite response to what was intended, and also increases resistance to persuasion.
+                - generic [ref=e3231]:
+                  - heading "Reactance examples" [level=3] [ref=e3232]
+                  - list [ref=e3233]:
+                    - listitem [ref=e3234]:
+                      - paragraph [ref=e3235]: In a previous variant of Blinkist’s trial paywall, the exit was concealed, which made users feel trapped. Paradoxically, this made them want to reject the suggested behavior even more.
+                      - 'link "How Blinkist Increased Trial Conversions by 23% (Ethically) Case Study Tile How Blinkist Increased Trial Conversions by 23% (Ethically) Growth.Design Case Study (slide #3)" [ref=e3236] [cursor=pointer]':
+                        - /url: /case-studies/trial-paywall-challenge/#/2/0/1
+                        - img "How Blinkist Increased Trial Conversions by 23% (Ethically) Case Study Tile" [ref=e3237]
+                        - generic [ref=e3238]:
+                          - generic [ref=e3239]: How Blinkist Increased Trial Conversions by 23% (Ethically)
+                          - generic [ref=e3240]: "Growth.Design Case Study (slide #3)"
+                    - listitem [ref=e3241]:
+                      - paragraph [ref=e3242]:
+                        - text: When
+                        - link "YouTube is increasing the number ads" [ref=e3243] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/youtube-user-retention#/8/0/0
+                        - text: only to push their premium subscription.
+                      - 'link "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile YouTube’s Attempt To Solve The Paradox of Choice Growth.Design Case Study (slide #8)" [ref=e3244] [cursor=pointer]':
+                        - /url: /case-studies/youtube-user-retention/#/8/0/0
+                        - img "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile" [ref=e3245]
+                        - generic [ref=e3246]:
+                          - generic [ref=e3247]: YouTube’s Attempt To Solve The Paradox of Choice
+                          - generic [ref=e3248]: "Growth.Design Case Study (slide #8)"
+                    - listitem [ref=e3249]:
+                      - paragraph [ref=e3250]:
+                        - text: When you get so many notifications, that
+                        - link "you want to turn them all off" [ref=e3251] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/clubhouse-user-retention#/18/0/3
+                        - text: ...
+                      - 'link "The Psychology of Clubhouse’s User Retention (...and churn) Case Study Tile The Psychology of Clubhouse’s User Retention (...and churn) Growth.Design Case Study (slide #18)" [ref=e3252] [cursor=pointer]':
+                        - /url: /case-studies/clubhouse-user-retention/#/18/0/3
+                        - img "The Psychology of Clubhouse’s User Retention (...and churn) Case Study Tile" [ref=e3253]
+                        - generic [ref=e3254]:
+                          - generic [ref=e3255]: The Psychology of Clubhouse’s User Retention (...and churn)
+                          - generic [ref=e3256]: "Growth.Design Case Study (slide #18)"
+                    - listitem [ref=e3257]:
+                      - paragraph [ref=e3258]: "When you use so many dark patterns that there’s no more psych left to do anything:"
+                      - 'link "5 Deadly Onboarding Mistakes You Should Avoid Case Study Tile 5 Deadly Onboarding Mistakes You Should Avoid Growth.Design Case Study (slide #5)" [ref=e3259] [cursor=pointer]':
+                        - /url: /case-studies/5-product-onboarding-mistakes-to-avoid/#/5/0/1
+                        - img "5 Deadly Onboarding Mistakes You Should Avoid Case Study Tile" [ref=e3260]
+                        - generic [ref=e3261]:
+                          - generic [ref=e3262]: 5 Deadly Onboarding Mistakes You Should Avoid
+                          - generic [ref=e3263]: "Growth.Design Case Study (slide #5)"
+                - generic [ref=e3264]:
+                  - heading "Reactance checklist" [level=3] [ref=e3265]
+                  - list [ref=e3267]:
+                    - listitem [ref=e3268]: Use nudges carefully. They could cause the exact opposite reaction.
+                    - listitem [ref=e3269]: Remember a person is behind every screen. Not a point of data.
+                - list [ref=e3273]:
+                  - listitem [ref=e3274]:
+                    - link "Reactance - Wikipedia (2021)" [ref=e3275] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Reactance_(psychology)
+            - generic [ref=e2040]:
+              - generic [ref=e2041] [cursor=pointer]:
+                - generic [ref=e2042]: 🔨
+                - generic [ref=e2043]:
+                  - heading "Law of the Instrument" [level=2] [ref=e2044]
+                  - paragraph [ref=e2045]: If all you have is a hammer, everything looks like a nail
+                - generic [ref=e2046]: Collapse ↑
+              - generic [ref=e2048]:
+                - generic [ref=e2049]:
+                  - heading "Law of the Instrument definition" [level=3] [ref=e2050]
+                  - paragraph [ref=e2052]: "When we acquire a new skill, we tend to see opportunities to use it everywhere. This bias is also known as “the law of the hammer”, or “Maslow’s hammer”, in reference to psychologist Abraham Maslow’s famous quote: “I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail”"
+                - heading "Law of the Instrument examples" [level=3] [ref=e2054]
+                - generic [ref=e2055]:
+                  - heading "Law of the Instrument checklist" [level=3] [ref=e2056]
+                  - generic [ref=e2057]:
+                    - paragraph [ref=e2058]: "When something feels difficult when it should be easy, ask yourself:"
+                    - list [ref=e2059]:
+                      - listitem [ref=e2060]: Am I using the right tool for the right job?
+                      - listitem [ref=e2061]:
+                        - text: Is there an easier path? (see
+                        - link "#occamsrazor" [ref=e2062] [cursor=pointer]:
+                          - /url: https://growth.design/psychology#occams-razor
+                        - text: )
+                - list [ref=e2066]:
+                  - listitem [ref=e2067]:
+                    - link "The Decision Lab, Why do we use the same skills everywhere? (2019)" [ref=e2068] [cursor=pointer]:
+                      - /url: https://thedecisionlab.com/biases/law-of-the-instrument/
+            - generic [ref=e2069]:
+              - generic [ref=e2070] [cursor=pointer]:
+                - generic [ref=e2071]: 🍭
+                - generic [ref=e2072]:
+                  - heading "Temptation Bundling" [level=2] [ref=e2073]
+                  - paragraph [ref=e2074]: Hard tasks are less scary when coupled with something users desire
+                - generic [ref=e3276]: Collapse ↑
+              - generic [ref=e3278]:
+                - generic [ref=e3279]:
+                  - heading "Temptation Bundling definition" [level=3] [ref=e3280]
+                  - paragraph [ref=e3282]: We’re more likely to do the hard stuff when tightly coupled with something tempting. Researchers showed that bundling a want, or an instant gratification experience, with a should, or a valuable but delayed gratification experience would increase the chances of taking action.
+                - generic [ref=e3283]:
+                  - heading "Temptation Bundling examples" [level=3] [ref=e3284]
+                  - list [ref=e3285]:
+                    - listitem [ref=e3286]:
+                      - paragraph [ref=e3287]: "When booking a vacations seems easy (when we all know it is NOT!):"
+                      - 'link "How Hopper Perfectly Nails Permission Requests UX Case Study Tile How Hopper Perfectly Nails Permission Requests UX Growth.Design Case Study (slide #15)" [ref=e3288] [cursor=pointer]':
+                        - /url: /case-studies/hopper-permission-requests-ux/#/15/0/1
+                        - img "How Hopper Perfectly Nails Permission Requests UX Case Study Tile" [ref=e3289]
+                        - generic [ref=e3290]:
+                          - generic [ref=e3291]: How Hopper Perfectly Nails Permission Requests UX
+                          - generic [ref=e3292]: "Growth.Design Case Study (slide #15)"
+                - list [ref=e3296]:
+                  - listitem [ref=e3297]:
+                    - link "Lead me not into temptation. For, I know the way! - The Decision Lab" [ref=e3298] [cursor=pointer]:
+                      - /url: https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/
+                  - listitem [ref=e3299]:
+                    - link "Boost Your Willpower by Using “Temptation Bundling” - James Clear" [ref=e3300] [cursor=pointer]:
+                      - /url: https://jamesclear.com/temptation-bundling
+            - generic [ref=e2076]:
+              - generic [ref=e2077] [cursor=pointer]:
+                - generic [ref=e2078]: 🎩
+                - generic [ref=e2079]:
+                  - heading "Dunning-Kruger Effect" [level=2] [ref=e2080]
+                  - paragraph [ref=e2081]: People tend to overestimate their skills when they don't know much
+                - generic [ref=e2082]: Collapse ↑
+              - generic [ref=e2084]:
+                - generic [ref=e2085]:
+                  - heading "Dunning-Kruger Effect definition" [level=3] [ref=e2086]
+                  - paragraph [ref=e2088]: This effect occurs when a person’s lack of knowledge and skills in a certain area cause them to overestimate their own competence. By contrast, it also causes those who excel in a given area to think the task is simple for everyone (curse of knowledge), and underestimate their relative abilities as well.
+                - generic [ref=e2089]:
+                  - heading "Dunning-Kruger Effect examples" [level=3] [ref=e2090]
+                  - list [ref=e2091]:
+                    - listitem [ref=e2092]:
+                      - paragraph [ref=e2093]:
+                        - text: When your boss asks you to
+                        - link "change the whole project" [ref=e2094] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/product-team-pitfalls#/6/0/3
+                        - text: because of an “intuition”.
+                      - 'link "7 Product Team Pitfalls You Should Avoid Case Study Tile 7 Product Team Pitfalls You Should Avoid Growth.Design Case Study (slide #6)" [ref=e2095] [cursor=pointer]':
+                        - /url: /case-studies/product-team-pitfalls/#/6/0/3
+                        - img "7 Product Team Pitfalls You Should Avoid Case Study Tile" [ref=e2096]
+                        - generic [ref=e2097]:
+                          - generic [ref=e2098]: 7 Product Team Pitfalls You Should Avoid
+                          - generic [ref=e2099]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e2100]:
+                      - generic [ref=e2101]:
+                        - img "Albert Einstein" [ref=e2103]
+                        - blockquote [ref=e2105]:
+                          - generic [ref=e2106]:
+                            - text: “The more I learn, the more I realize how much I don’t know”
+                            - generic [ref=e2107]: — Albert Einstein
+                - generic [ref=e2108]:
+                  - heading "Dunning-Kruger Effect checklist" [level=3] [ref=e2109]
+                  - generic [ref=e2110]:
+                    - paragraph [ref=e2111]: "Next time someone with leverage (Boss) tries to sabotage a project because he thinks it’s better:"
+                    - list [ref=e2112]:
+                      - listitem [ref=e2113]: Collect the right data (Qualitative & Quantitative),
+                      - listitem [ref=e2114]: Use the right vocabulary (learn the psychology behind why something works),
+                      - listitem [ref=e2115]: Remind them why they hired you,
+                      - listitem [ref=e2116]: At last, remember that you can’t control everything! (Good luck)
+                - list [ref=e2120]:
+                  - listitem [ref=e2121]:
+                    - link "The Decision Lab, Why can we not perceive our own abilities? (2019)" [ref=e2122] [cursor=pointer]:
+                      - /url: https://thedecisionlab.com/biases/dunning-kruger-effect/
+            - generic [ref=e2123]:
+              - generic [ref=e2124] [cursor=pointer]:
+                - generic [ref=e2125]: 🔍
+                - generic [ref=e2126]:
+                  - heading "Discoverability" [level=2] [ref=e2127]
+                  - paragraph [ref=e2128]: The ease with which users can discover your features
+                - generic [ref=e3301]: Collapse ↑
+              - generic [ref=e3303]:
+                - generic [ref=e3304]:
+                  - heading "Discoverability definition" [level=3] [ref=e3305]
+                  - paragraph [ref=e3307]: Discoverability means that the user can extract the knowledge they need of the product by looking at it. If the key elements to take action are well presented then discoverability is good.
+                - generic [ref=e3308]:
+                  - heading "Discoverability examples" [level=3] [ref=e3309]
+                  - list [ref=e3310]:
+                    - listitem [ref=e3311]:
+                      - paragraph [ref=e3312]:
+                        - text: When navigating from screen to screen, make sure people can
+                        - link "find a way to come back" [ref=e3313] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/youtube-user-retention#/4/0/3
+                        - text: "easily:"
+                      - 'link "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile YouTube’s Attempt To Solve The Paradox of Choice Growth.Design Case Study (slide #4)" [ref=e3314] [cursor=pointer]':
+                        - /url: /case-studies/youtube-user-retention/#/4/0/3
+                        - img "YouTube’s Attempt To Solve The Paradox of Choice Case Study Tile" [ref=e3315]
+                        - generic [ref=e3316]:
+                          - generic [ref=e3317]: YouTube’s Attempt To Solve The Paradox of Choice
+                          - generic [ref=e3318]: "Growth.Design Case Study (slide #4)"
+                    - listitem [ref=e3319]:
+                      - paragraph [ref=e3320]:
+                        - text: When
+                        - link "entering the new Clubhouse app" [ref=e3321] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/clubhouse-user-retention#/13/0/0
+                        - text: ", it took me a while to figure out if my mic was on!!"
+                      - 'link "The Psychology of Clubhouse’s User Retention (...and churn) Case Study Tile The Psychology of Clubhouse’s User Retention (...and churn) Growth.Design Case Study (slide #13)" [ref=e3322] [cursor=pointer]':
+                        - /url: /case-studies/clubhouse-user-retention/#/13/0/0
+                        - img "The Psychology of Clubhouse’s User Retention (...and churn) Case Study Tile" [ref=e3323]
+                        - generic [ref=e3324]:
+                          - generic [ref=e3325]: The Psychology of Clubhouse’s User Retention (...and churn)
+                          - generic [ref=e3326]: "Growth.Design Case Study (slide #13)"
+                - list [ref=e3330]:
+                  - listitem [ref=e3331]:
+                    - link "Don Norman’s seven fundamental design principles" [ref=e3332] [cursor=pointer]:
+                      - /url: https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84
+                  - listitem [ref=e3333]:
+                    - 'link "Make it Easy on the User: Designing for Discoverability within Mobile Apps" [ref=e3334] [cursor=pointer]':
+                      - /url: https://www.interaction-design.org/literature/article/make-it-easy-on-the-user-designing-for-discoverability-within-mobile-apps
+            - generic [ref=e2130]:
+              - generic [ref=e2131] [cursor=pointer]:
+                - generic [ref=e2132]: 🐍
+                - generic [ref=e2133]:
+                  - heading "Second-Order Effect" [level=2] [ref=e2134]
+                  - paragraph [ref=e2135]: The consequences of the consequences of actions
+                - generic [ref=e2136]: Collapse ↑
+              - generic [ref=e2138]:
+                - generic [ref=e2139]:
+                  - heading "Second-Order Effect definition" [level=3] [ref=e2140]
+                  - paragraph [ref=e2142]: A single decision can initiate a series of cause-and-effects, and it can be hard to predict or control them all. Still, as a product community, we have the ethical responsibility of trying to predict the undesirable consequences of the experiences we create as best as we can.
+                - generic [ref=e2143]:
+                  - heading "Second-Order Effect examples" [level=3] [ref=e2144]
+                  - list [ref=e2145]:
+                    - listitem [ref=e2146]:
+                      - paragraph [ref=e2147]:
+                        - link "Facebook over-optimized information sharing" [ref=e2148] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/facebook-misinformation#/6/0/1
+                        - text: "to a point where 59% of links shared on social media are shared without ever being read. It’s called “blind sharing”:"
+                      - 'link "The Psychology of Misinformation on Facebook Case Study Tile The Psychology of Misinformation on Facebook Growth.Design Case Study (slide #7)" [ref=e2149] [cursor=pointer]':
+                        - /url: /case-studies/facebook-misinformation/#/6/0/1
+                        - img "The Psychology of Misinformation on Facebook Case Study Tile" [ref=e2150]
+                        - generic [ref=e2151]:
+                          - generic [ref=e2152]: The Psychology of Misinformation on Facebook
+                          - generic [ref=e2153]: "Growth.Design Case Study (slide #7)"
+                    - listitem [ref=e2154]:
+                      - paragraph [ref=e2155]: The Second-Order Effect is sometimes also called the “Cobra Effect.” Several years ago, the British government wanted to reduce the number of venomous cobras in India. So they offered a bounty for every dead cobra. At first, it worked, and large numbers of snakes were killed for the reward. But eventually, people began to breed cobras for extra income.
+                      - img "Cobra Effect Illustration" [ref=e2156]
+                      - paragraph [ref=e2157]:
+                        - text: The British government then scrapped the reward program, and cobras became worthless. So cobra breeders set their snakes free, and the wild cobra population further increased. Similar perverse side effects have been documented throughout history (e.g., the “
+                        - link "Great Hanoi Rat Hunt" [ref=e2158] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Perverse_incentive
+                        - text: ”).
+                    - listitem [ref=e2159]:
+                      - paragraph [ref=e2160]:
+                        - text: Instagram’s user experiences and reward loops (social status) incentivize people to share the very best aspects of their lives. This has the side effect of
+                        - link "making users feel worse about themselves" [ref=e2161] [cursor=pointer]:
+                          - /url: https://www.forbes.com/sites/kimelsesser/2021/10/05/heres-how-instagram-harms-young-women-according-to-research/?sh=741211ab255a
+                        - text: when they compare their life to the distorted reality of extremely-curated Instagram feeds.
+                      - 'link "The Scary Future Of Instagram Case Study Tile The Scary Future Of Instagram Growth.Design Case Study (slide #9)" [ref=e2162] [cursor=pointer]':
+                        - /url: /case-studies/instagram-monetization/#/8/0/0
+                        - img "The Scary Future Of Instagram Case Study Tile" [ref=e2163]
+                        - generic [ref=e2164]:
+                          - generic [ref=e2165]: The Scary Future Of Instagram
+                          - generic [ref=e2166]: "Growth.Design Case Study (slide #9)"
+                - list [ref=e2170]:
+                  - listitem [ref=e2171]:
+                    - link "Second-Order Effect in Product Design and Strategy" [ref=e2172] [cursor=pointer]:
+                      - /url: https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6
+            - generic [ref=e2174] [cursor=pointer]:
+              - generic [ref=e2175]: 🌛
+              - generic [ref=e2176]:
+                - heading "Decision Fatigue" [level=2] [ref=e2177]
+                - paragraph [ref=e2178]: Making a lot of decisions lowers users' ability to make rational ones
+              - generic [ref=e2179]: Coming Soon
+            - generic [ref=e2181] [cursor=pointer]:
+              - generic [ref=e2182]: 🥽
+              - generic [ref=e2183]:
+                - heading "Observer-Expectancy Effect" [level=2] [ref=e2184]
+                - paragraph [ref=e2185]: When researchers' biases influence the participants of an experiment
+              - generic [ref=e2186]: Coming Soon
+            - generic [ref=e2188] [cursor=pointer]:
+              - generic [ref=e2189]: 🌱
+              - generic [ref=e2190]:
+                - heading "Weber's Law" [level=2] [ref=e2191]
+                - paragraph [ref=e2192]: Users adapt better to small incremental changes
+              - generic [ref=e2193]: Coming Soon
+            - generic [ref=e2195] [cursor=pointer]:
+              - generic [ref=e2196]: 🎈
+              - generic [ref=e2197]:
+                - heading "Parkinson’s Law" [level=2] [ref=e2198]
+                - paragraph [ref=e2199]: The time required to complete a task will take as much time as allowed
+              - generic [ref=e2200]: Coming Soon
+            - generic [ref=e2202] [cursor=pointer]:
+              - generic [ref=e2203]: 🌤
+              - generic [ref=e2204]:
+                - heading "Affect Heuristic" [level=2] [ref=e2205]
+                - paragraph [ref=e2206]: People's current emotions cloud and influence their judgment
+              - generic [ref=e2207]: Coming Soon
+            - generic [ref=e2209] [cursor=pointer]:
+              - generic [ref=e2210]: 📉
+              - generic [ref=e2211]:
+                - heading "Hyperbolic Discounting" [level=2] [ref=e2212]
+                - paragraph [ref=e2213]: People tend to prioritize immediate benefits over bigger future gains
+              - generic [ref=e2214]: Coming Soon
+            - generic [ref=e2216] [cursor=pointer]:
+              - generic [ref=e2217]: ⌚️
+              - generic [ref=e2218]:
+                - heading "Chronoception" [level=2] [ref=e2219]
+                - paragraph [ref=e2220]: People's perception of time is subjective
+              - generic [ref=e2221]: Coming Soon
+            - generic [ref=e2223] [cursor=pointer]:
+              - generic [ref=e2224]: 💳
+              - generic [ref=e2225]:
+                - heading "Cashless Effect" [level=2] [ref=e2226]
+                - paragraph [ref=e2227]: People spend more when they can't actually see the money
+              - generic [ref=e2228]: Coming Soon
+            - generic [ref=e2230] [cursor=pointer]:
+              - generic [ref=e2231]: 🌚
+              - generic [ref=e2232]:
+                - heading "Self-serving bias" [level=2] [ref=e2233]
+                - paragraph [ref=e2234]: People take credits for positive events and blame others if negative
+              - generic [ref=e2235]: Coming Soon
+            - generic [ref=e2237] [cursor=pointer]:
+              - generic [ref=e2238]: 🥬
+              - generic [ref=e2239]:
+                - heading "Pareto Principle" [level=2] [ref=e2240]
+                - paragraph [ref=e2241]: Roughly 80% of the effects come from 20% of the causes
+              - generic [ref=e2242]: Coming Soon
+            - generic [ref=e2244] [cursor=pointer]:
+              - generic [ref=e2245]: 🔫
+              - generic [ref=e2246]:
+                - heading "Backfire Effect" [level=2] [ref=e2247]
+                - paragraph [ref=e2248]: When people's convictions are challenged, their beliefs get stronger
+              - generic [ref=e2249]: Coming Soon
+            - generic [ref=e2251] [cursor=pointer]:
+              - generic [ref=e2252]: 🌈
+              - generic [ref=e2253]:
+                - heading "False Consensus Effect" [level=2] [ref=e2254]
+                - paragraph [ref=e2255]: People overestimate how much other people agree with them
+              - generic [ref=e2256]: Coming Soon
+            - generic [ref=e2258] [cursor=pointer]:
+              - generic [ref=e2259]: 🚋
+              - generic [ref=e2260]:
+                - heading "Bandwagon Effect" [level=2] [ref=e2261]
+                - paragraph [ref=e2262]: Users tend to adopt beliefs in proportion of others who have already done so
+              - generic [ref=e2263]: Coming Soon
+            - generic [ref=e2265] [cursor=pointer]:
+              - generic [ref=e2266]: 🧙‍♂️
+              - generic [ref=e2267]:
+                - heading "Barnum-Forer Effect" [level=2] [ref=e2268]
+                - paragraph [ref=e2269]: When you believe generic personality descriptions apply specifically to you.
+              - generic [ref=e2270]: Coming Soon
+            - generic [ref=e2272] [cursor=pointer]:
+              - generic [ref=e2273]: 🛋
+              - generic [ref=e2274]:
+                - heading "IKEA Effect" [level=2] [ref=e2275]
+                - paragraph [ref=e2276]: When user partially create something, they value it way more
+              - generic [ref=e2277]: Coming Soon
+            - generic [ref=e2279] [cursor=pointer]:
+              - generic [ref=e2280]: 🧚‍♂️
+              - generic [ref=e2281]:
+                - heading "Planning Fallacy" [level=2] [ref=e2282]
+                - paragraph [ref=e2283]: People tend to underestimate how much time a task will take
+              - generic [ref=e2284]: Coming Soon
+      - generic [ref=e2285]:
+        - img [ref=e2287]
+        - generic [ref=e2289]:
+          - generic [ref=e2290]:
+            - paragraph [ref=e2291]: 💾 Memory
+            - paragraph [ref=e2292]: Users try to remember what's most important, but their brain prefers some elements over others.
+          - generic [ref=e2293]:
+            - generic [ref=e2294]:
+              - generic [ref=e2295] [cursor=pointer]:
+                - generic [ref=e2296]: 🏕
+                - generic [ref=e2297]:
+                  - heading "Provide Exit Points" [level=2] [ref=e2298]
+                  - paragraph [ref=e2299]: Invite users to leave your app at the right moment
+                - generic [ref=e3335]: Collapse ↑
+              - generic [ref=e3337]:
+                - generic [ref=e3338]:
+                  - heading "Provide Exit Points definition" [level=3] [ref=e3339]
+                  - paragraph [ref=e3341]:
+                    - text: Exit points are meant to respect people’s time. They are opportunities to “put down” the product when users feel they have reached something. They are critical to an overall experience when you want to avoid product fatigue and
+                    - link "reactance" [ref=e3342] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#reactance
+                    - text: ". (Related to:"
+                    - link "Peak-End Rule" [ref=e3343] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#peak-end-rule
+                    - text: )
+                - generic [ref=e3344]:
+                  - heading "Provide Exit Points examples" [level=3] [ref=e3345]
+                  - list [ref=e3346]:
+                    - listitem [ref=e3347]:
+                      - paragraph [ref=e3348]:
+                        - link "Duolingo’s experimental redesign" [ref=e3349] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/20/0/1
+                        - text: "to provide more exit points:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #21)" [ref=e3350] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/20/0/1
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e3351]'
+                        - generic [ref=e3352]:
+                          - generic [ref=e3353]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e3354]: "Growth.Design Case Study (slide #21)"
+                    - listitem [ref=e3355]:
+                      - paragraph [ref=e3356]:
+                        - text: Mario Kart Tour missed an opportunity to
+                        - link "allow players to gracefully leave their app" [ref=e3357] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/mario-kart-revenue-model/#/9/0/3
+                        - text: ":"
+                      - 'link "6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Case Study Tile 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Growth.Design Case Study (slide #10)" [ref=e3358] [cursor=pointer]':
+                        - /url: /case-studies/mario-kart-revenue-model/#/9/0/3
+                        - img "6 Ways Mario Kart Tour Triggers You Into Gambling Your Money Case Study Tile" [ref=e3359]
+                        - generic [ref=e3360]:
+                          - generic [ref=e3361]: 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money
+                          - generic [ref=e3362]: "Growth.Design Case Study (slide #10)"
+                    - listitem [ref=e3363]:
+                      - paragraph [ref=e3364]: If you scroll through the TikTok feed regularly and for long periods, TikTok will eventually encourage you to leave the app, but the strength of their nudge is weak compared to the power of the variable reward that’s just one flick of the thumb away.
+                      - 'link "The Psychology Behind TikTok''s Addictive Feed Case Study Tile The Psychology Behind TikTok''s Addictive Feed Growth.Design Case Study (slide #21)" [ref=e3365] [cursor=pointer]':
+                        - /url: /case-studies/tiktok-feed-psychology/#/20/0/2
+                        - img "The Psychology Behind TikTok's Addictive Feed Case Study Tile" [ref=e3366]
+                        - generic [ref=e3367]:
+                          - generic [ref=e3368]: The Psychology Behind TikTok's Addictive Feed
+                          - generic [ref=e3369]: "Growth.Design Case Study (slide #21)"
+                - list [ref=e3373]:
+                  - listitem [ref=e3374]:
+                    - link "Exit Points - Putting Down the Game, Extra Credits (2015)" [ref=e3375] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=GqjkWec61gQ
+                  - listitem [ref=e3376]:
+                    - link "Provide Exit Points, Designing Mindfulness (2015)" [ref=e3377] [cursor=pointer]:
+                      - /url: https://www.designingmindfulness.com/principles/provide-exit-points
+            - generic [ref=e2301]:
+              - generic [ref=e2302] [cursor=pointer]:
+                - generic [ref=e2303]: 🎢
+                - generic [ref=e2304]:
+                  - heading "Peak-End Rule" [level=2] [ref=e2305]
+                  - paragraph [ref=e2306]: People judge an experience by its peak and how it ends.
+                - generic [ref=e2307]: Collapse ↑
+              - generic [ref=e2309]:
+                - generic [ref=e2310]:
+                  - heading "Peak-End Rule definition" [level=3] [ref=e2311]
+                  - paragraph [ref=e2313]:
+                    - text: Users don’t merely evaluate an experience based on the average or a sum of all the micro-experiences. Instead, their brain heavily weighs the peaks (high or low) and the end of the experience. Peaks—when pleasant—often correspond to memorable
+                    - link "delighters" [ref=e2314] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#delighters
+                    - text: sprinkled into the user journey.
+                - generic [ref=e2315]:
+                  - heading "Peak-End Rule examples" [level=3] [ref=e2316]
+                  - list [ref=e2317]:
+                    - listitem [ref=e2318]:
+                      - paragraph [ref=e2319]:
+                        - text: After you pay to upgrade your account,
+                        - link "Zapier shows animated confettis as a way to celebrate" [ref=e2320] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/zapier-upgrade/#/16
+                        - text: "(and rightfully take your focus away from the hundreds of dollars you just paid!):"
+                      - 'link "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile 9 Ways To Boost SaaS Revenues With A Better Upgrade UX Growth.Design Case Study (slide #17)" [ref=e2321] [cursor=pointer]':
+                        - /url: /case-studies/zapier-upgrade/#/16
+                        - img "9 Ways To Boost SaaS Revenues With A Better Upgrade UX Case Study Tile" [ref=e2322]
+                        - generic [ref=e2323]:
+                          - generic [ref=e2324]: 9 Ways To Boost SaaS Revenues With A Better Upgrade UX
+                          - generic [ref=e2325]: "Growth.Design Case Study (slide #17)"
+                    - listitem [ref=e2326]:
+                      - paragraph [ref=e2327]:
+                        - text: Duolingo doesn’t provide a clear exit point. This makes the
+                        - link "“end” of your in-app experience feel like you’re abandoning your learning process" [ref=e2328] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/20/0/1
+                        - text: "(even if you’ve achieved your goal):"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #21)" [ref=e2329] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/20/0/1
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e2330]'
+                        - generic [ref=e2331]:
+                          - generic [ref=e2332]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e2333]: "Growth.Design Case Study (slide #21)"
+                    - listitem [ref=e2334]:
+                      - paragraph [ref=e2335]: "The last step of Adobe’s subscription cancellation flow isn’t clear. It pushes for more product usage while tucking away the confirmation message, which gives a bad last impression of their product:"
+                      - 'link "Adobe: The Psychology of User Offboarding Case Study Tile Adobe: The Psychology of User Offboarding Growth.Design Case Study (slide #21)" [ref=e2336] [cursor=pointer]':
+                        - /url: /case-studies/adobe-cancel-subscription/#/20/0/2
+                        - 'img "Adobe: The Psychology of User Offboarding Case Study Tile" [ref=e2337]'
+                        - generic [ref=e2338]:
+                          - generic [ref=e2339]: "Adobe: The Psychology of User Offboarding"
+                          - generic [ref=e2340]: "Growth.Design Case Study (slide #21)"
+                    - listitem [ref=e2341]:
+                      - paragraph [ref=e2342]:
+                        - link "Signal missed a big opportunity" [ref=e2343] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/signal-revenue#/11/0/1
+                        - text: to “signal” their gratitude after a donation.
+                      - 'link "Signal: How To Ethically Boost Your Revenues Case Study Tile Signal: How To Ethically Boost Your Revenues Growth.Design Case Study (slide #11)" [ref=e2344] [cursor=pointer]':
+                        - /url: /case-studies/signal-revenue/#11/0/1
+                        - 'img "Signal: How To Ethically Boost Your Revenues Case Study Tile" [ref=e2345]'
+                        - generic [ref=e2346]:
+                          - generic [ref=e2347]: "Signal: How To Ethically Boost Your Revenues"
+                          - generic [ref=e2348]: "Growth.Design Case Study (slide #11)"
+                    - listitem [ref=e2349]:
+                      - paragraph [ref=e2350]: After you finish charging a Tesla, this redesigned interface provides one last reminder of what you just accomplished.
+                      - 'link "Tesla: How To Grow Through Word-of-Mouth Case Study Tile Tesla: How To Grow Through Word-of-Mouth Growth.Design Case Study (slide #15)" [ref=e2351] [cursor=pointer]':
+                        - /url: /case-studies/tesla-word-of-mouth/#/14/0/0
+                        - 'img "Tesla: How To Grow Through Word-of-Mouth Case Study Tile" [ref=e2352]'
+                        - generic [ref=e2353]:
+                          - generic [ref=e2354]: "Tesla: How To Grow Through Word-of-Mouth"
+                          - generic [ref=e2355]: "Growth.Design Case Study (slide #15)"
+                - list [ref=e2359]:
+                  - listitem [ref=e2360]:
+                    - 'link "Kahneman, Well-Being: The Foundations of Hedonic Psychology (1999)" [ref=e2361] [cursor=pointer]':
+                      - /url: https://psycnet.apa.org/record/1999-02842-000
+            - generic [ref=e2362]:
+              - generic [ref=e2363] [cursor=pointer]:
+                - generic [ref=e2364]: 👅
+                - generic [ref=e2365]:
+                  - heading "Sensory Appeal" [level=2] [ref=e2366]
+                  - paragraph [ref=e2367]: Users engage more with things appealing to multiple senses
+                - generic [ref=e3378]: Collapse ↑
+              - generic [ref=e3380]:
+                - generic [ref=e3381]:
+                  - heading "Sensory Appeal definition" [level=3] [ref=e3382]
+                  - paragraph [ref=e3384]: Why are we tempted to eat sweets when walking by a bakery in the morning? The smell out of the oven is strong enough to make us stop. The sights, sounds, feels, tastes, and smells of products are designed to engage users’ senses. And when multiple senses are engaged, people are more likely to create an emotional connection with the brand.
+                - generic [ref=e3385]:
+                  - heading "Sensory Appeal examples" [level=3] [ref=e3386]
+                  - list [ref=e3387]:
+                    - listitem [ref=e3388]:
+                      - paragraph [ref=e3389]:
+                        - text: Uber Eats “dry” menu could
+                        - link "use sensory appeal to increase desirability" [ref=e3390] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/uber-eats-scarcity/#/10/0/1
+                        - text: ":"
+                      - 'link "Uber Eats: How To Ethically Use Scarcity To Increase Sales Case Study Tile Uber Eats: How To Ethically Use Scarcity To Increase Sales Growth.Design Case Study (slide #11)" [ref=e3391] [cursor=pointer]':
+                        - /url: /case-studies/uber-eats-scarcity/#/10/0/1
+                        - 'img "Uber Eats: How To Ethically Use Scarcity To Increase Sales Case Study Tile" [ref=e3392]'
+                        - generic [ref=e3393]:
+                          - generic [ref=e3394]: "Uber Eats: How To Ethically Use Scarcity To Increase Sales"
+                          - generic [ref=e3395]: "Growth.Design Case Study (slide #11)"
+                    - listitem [ref=e3396]:
+                      - paragraph [ref=e3397]:
+                        - link "Superhuman’s experimental redesign" [ref=e3398] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/superhuman-user-onboarding/#/14/0/1
+                        - text: "could use sounds that act as a reward loop to reinforce behaviors:"
+                      - 'link "Superhuman''s Secret 1-on-1 Onboarding Revealed Case Study Tile Superhuman''s Secret 1-on-1 Onboarding Revealed Growth.Design Case Study (slide #15)" [ref=e3399] [cursor=pointer]':
+                        - /url: /case-studies/superhuman-user-onboarding/#/14/0/1
+                        - img "Superhuman's Secret 1-on-1 Onboarding Revealed Case Study Tile" [ref=e3400]
+                        - generic [ref=e3401]:
+                          - generic [ref=e3402]: Superhuman's Secret 1-on-1 Onboarding Revealed
+                          - generic [ref=e3403]: "Growth.Design Case Study (slide #15)"
+                - list [ref=e3407]:
+                  - listitem [ref=e3408]:
+                    - link "The Science of Sensory Marketing, Harvard Business Review (2015)" [ref=e3409] [cursor=pointer]:
+                      - /url: https://hbr.org/2015/03/the-science-of-sensory-marketing
+                  - listitem [ref=e3410]:
+                    - link "Sensory Branding, Wikipedia (2019)" [ref=e3411] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Sensory_branding
+                  - listitem [ref=e3412]:
+                    - link "An Introduction to Sensory Marketing, Robert Longley (2019)" [ref=e3413] [cursor=pointer]:
+                      - /url: https://www.thoughtco.com/sensory-marketing-4153908
+            - generic [ref=e2369]:
+              - generic [ref=e2370] [cursor=pointer]:
+                - generic [ref=e2371]: 🧩
+                - generic [ref=e2372]:
+                  - heading "Zeigarnik Effect" [level=2] [ref=e2373]
+                  - paragraph [ref=e2374]: People remember incomplete tasks better than completed ones
+                - generic [ref=e2375]: Collapse ↑
+              - generic [ref=e2377]:
+                - generic [ref=e2378]:
+                  - heading "Zeigarnik Effect definition" [level=3] [ref=e2379]
+                  - paragraph [ref=e2381]: Lewin’s field theory states that a task in progress creates task-specific tension. This tension is relieved when the task is completed, but if the task is interrupted, it stays. That tension makes relevant information more accessible and more easily remembered.
+                - generic [ref=e2382]:
+                  - heading "Zeigarnik Effect examples" [level=3] [ref=e2383]
+                  - list [ref=e2384]:
+                    - listitem [ref=e2385]:
+                      - paragraph [ref=e2386]:
+                        - link "Duolingo shows you an incomplete progress bar" [ref=e2387] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/duolingo-user-retention/#/11/0/0
+                        - text: "to encourage you to reach your daily practice goal:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #12)" [ref=e2388] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/11/0/0
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e2389]'
+                        - generic [ref=e2390]:
+                          - generic [ref=e2391]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e2392]: "Growth.Design Case Study (slide #12)"
+                - list [ref=e2396]:
+                  - listitem [ref=e2397]:
+                    - 'link "The Zeigarnik Effect: Why it is so hard to leave things incomplete, Abhishek Chakraborty (2017)" [ref=e2398] [cursor=pointer]':
+                      - /url: https://medium.com/@coffeeandjunk/design-psychology-zeigarnik-effect-a53688b7f6d1
+                  - listitem [ref=e2399]:
+                    - link "Zeigarnik Effect Interruptions (2020)" [ref=e2400] [cursor=pointer]:
+                      - /url: https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory
+                  - listitem [ref=e2401]:
+                    - link "Untersuchungen zur Handlungs- und Affektpsychologie. III. Zeigarnik, B. Das Behalten erledigter und unerledigter Handlungen" [ref=e2402] [cursor=pointer]:
+                      - /url: https://psycnet.apa.org/record/1927-02365-001
+            - generic [ref=e2403]:
+              - generic [ref=e2404] [cursor=pointer]:
+                - generic [ref=e2405]: 🧤
+                - generic [ref=e2406]:
+                  - heading "Endowment Effect" [level=2] [ref=e2407]
+                  - paragraph [ref=e2408]: Users value something more if they feel it's theirs
+                - generic [ref=e3414]: Collapse ↑
+              - generic [ref=e3416]:
+                - generic [ref=e3417]:
+                  - heading "Endowment Effect definition" [level=3] [ref=e3418]
+                  - paragraph [ref=e3420]:
+                    - text: "Users are more likely to want to keep something that they own than acquire that same thing when they don’t own it. They tend to overvalue the things they own, regardless of their objective market value. (Related:"
+                    - link "Loss Aversion" [ref=e3421] [cursor=pointer]:
+                      - /url: https://growth.design/psychology/#loss-aversion
+                    - text: )
+                - generic [ref=e3422]:
+                  - heading "Endowment Effect examples" [level=3] [ref=e3423]
+                  - list [ref=e3424]:
+                    - listitem [ref=e3425]:
+                      - paragraph [ref=e3426]:
+                        - link "Trello encourages you to personalize your board" [ref=e3427] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/trello-user-onboarding/#/18/0/2
+                        - text: through a well-timed
+                        - link "nudge" [ref=e3428] [cursor=pointer]:
+                          - /url: "#nudge"
+                        - text: "so that you perceive it more like “your” workspace:"
+                      - 'link "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile Trello User Onboarding: 7 Tactics To Inspire You Growth.Design Case Study (slide #19)" [ref=e3429] [cursor=pointer]':
+                        - /url: /case-studies/trello-user-onboarding/#/18/0/2
+                        - 'img "Trello User Onboarding: 7 Tactics To Inspire You Case Study Tile" [ref=e3430]'
+                        - generic [ref=e3431]:
+                          - generic [ref=e3432]: "Trello User Onboarding: 7 Tactics To Inspire You"
+                          - generic [ref=e3433]: "Growth.Design Case Study (slide #19)"
+                    - listitem [ref=e3434]:
+                      - paragraph [ref=e3435]: Blinkist’s onboarding gets users to save book preferences to their library to encourage users stick around until the very end.
+                      - 'link "One Simple Psychology Framework To Improve Your Onboarding Case Study Tile One Simple Psychology Framework To Improve Your Onboarding Growth.Design Case Study (slide #23)" [ref=e3436] [cursor=pointer]':
+                        - /url: /case-studies/blinkist-user-onboarding/#/22/0/1
+                        - img "One Simple Psychology Framework To Improve Your Onboarding Case Study Tile" [ref=e3437]
+                        - generic [ref=e3438]:
+                          - generic [ref=e3439]: One Simple Psychology Framework To Improve Your Onboarding
+                          - generic [ref=e3440]: "Growth.Design Case Study (slide #23)"
+                - list [ref=e3444]:
+                  - listitem [ref=e3445]:
+                    - link "Kahneman, Knetsch & Thaler (1990). Experimental Tests of the Endowment Effect" [ref=e3446] [cursor=pointer]:
+                      - /url: https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm
+                  - listitem [ref=e3447]:
+                    - 'link "Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1991). Anomalies: The endowment effect, loss aversion, and status quo bias." [ref=e3448] [cursor=pointer]':
+                      - /url: https://scholar.princeton.edu/sites/default/files/kahneman/files/anomalies_dk_jlk_rht_1991.pdf
+            - generic [ref=e2410]:
+              - generic [ref=e2411] [cursor=pointer]:
+                - generic [ref=e2412]: 🛍
+                - generic [ref=e2413]:
+                  - heading "Chunking" [level=2] [ref=e2414]
+                  - paragraph [ref=e2415]: People remember grouped information better
+                - generic [ref=e2416]: Collapse ↑
+              - generic [ref=e2418]:
+                - generic [ref=e2419]:
+                  - heading "Chunking definition" [level=3] [ref=e2420]
+                  - generic [ref=e2421]:
+                    - paragraph [ref=e2422]: In cognitive psychology, chunking is when individual pieces of an information set are broken down and grouped in a meaningful whole. These chunks bypass the limited working memory capacity (see Miller’s Law) and allow the working memory to be more efficient. Chunks are easier to retrieve because your brain creates higher-order cognitive representations of the items within each chunk.
+                    - paragraph [ref=e2423]: In terms of interface design, it comes down to breaking down steps, text, and interface elements into smaller pieces so that users can process, understand, and remember information them better.
+                - generic [ref=e2424]:
+                  - heading "Chunking examples" [level=3] [ref=e2425]
+                  - list [ref=e2426]:
+                    - listitem [ref=e2427]:
+                      - paragraph [ref=e2428]:
+                        - text: In our
+                        - link "product psychology course" [ref=e2429] [cursor=pointer]:
+                          - /url: /courses/product-psychology
+                        - text: ", we aggregate similar lesson principles in chunks (modules) to help your learning experience and make it easier to remember the core concepts (e.g., Module 1: Understand User Behaviors, Module 2: Find The Gaps & Improve Any Experience, Module 3: Create Delightful Journeys, etc)"
+                    - listitem [ref=e2430]:
+                      - paragraph [ref=e2431]: "The page you’re currently reading contains 100+ psychological principles. That’s hard to remember. To help you memorize these principles, we grouped them in 4 categories (chunks):"
+                      - list [ref=e2432]:
+                        - listitem [ref=e2433]: 🙈 Filter the information
+                        - listitem [ref=e2434]: 🔮 Seek the meaning of it
+                        - listitem [ref=e2435]: ⏰ Act within a given time
+                        - listitem [ref=e2436]: 💾 Store bits of the interaction in their memories
+                    - listitem [ref=e2437]:
+                      - paragraph [ref=e2438]: "Stripe is a large company with dozens of products and use cases. But Stripe’s main navigation only has 5 simple links and their products are chunked into 3 simple categories, organized around their users’ main jobs-to-be-done:"
+                      - img "Stripe menu chunks" [ref=e2439]
+                - list [ref=e2443]:
+                  - listitem [ref=e2444]:
+                    - link "Chunking, Wikipedia" [ref=e2445] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Chunking_(psychology)
+                  - listitem [ref=e2446]:
+                    - link "How Chunking Helps Content Processing, NN/g" [ref=e2447] [cursor=pointer]:
+                      - /url: https://www.nngroup.com/articles/chunking/
+            - generic [ref=e2448]:
+              - generic [ref=e2449] [cursor=pointer]:
+                - generic [ref=e2450]: 💚
+                - generic [ref=e2451]:
+                  - heading "Delighters" [level=2] [ref=e2452]
+                  - paragraph [ref=e2453]: People remember more unexpected and playful pleasures
+                - generic [ref=e3449]: Collapse ↑
+              - generic [ref=e3451]:
+                - generic [ref=e3452]:
+                  - heading "Delighters definition" [level=3] [ref=e3453]
+                  - paragraph [ref=e3455]: We remember and respond favorably to small, unexpected, and playful pleasures. But, for your delighters to have a positive effect, you must first meet or exceed the user’s basic expectations. Otherwise, that moment will likely fall flat. Also, over time, delighters become expected features losing that slight edge.
+                - generic [ref=e3456]:
+                  - heading "Delighters examples" [level=3] [ref=e3457]
+                  - list [ref=e3458]:
+                    - listitem [ref=e3459]:
+                      - paragraph [ref=e3460]: "When the smallest feature can make your whole email life a lot better:"
+                      - 'link "Superhuman''s Secret 1-on-1 Onboarding Revealed Case Study Tile Superhuman''s Secret 1-on-1 Onboarding Revealed Growth.Design Case Study (slide #25)" [ref=e3461] [cursor=pointer]':
+                        - /url: /case-studies/superhuman-user-onboarding/#/25/0/1
+                        - img "Superhuman's Secret 1-on-1 Onboarding Revealed Case Study Tile" [ref=e3462]
+                        - generic [ref=e3463]:
+                          - generic [ref=e3464]: Superhuman's Secret 1-on-1 Onboarding Revealed
+                          - generic [ref=e3465]: "Growth.Design Case Study (slide #25)"
+                - list [ref=e3469]:
+                  - listitem [ref=e3470]:
+                    - link "The Kano Model - Wikipedia (2021)" [ref=e3471] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Kano_model
+                  - listitem [ref=e3472]:
+                    - link "Getting real about delightful design - UXPlanet (2017)" [ref=e3473] [cursor=pointer]:
+                      - /url: https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93
+            - generic [ref=e2455]:
+              - generic [ref=e2456] [cursor=pointer]:
+                - generic [ref=e2457]: 💛
+                - generic [ref=e2458]:
+                  - heading "Internal Trigger" [level=2] [ref=e2459]
+                  - paragraph [ref=e2460]: When users are prompted to take action based on a memory
+                - generic [ref=e2461]: Collapse ↑
+              - generic [ref=e2463]:
+                - generic [ref=e2464]:
+                  - heading "Internal Trigger definition" [level=3] [ref=e2465]
+                  - generic [ref=e2466]:
+                    - paragraph [ref=e2467]: "A “trigger” is a prompt of a user to take action. There are two types of triggers:"
+                    - list [ref=e2468]:
+                      - listitem [ref=e2469]: external (e.g. emails, mobile notification, billboards, ad) and
+                      - listitem [ref=e2470]: internal (e.g. places, situations, emotions, people).
+                    - paragraph [ref=e2471]: External triggers are meant to alert people in case of an event. Slowly, by interacting with external triggers people begin to form associations with internal triggers, which become attached to existing behaviors and emotions. Soon, people are internally triggered every time they feel a certain way.
+                - generic [ref=e2472]:
+                  - heading "Internal Trigger examples" [level=3] [ref=e2473]
+                  - list [ref=e2474]:
+                    - listitem [ref=e2475]:
+                      - paragraph [ref=e2476]:
+                        - text: When you look at your phone and
+                        - link "open up Instagram without even thinking" [ref=e2477] [cursor=pointer]:
+                          - /url: https://growth.design/case-studies/instagram-monetization#/6/0/0
+                        - text: ...
+                      - 'link "The Scary Future Of Instagram Case Study Tile The Scary Future Of Instagram Growth.Design Case Study (slide #6)" [ref=e2478] [cursor=pointer]':
+                        - /url: /case-studies/instagram-monetization/#/6/0/0
+                        - img "The Scary Future Of Instagram Case Study Tile" [ref=e2479]
+                        - generic [ref=e2480]:
+                          - generic [ref=e2481]: The Scary Future Of Instagram
+                          - generic [ref=e2482]: "Growth.Design Case Study (slide #6)"
+                    - listitem [ref=e2483]:
+                      - paragraph [ref=e2484]: "15-30% of Duolingo students use the app to “make international travel more enjoyable”. The fear of not understanding important information in a different language, as well as simply being in an airport, are excellent opportunities to encourage users to practice a language:"
+                      - 'link "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Growth.Design Case Study (slide #3)" [ref=e2485] [cursor=pointer]':
+                        - /url: /case-studies/duolingo-user-retention/#/2/0/2
+                        - 'img "Duolingo''s User Retention: 8 Tactics Tested On 300 Million Users Case Study Tile" [ref=e2486]'
+                        - generic [ref=e2487]:
+                          - generic [ref=e2488]: "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users"
+                          - generic [ref=e2489]: "Growth.Design Case Study (slide #3)"
+                - generic [ref=e2490]:
+                  - heading "Internal Trigger checklist" [level=3] [ref=e2491]
+                  - generic [ref=e2492]:
+                    - paragraph [ref=e2493]: "Ethical checkpoint:"
+                    - list [ref=e2494]:
+                      - listitem [ref=e2495]: Are your external triggers meant to develop a positive habit?
+                - list [ref=e2499]:
+                  - listitem [ref=e2500]:
+                    - link "Hooked - Nir Eyal (2014)" [ref=e2501] [cursor=pointer]:
+                      - /url: https://www.goodreads.com/book/show/22668729-hooked
+            - generic [ref=e2503] [cursor=pointer]:
+              - generic [ref=e2504]: 📸
+              - generic [ref=e2505]:
+                - heading "Picture Superiority Effect" [level=2] [ref=e2506]
+                - paragraph [ref=e2507]: People remember pictures better than words
+              - generic [ref=e2508]: Coming Soon
+            - generic [ref=e2510] [cursor=pointer]:
+              - generic [ref=e2511]: 📌
+              - generic [ref=e2512]:
+                - heading "Method of Loci" [level=2] [ref=e2513]
+                - paragraph [ref=e2514]: People remember things more when they're associated with a location
+              - generic [ref=e2515]: Coming Soon
+            - generic [ref=e2517] [cursor=pointer]:
+              - generic [ref=e2518]: 🧭
+              - generic [ref=e2519]:
+                - heading "Shaping" [level=2] [ref=e2520]
+                - paragraph [ref=e2521]: Incrementally reinforcing actions to get closer to a target behavior
+              - generic [ref=e2522]: Coming Soon
+            - generic [ref=e2524] [cursor=pointer]:
+              - generic [ref=e2525]: 💾
+              - generic [ref=e2526]:
+                - heading "Recognition Over Recall" [level=2] [ref=e2527]
+                - paragraph [ref=e2528]: It's easier to recognize things than recall them from memory
+              - generic [ref=e2529]: Coming Soon
+            - generic [ref=e2531] [cursor=pointer]:
+              - generic [ref=e2532]: 🏰
+              - generic [ref=e2533]:
+                - heading "Storytelling Effect" [level=2] [ref=e2534]
+                - paragraph [ref=e2535]: People remember stories better than facts alone
+              - generic [ref=e2536]: Coming Soon
+            - generic [ref=e2538] [cursor=pointer]:
+              - generic [ref=e2539]: 👹
+              - generic [ref=e2540]:
+                - heading "Negativity Bias" [level=2] [ref=e2541]
+                - paragraph [ref=e2542]: Users recall negative events more than positive ones
+              - generic [ref=e2543]: Coming Soon
+            - generic [ref=e2545] [cursor=pointer]:
+              - generic [ref=e2546]: ⏰
+              - generic [ref=e2547]:
+                - heading "Availability Heuristic" [level=2] [ref=e2548]
+                - paragraph [ref=e2549]: Users favor recent and available information over past information
+              - generic [ref=e2550]: Coming Soon
+            - generic [ref=e2552] [cursor=pointer]:
+              - generic [ref=e2553]: 🌌
+              - generic [ref=e2554]:
+                - heading "Spacing Effect" [level=2] [ref=e2555]
+                - paragraph [ref=e2556]: People learn more effectively when study sessions are spaced out
+              - generic [ref=e2557]: Coming Soon
+            - generic [ref=e2559] [cursor=pointer]:
+              - generic [ref=e2560]: 🏁
+              - generic [ref=e2561]:
+                - heading "Serial Position Effect" [level=2] [ref=e2562]
+                - paragraph [ref=e2563]: It's easier for users to recall the first and last items of a list
+              - generic [ref=e2564]: Coming Soon
+      - generic [ref=e2566]:
+        - generic [ref=e2567]:
+          - heading "Product Psychology Resources" [level=3] [ref=e2568]
+          - paragraph [ref=e2569]:
+            - text: If you want to learn more about
+            - strong [ref=e2570]: behavioral psychology and mental models
+            - text: ", we recommend these resources:"
+        - generic [ref=e2571]:
+          - generic [ref=e2572]:
+            - generic [ref=e2573] [cursor=pointer]:
+              - generic [ref=e2574]: 📓
+              - generic [ref=e2575]:
+                - heading "Cognitive Biases Codex" [level=2] [ref=e2576]
+                - paragraph [ref=e2577]: The four categories of our list come from Buster Benson's work
+              - generic [ref=e3474]: Collapse ↑
+            - generic [ref=e3476]:
+              - generic [ref=e3477]:
+                - heading "description" [level=3] [ref=e3478]
+                - generic [ref=e3479]:
+                  - paragraph [ref=e3480]:
+                    - strong [ref=e3481]: Buster Benson
+                    - text: . He did an impressive job with the
+                    - link "categorization of cognitive biases" [ref=e3482] [cursor=pointer]:
+                      - /url: https://medium.com/thinking-is-hard/4-conundrums-of-intelligence-2ab78d90740f
+                    - text: which led him to build a massive Codex.
+                  - paragraph [ref=e3483]: The four categories of this list are based on his research, so we want to make sure he gets the credit for this hard work.
+                  - generic [ref=e3484]:
+                    - img "Buster Benson" [ref=e3486]
+                    - blockquote [ref=e3488]:
+                      - generic [ref=e3489]:
+                        - text: “Every single person, including myself, has many implicit associations that lead to bias that they can’t fully eradicate in themselves. It’s more effective to accept that fact, and account for it by being transparent about it, than to try to hide it.”
+                        - generic [ref=e3490]: — Buster Benson, author of "Why Are We Yelling?"
+              - heading "examples" [level=3] [ref=e3492]
+          - generic [ref=e2579]:
+            - generic [ref=e2580] [cursor=pointer]:
+              - generic [ref=e2581]: 📘
+              - generic [ref=e2582]:
+                - heading "Super Thinking" [level=2] [ref=e2583]
+                - paragraph [ref=e2584]: The big book of mental models and cognitive biases (Gabriel Weinberg)
+              - generic [ref=e2585]: Collapse ↑
+            - generic [ref=e2587]:
+              - generic [ref=e2588]:
+                - heading "description" [level=3] [ref=e2589]
+                - generic [ref=e2590]:
+                  - paragraph [ref=e2591]:
+                    - strong [ref=e2592]: Gabriel Weinberg
+                    - text: "(CEO of DuckDuckGo), co-authored a WSJ bestseller book that inspired us a lot:"
+                    - 'link "Super Thinking: The Big Book of Mental Models" [ref=e2593] [cursor=pointer]':
+                      - /url: https://www.goodreads.com/book/show/41181911-super-thinking
+                    - text: .
+                  - paragraph [ref=e2594]:
+                    - text: He recently did a video interview with Jordan Harbinger where he discussed the
+                    - link "importance of mental models and cognitive biases" [ref=e2595] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=QpbqurvfOzY
+                    - text: ". We completely agree with him when he says:"
+                  - generic [ref=e2596]:
+                    - img "Gabriel Weinberg" [ref=e2598]
+                    - blockquote [ref=e2600]:
+                      - generic [ref=e2601]:
+                        - text: “Knowing the names of cognitive biases and mental models is important. That’s because once you have a name for something, you can start to spot it in the real-world. And once you start to spot it, then you can really start to use the tools [and reap the benefits].”
+                        - generic [ref=e2602]: — Gabriel Weinberg, CEO of DuckDuckGo
+              - heading "examples" [level=3] [ref=e2604]
+              - heading "checklist" [level=3] [ref=e2606]
+          - generic [ref=e2609]:
+            - generic [ref=e2610] [cursor=pointer]:
+              - generic [ref=e2611]: 📙
+              - generic [ref=e2612]:
+                - heading "Hooked" [level=2] [ref=e2613]
+                - paragraph [ref=e2614]: How to build habit-forming products (Nir Eyal)
+              - generic [ref=e3493]: Collapse ↑
+            - generic [ref=e3495]:
+              - generic [ref=e3496]:
+                - heading "description" [level=3] [ref=e3497]
+                - generic [ref=e3498]:
+                  - paragraph [ref=e3499]: This book dives deep into the psychology of habits. It’s filled with user retention loops and examples.
+                  - paragraph [ref=e3500]:
+                    - link "Nir Eyal" [ref=e3501] [cursor=pointer]:
+                      - /url: https://www.nirandfar.com/about-nir-eyal/
+                      - strong [ref=e3502]: Nir Eyal
+                    - text: is the best-selling author of
+                    - 'link "Hooked: How To Build Habit-Forming Products" [ref=e3503] [cursor=pointer]':
+                      - /url: https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products-ebook/dp/B00LMGLXTS
+                    - text: and
+                    - link "Indistractable" [ref=e3504] [cursor=pointer]:
+                      - /url: https://www.amazon.com/Indistractable-Control-Your-Attention-Choose-ebook/dp/B07PG2W6DC/
+                    - text: .
+                  - paragraph [ref=e3505]: He’s doing amazing work at the intersection of psychology, technology, business and ethics.
+              - heading "examples" [level=3] [ref=e3507]
+          - generic [ref=e2617] [cursor=pointer]:
+            - generic [ref=e2618]: 📕
+            - generic [ref=e2619]:
+              - heading "Influence" [level=2] [ref=e2620]
+              - paragraph [ref=e2621]: The psychology of persuasion (Robert Cialdini)
+            - generic [ref=e2622]: Coming Soon
+          - generic [ref=e2624] [cursor=pointer]:
+            - generic [ref=e2625]: 📔
+            - generic [ref=e2626]:
+              - heading "Predictably Irrational" [level=2] [ref=e2627]
+              - paragraph [ref=e2628]: The hidden forces that shape our decisions (Dan Ariely)
+            - generic [ref=e2629]: Coming Soon
+      - generic [ref=e2631]:
+        - heading "Cognitive Biases Cheat sheet" [level=3] [ref=e2632]
+        - paragraph [ref=e2633]: We took the time to summarize each principle in one line.
+        - paragraph [ref=e2634]:
+          - text: They are all in a free
+          - strong [ref=e2635]: cheat sheet of cognitive biases principles
+          - text: .
+        - paragraph [ref=e2636]: You can download this cheatsheet as a PDF here.
+        - paragraph [ref=e2637]: Use it as a user empathy reminder while you build a feature.
+        - generic [ref=e2642]:
+          - heading "Share the knowledge with your colleagues." [level=2] [ref=e2643]
+          - heading "Build a common vocabulary with your team, and share ideas." [level=4] [ref=e2644]
+          - button "Share this list →" [ref=e2646] [cursor=pointer]
+        - generic [ref=e2647]:
+          - img "Nir Eyal" [ref=e2649]
+          - blockquote [ref=e2651]:
+            - generic [ref=e2652]:
+              - text: “We all have a responsibility to build ethically-designed products and services to improve people’s lives. Growth.Design’s list of cognitive biases and psychological principles is a great reference for any team committed to improving their customers’ user experience. Dan & Louis-Xavier’s comic book case studies show you how.”
+              - generic [ref=e2653]: — Nir Eyal, bestselling author of Hooked and Indistractable
+      - generic [ref=e2655]:
+        - heading "Now It’s Your Turn" [level=3] [ref=e2656]
+        - paragraph [ref=e2657]: So which principle are you going to try next?
+        - paragraph [ref=e2658]: Are there missing elements we should add to the list?
+        - paragraph [ref=e2659]:
+          - text: You can reach us at
+          - link "team@growth.design" [ref=e2660] [cursor=pointer]:
+            - /url: mailto:team@growth.design
+          - text: ", we reply to everyone!"
+    - contentinfo [ref=e2661]:
+      - img [ref=e2662]
+      - generic [ref=e2666]:
+        - generic [ref=e2667]:
+          - heading "Growth.Design" [level=3] [ref=e2668]
+          - generic [ref=e2670]:
+            - link "Case Studies" [ref=e2671] [cursor=pointer]:
+              - /url: /case-studies
+            - link "UX in 60 seconds" [ref=e2672] [cursor=pointer]:
+              - /url: /ux-in-60-seconds
+            - link "Psychology" [ref=e2673] [cursor=pointer]:
+              - /url: /psychology
+            - link "Course" [ref=e2674] [cursor=pointer]:
+              - /url: /courses/product-psychology
+        - generic [ref=e2675]:
+          - heading "Other" [level=3] [ref=e2676]
+          - generic [ref=e2678]:
+            - link "About" [ref=e2679] [cursor=pointer]:
+              - /url: /about
+            - link "Contact us" [ref=e2680] [cursor=pointer]:
+              - /url: /about#contact
+            - link "Terms of service" [ref=e2681] [cursor=pointer]:
+              - /url: /terms-privacy#terms
+            - link "Privacy Policy" [ref=e2682] [cursor=pointer]:
+              - /url: /terms-privacy#privacy
+        - generic [ref=e2683]:
+          - heading "Mission" [level=3] [ref=e2684]
+          - generic [ref=e2685]: We believe that sharing meaningful experiences makes the world better. Growth·Design helps organizations across the world craft better products and experiences.
+        - generic [ref=e2686]:
+          - heading "About" [level=3] [ref=e2687]
+          - generic [ref=e2688]:
+            - paragraph [ref=e2689]:
+              - text: All rights reserved
+              - text: © 2026 Growth·Design inc.
+              - text: All Bitmoji Avatars are owned
+              - text: by Snap Group Limited.
+            - text: Grown in Montreal 🇨🇦
+  - alert [ref=e931]

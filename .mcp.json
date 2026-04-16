@@ -3,6 +3,13 @@
     "figma-bridge": {
       "command": "node",
       "args": ["figma-bridge/mcp-server/dist/index.js"]
+    },
+    "notion": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "OPENAPI_MCP_HEADERS='{\"Authorization\":\"Bearer '\"$NOTION_GALIGEO\"'\",\"Notion-Version\":\"2025-09-03\"}' npx -y @notionhq/notion-mcp-server"
+      ]
     }
   }
 }

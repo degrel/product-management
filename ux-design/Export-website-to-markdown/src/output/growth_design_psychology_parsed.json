@@ -1,0 +1,2473 @@
+{
+  "categories": [
+    {
+      "name": "Information",
+      "emoji": "🙈",
+      "description": "Users filter out a lot of the information that they receive, even when it could be important.",
+      "biases": [
+        {
+          "emoji": "👀",
+          "title": "Hick's Law",
+          "description": "More options leads to harder decisions",
+          "is_coming_soon": false,
+          "definition": "Hick’s Law predicts that the time and the effort it takes to make a decision, increases with the number of options. The more choices, the more time users take to make their decisions.",
+          "examples": [],
+          "checklist": [
+            "Find an area where you have a lot of options or a lot of repetitions."
+          ],
+          "sources": [
+            {
+              "text": "make sure the items are familiar;",
+              "url": "https://www.nngroup.com/videos/hicks-law-long-menus/"
+            },
+            {
+              "text": "Redefining Hick’s Law, Smashing Magazine (2020)",
+              "url": "https://www.smashingmagazine.com/2012/02/redefining-hicks-law/"
+            },
+            {
+              "text": "Page Conversion Rate Optimization, Instapage (2020)",
+              "url": "https://instapage.com/blog/landing-page-conversion-rate-optimization"
+            },
+            {
+              "text": "Design principle: Hick’s Law — quick decision making, Anton Nikolov (2017)",
+              "url": "https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632"
+            }
+          ]
+        },
+        {
+          "emoji": "💼",
+          "title": "Confirmation Bias",
+          "description": "People look for evidence that confirms what they think",
+          "is_coming_soon": false,
+          "definition": "People tend to search for, interpret, prefer, and recall information in a way that reinforces their personal beliefs or hypotheses.",
+          "examples": [
+            {
+              "text": "Facebook optimizes for what users want to see and creates “filter bubbles”. Their feed shows you more of the information that confirms what you believe in (whether that’s true or not):",
+              "links": [
+                {
+                  "text": "Confirmation Bias And the Power of Disconfirming Evidence, Farnam Street (2020)",
+                  "url": "https://fs.blog/2017/05/confirmation-bias/"
+                },
+                {
+                  "text": "Why you think you’re right, even if you’re wrong, TED (2016)",
+                  "url": "https://www.youtube.com/watch?v=w4RLfVxTGH4"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Confirmation Bias And the Power of Disconfirming Evidence, Farnam Street (2020)",
+              "url": "https://fs.blog/2017/05/confirmation-bias/"
+            },
+            {
+              "text": "Why you think you’re right, even if you’re wrong, TED (2016)",
+              "url": "https://www.youtube.com/watch?v=w4RLfVxTGH4"
+            }
+          ]
+        },
+        {
+          "emoji": "👁",
+          "title": "Priming",
+          "description": "Previous stimuli influence users' decision",
+          "is_coming_soon": false,
+          "definition": "Subtle visual or verbal suggestions help users recall specific information, influencing how they respond. Priming works by activating an association or representation in users short-term memory just before another stimulus or task is introduced.",
+          "examples": [
+            {
+              "text": "Brave primes you to focus on the importance of privacy during their onboarding, making you more likely to choose DuckDuckGo instead of Google search. Brave can hence subtly (but respectfully) reduce the brand awareness of their number one competitor: Google.",
+              "links": [
+                {
+                  "text": "Priming and the science behind onboarding, Mind the product (2019)",
+                  "url": "https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/"
+                },
+                {
+                  "text": "Priming Psychology, Wikipedia (2020)",
+                  "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Priming and the science behind onboarding, Mind the product (2019)",
+              "url": "https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/"
+            },
+            {
+              "text": "Priming Psychology, Wikipedia (2020)",
+              "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+            }
+          ]
+        },
+        {
+          "emoji": "🚛",
+          "title": "Cognitive Load",
+          "description": "Total amount of mental effort that is required to complete a task",
+          "is_coming_soon": false,
+          "definition": "Cognitive load is the total amount of mental effort that is required to complete a task. You can think of it as the processing power needed by the user to interact with a product. If the information that needs to be processed exceeds the user’s ability to handle it, the cognitive load is too high.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Cognitive load, Steve Krug (2019)",
+              "url": "https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited"
+            },
+            {
+              "text": "Minimize Cognitive Load to Maximize Usability, NNGroup (2013)",
+              "url": "https://www.nngroup.com/articles/minimize-cognitive-load/"
+            }
+          ]
+        },
+        {
+          "emoji": "⚓️",
+          "title": "Anchoring Bias",
+          "description": "Users rely heavily on the first piece of information they see",
+          "is_coming_soon": false,
+          "definition": "The initial information that users get affects subsequent judgments. Anchoring often works even when the nature of the anchor doesn’t have any relation with the decision at hand. It’s useful to increase perceived value.",
+          "examples": [
+            {
+              "text": "Brick and mortar shops often display very expensive items in the front with visible price tags so that the item you end up seeking seems cheaper.",
+              "links": [
+                {
+                  "text": "Not all anchors are created equal, Journal of Economic Psychology (2013)",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0167487013000834"
+                },
+                {
+                  "text": "Predictably Irrational, Dan Ariely (2008)",
+                  "url": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Not all anchors are created equal, Journal of Economic Psychology (2013)",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167487013000834"
+            },
+            {
+              "text": "Predictably Irrational, Dan Ariely (2008)",
+              "url": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+            }
+          ]
+        },
+        {
+          "emoji": "👉",
+          "title": "Nudge",
+          "description": "Subtle hints can affect users' decisions",
+          "is_coming_soon": false,
+          "definition": "People tend to make decisions unconsciously. Small cues or context changes can encourage users to make a certain decision without forcing them. This is typically done through , , salience and perceived variety.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Nudge: Improving Decisions About Health, Wealth, and Happiness (Book), Richard Thaler & Cass Sunstein (2008)",
+              "url": "https://www.goodreads.com/book/show/3450744-nudge"
+            },
+            {
+              "text": "10 Examples of Nudge Theory (2020)",
+              "url": "https://www.skipprichard.com/10-examples-of-nudge-theory/"
+            }
+          ]
+        },
+        {
+          "emoji": "🍰",
+          "title": "Progressive Disclosure",
+          "description": "Users are less overwhelmed if they're exposed to complex features later",
+          "is_coming_soon": false,
+          "definition": "An interface is easier to use when complex features are gradually revealed later. During the onboarding, show only the core features of your product, and as users get familiar, unveil new options. It keeps the interface simple for new users and progressively brings power to advanced users.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Progressive Disclosure, NN Group (2006)",
+              "url": "https://www.nngroup.com/articles/progressive-disclosure/"
+            },
+            {
+              "text": "Designing for Progressive Disclosure, Gabriella Campagna (2019)",
+              "url": "https://blog.prototypr.io/designing-for-progressive-disclosure-aabb5ddfbab4"
+            }
+          ]
+        },
+        {
+          "emoji": "🎯",
+          "title": "Fitts's Law",
+          "description": "Large and close elements are easier to interact with",
+          "is_coming_soon": false,
+          "definition": "Fitts’s law is a predictive model which states that the time to acquire a target is a function of the to and of the target. This is mainly used to model the act of pointing, either physically (e.g., with a hand) or virtually (e.g., with a computer mouse).",
+          "examples": [
+            {
+              "text": "Adobe uses a tiny subscription management link in their auto-renewal email to discourage people from cancelling their subscription. This is a common dark pattern unfortunately.",
+              "links": [
+                {
+                  "text": "Fitts’s Law, Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Fitts%27s_law"
+                },
+                {
+                  "text": "Fitts’s Law, NN/G",
+                  "url": "https://www.nngroup.com/videos/fittss-law/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Fitts’s Law, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fitts%27s_law"
+            },
+            {
+              "text": "Fitts’s Law, NN/G",
+              "url": "https://www.nngroup.com/videos/fittss-law/"
+            }
+          ]
+        },
+        {
+          "emoji": "🕶",
+          "title": "Banner Blindness",
+          "description": "Users tune out the stuff they get repeatedly exposed to",
+          "is_coming_soon": false,
+          "definition": "Users have learned to ignore content that resembles ads, is close to ads, or appears in locations traditionally dedicated to ads.",
+          "examples": [],
+          "checklist": [
+            "Is your important information in the usual location of ads?",
+            "Is it close to ads?",
+            "Does it look like ads?",
+            "If yes, then there are some good chances, it’ll be blocked by people’s brain."
+          ],
+          "sources": [
+            {
+              "text": "Banner Blindness Revisited - NNGroup (2018)",
+              "url": "https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/"
+            }
+          ]
+        },
+        {
+          "emoji": "🕺",
+          "title": "Decoy Effect",
+          "description": "Create a new option that's easy to discard",
+          "is_coming_soon": false,
+          "definition": "When we are choosing between two alternatives, the addition of a third, less attractive option (the decoy) can influence our perception of the original two choices. Decoys are “asymmetrically dominated”: they are completely inferior to one option (the target) but only partially inferior to the other (the competitor). For this reason, the decoy effect is sometimes called the “asymmetric dominance effect.”",
+          "examples": [
+            {
+              "text": "The Economist subscription page ran a successful decoy a few years ago. They offered three subscriptions at the following prices:",
+              "links": []
+            },
+            {
+              "text": "The decoy was the “Print only” plan at the same price as the “Print + Web” plan, and most people bought the latter!",
+              "links": [
+                {
+                  "text": "Decoy Effect - The Decision Lab",
+                  "url": "https://thedecisionlab.com/biases/decoy-effect/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Decoy Effect - The Decision Lab",
+              "url": "https://thedecisionlab.com/biases/decoy-effect/"
+            },
+            {
+              "text": "The decoy effect: Why you make irrational choices every day (without even knowing it) - Kent Hendricks (2018)",
+              "url": "https://kenthendricks.com/decoy-effect/"
+            }
+          ]
+        },
+        {
+          "emoji": "🖼",
+          "title": "Framing",
+          "description": "The way information is presented affects how users make decisions",
+          "is_coming_soon": false,
+          "definition": "The framing effect happens when your decision is influenced more by how the information is presented (or worded) than by the information itself. It’s partly due to the fact that people evaluate their losses and acquire insight in an asymmetric fashion (see and Prospect Theory, by Daniel Kahneman and Amos Tversky).",
+          "examples": [
+            {
+              "text": "Blinkist could anchor the status quo (reading without Blinkist) as very time-consuming helps users see the value of their product and frame the main benefit of their app (saving time)",
+              "links": []
+            },
+            {
+              "text": "Tesla’s charging interface highlights the costs, but not the benefits of being electric. Framing the charging experience around that benefit (while still displaying the costs for transparency) could have addressed this issue:",
+              "links": [
+                {
+                  "text": "The Framing Effect, UXDesign (2019)",
+                  "url": "https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec"
+                },
+                {
+                  "text": "Framing, SimplyPsychology (2022)",
+                  "url": "https://www.simplypsychology.org/framing-effect.html"
+                },
+                {
+                  "text": "Thinking, Fast and Slow, by Daniel Kahneman (2014)",
+                  "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "The Framing Effect, UXDesign (2019)",
+              "url": "https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec"
+            },
+            {
+              "text": "Framing, SimplyPsychology (2022)",
+              "url": "https://www.simplypsychology.org/framing-effect.html"
+            },
+            {
+              "text": "Thinking, Fast and Slow, by Daniel Kahneman (2014)",
+              "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+            }
+          ]
+        },
+        {
+          "emoji": "🐠",
+          "title": "Attentional Bias",
+          "description": "Users' thoughts filter what they pay attention to",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "💔",
+          "title": "Empathy Gap",
+          "description": "People underestimate how much emotions influence user behaviors",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "⛵️",
+          "title": "Visual Anchors",
+          "description": "Elements used to guide users' eyes",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌶",
+          "title": "Von Restorff Effect",
+          "description": "People notice items that stand out more",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎖",
+          "title": "Visual Hierarchy",
+          "description": "The order in which people perceive what they see",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🔭",
+          "title": "Selective Attention",
+          "description": "People filter out things from their environment when in focus",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "✈️",
+          "title": "Survivorship Bias",
+          "description": "People neglect things that don't make it past a selection process",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🍒",
+          "title": "Juxtaposition",
+          "description": "Elements that are close and similar are perceived as a single unit",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🚦",
+          "title": "Signifiers",
+          "description": "Elements that communicate what they will do",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎭",
+          "title": "Contrast",
+          "description": "Users' attention is drawn to higher visual weights",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🚨",
+          "title": "External Trigger",
+          "description": "When the information on what to do next is within the prompt itself",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎪",
+          "title": "Centre-Stage Effect",
+          "description": "People tend to choose the middle option in a set of items",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🍣",
+          "title": "Law of Proximity",
+          "description": "Elements close to each other are usually considered related",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🍬",
+          "title": "Tesler's Law",
+          "description": "If you simplify too much, you'll transfer some complexity to the users",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🧨",
+          "title": "Spark Effect",
+          "description": "Users are more likely to take action when the effort is small",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🥏",
+          "title": "Feedback Loop",
+          "description": "When users take action, feedback communicates what happened",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "😻",
+          "title": "Expectations Bias",
+          "description": "People tend to be influenced by their own expectations",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🚆",
+          "title": "Aesthetic-Usability Effect",
+          "description": "People perceive designs with great aesthetics as easier to use",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "name": "Meaning",
+      "emoji": "🔮",
+      "description": "When users try to give sense to information, they make stories and assumptions to fill the gaps.",
+      "biases": [
+        {
+          "emoji": "👥",
+          "title": "Social Proof",
+          "description": "Users adapt their behaviors based on what others do",
+          "is_coming_soon": false,
+          "definition": "Social proof is a convenient shortcut that users take to determine how to behave. When they are unsure or when the situation is ambiguous, they are most likely to look and accept the actions of others as correct. The greater the number of people, the more appropriate the action seems.",
+          "examples": [
+            {
+              "text": "Spotify’s podcast didn’t include social proof, making it hard to know if an episode was worth your time:",
+              "links": [
+                {
+                  "text": "Growth·Design, 7 Practical Examples For Product Teams (2019)",
+                  "url": "https://growth.design/library/social-proof/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Growth·Design, 7 Practical Examples For Product Teams (2019)",
+              "url": "https://growth.design/library/social-proof/"
+            },
+            {
+              "text": "Robert B. Cialdini, Influence: The Psychology of Persuasion (2006)",
+              "url": "https://www.goodreads.com/book/show/28815.Influence"
+            }
+          ]
+        },
+        {
+          "emoji": "🦄",
+          "title": "Scarcity",
+          "description": "People value things more when they're in limited supply",
+          "is_coming_soon": false,
+          "definition": "While scarcity is typically invoked to encourage purchasing behaviors, it can also be used to increase quality by encouraging people to be more judicious with the actions they take. It can come in different forms: Time-limited, Quantity limited, Access-limited. Never fake scarcity if you don’t want",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Scarcity Principle: Making Users Click RIGHT NOW or Lose Out, NN Group (2014)",
+              "url": "https://www.nngroup.com/articles/scarcity-principle-ux/"
+            },
+            {
+              "text": "Scarcity in UX: The psychological bias that became the norm, David Teodorescu (2018)",
+              "url": "https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a"
+            }
+          ]
+        },
+        {
+          "emoji": "💭",
+          "title": "Curiosity Gap",
+          "description": "Users have a desire to seek out missing information",
+          "is_coming_soon": false,
+          "definition": "The curiosity gap is the space between what users know and what they want or need to know. Gaps cause pain, and to take it away, users need to fill the knowledge gap.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Chip & Dan Heath, Made to stick (2007)",
+              "url": "https://medium.com/@aidanhornsby/notes-on-made-to-stick-b23250f564ec"
+            },
+            {
+              "text": "Copyhackers, How the curiosity gap brought in a 927% lift - Copyhackers(2014)",
+              "url": "https://copyhackers.com/2014/04/curiosity-gap"
+            }
+          ]
+        },
+        {
+          "emoji": "🖲",
+          "title": "Mental Model",
+          "description": "Users have a preconceived opinion of how things work",
+          "is_coming_soon": false,
+          "definition": "A mental model is an explanation of someone’s thought process about how something works in the real world. It is a representation of the surrounding world, which might be accurate or not. What users believe they know about your product changes how they use it.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Mental Models, NNGroup (2010)",
+              "url": "https://www.nngroup.com/articles/mental-models/"
+            }
+          ]
+        },
+        {
+          "emoji": "👨‍👩‍👧‍👦",
+          "title": "Familiarity Bias",
+          "description": "People prefer familiar experiences",
+          "is_coming_soon": false,
+          "definition": "Users have an innate desire for things they’re already familiar with. And the more we experience something, the more likely we are to like it. So, try to use common patterns when creating new experiences.",
+          "examples": [
+            {
+              "text": "Brave uses Chromium, the open-source browser project used by 80% of internet users (Chrome included).",
+              "links": []
+            },
+            {
+              "text": "Charging a car is still a new concept for most of the population. Displaying a 3D car & a battery widget similar to those in smartphones makes this technology more approachable partly because of Familiarity Bias (and skeuomorphism):",
+              "links": [
+                {
+                  "text": "Attitudinal effects of mere exposure, R. Zajonc (1968)",
+                  "url": "https://psycnet.apa.org/record/1968-12019-001"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Novelty vs. familiarity principles in preference decisions: task context of past experience matters, Frontiers in psychology (2011)",
+              "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00043/full"
+            },
+            {
+              "text": "Attitudinal effects of mere exposure, R. Zajonc (1968)",
+              "url": "https://psycnet.apa.org/record/1968-12019-001"
+            }
+          ]
+        },
+        {
+          "emoji": "🕹",
+          "title": "Skeuomorphism",
+          "description": "Users adapt more easily to things that look like real-world objects",
+          "is_coming_soon": false,
+          "definition": "Skeuomorphism is where an interface object mimics its real world counterpart to facilitate transition to new technology. The digital object imitates reality by how it appears or how the user can interact with it. Skeuomorphism partly relies and on a usability concept called “Affordance” (the actions which users consider possible while interacting with an object).\n\nSkeuomorphism is best used to get users to adapt to new interfaces and new technology. Especially since nowadays, most users have become used to interacting with graphical user interfaces. That’s why creating a skeuomorphic interface strictly for aesthetic reasons won’t always work and might even clutter the interface.",
+          "examples": [
+            {
+              "text": "The recycle/trash bin icon on your PC/Mac to delete files.",
+              "links": []
+            },
+            {
+              "text": "Charging a car like a Tesla is still a new concept for most of the population. Displaying a 3D car & a battery widget similar to those in smartphones makes this technology more approachable:",
+              "links": [
+                {
+                  "text": "Skeuomorphism, Interaction-Design.org",
+                  "url": "https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism"
+                },
+                {
+                  "text": "Link Affordance, NN/G",
+                  "url": "https://www.nngroup.com/articles/guidelines-for-visualizing-links/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Skeuomorphism, Interaction-Design.org",
+              "url": "https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism"
+            },
+            {
+              "text": "Link Affordance, NN/G",
+              "url": "https://www.nngroup.com/articles/guidelines-for-visualizing-links/"
+            }
+          ]
+        },
+        {
+          "emoji": "🎁",
+          "title": "Reciprocity",
+          "description": "People feel the need to reciprocate when they receive something",
+          "is_coming_soon": false,
+          "definition": "Reciprocity is a social norm of responding to a positive action with another positive action, rewarding kind actions. In the context of digital product experiences, users are more likely to engage with your product if you first provide them value. They’ll be more likely to trust you and reciprocate. That’s even more important when you’re about to ask for something big from your users (sign up, paywall, etc).",
+          "examples": [
+            {
+              "text": "Brave asked new users to make Brave their default browser before they even showed the application.",
+              "links": [
+                {
+                  "text": "Reciprocity Psychology, Wikipedia (2021)",
+                  "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Reciprocity Psychology, Wikipedia (2021)",
+              "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+            }
+          ]
+        },
+        {
+          "emoji": "🤝",
+          "title": "Singularity Effect",
+          "description": "Users care disproportionately about an individual as compared to a group",
+          "is_coming_soon": false,
+          "definition": "People are more willing to empathize with a single, identifiable person than large abstract groups. This means that the addition of more people doesn’t increase your willingness to help proportionally. On the opposite, your compassion fades as more people are involved. The Singularity Effect, combined with the Character Identification Effect and the Narrative Bias explains why you tend to remember stories with vivid characters much better than abstract statistics and data (see examples below).",
+          "examples": [
+            {
+              "text": "Think of the emotional difference between the statement “16% of Adobe’s users are frustrated by their subscription cancellation experience” and the frustration (and empathy) you feel while you watch the following case study:",
+              "links": []
+            },
+            {
+              "text": "Most companies with a very strong brand have a one or two identifiable individuals who represent the values of the company and who make customers feel like they are supporting them directly (e.g., Apple and Steve Jobs, Tesla and Elon Musk, etc).",
+              "links": []
+            },
+            {
+              "text": "Think of the emotional difference between the statement “1,517 lives were lost when the Titanic sank” vs how many people cried for Leonardo DiCaprio at the end of the classic movie “Titanic”. Same goes for the movie “Saving Private Ryan” vs the number of deaths per year due to war (unfortunately). This image from Sketchplanations summarizes it well:",
+              "links": [
+                {
+                  "text": "Singularity Effect, Sketchplanations",
+                  "url": "https://sketchplanations.com/the-singularity-effect"
+                },
+                {
+                  "text": "The singularity effect of identified victims in separate and joint evaluations",
+                  "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Singularity Effect, Sketchplanations",
+              "url": "https://sketchplanations.com/the-singularity-effect"
+            },
+            {
+              "text": "The singularity effect of identified victims in separate and joint evaluations",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336"
+            }
+          ]
+        },
+        {
+          "emoji": "🎰",
+          "title": "Variable Reward",
+          "description": "People especially enjoy unexpected rewards",
+          "is_coming_soon": false,
+          "definition": "In the operant conditioning method, a variable-ratio schedule is a schedule of reinforcement where a response is reinforced after an unpredictable number of responses. This unexpected schedule creates a steady, high rate of responding.",
+          "examples": [
+            {
+              "text": "Everything you flick your finger on TikTok, a new video will immersive you. You’ll either learn, laugh or be weirded out, but you always get something personalized and surprising. This mix of very low cognitive task and high variability makes TikTok a textbook example of “addiction-forming design”:",
+              "links": [
+                {
+                  "text": "Variable-Ratio Schedules Characteristics, Very Well Mind",
+                  "url": "https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012"
+                },
+                {
+                  "text": "Variable rewards, Nir Eyal",
+                  "url": "https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Variable-Ratio Schedules Characteristics, Very Well Mind",
+              "url": "https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012"
+            },
+            {
+              "text": "Variable rewards, Nir Eyal",
+              "url": "https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/"
+            }
+          ]
+        },
+        {
+          "emoji": "🎉",
+          "title": "Aha! moment",
+          "description": "When new users first realize the value of your product",
+          "is_coming_soon": false,
+          "definition": "The aha moment is a moment of sudden insight or discovery. In software, it’s the pivotal moment when a new user first realizes the value of your product and why they need it.",
+          "examples": [
+            {
+              "text": "A rocket start is met by an unsure end during Hey’s onboarding:",
+              "links": [
+                {
+                  "text": "The aha moment guide - Appcues",
+                  "url": "https://www.appcues.com/blog/aha-moment-guide"
+                },
+                {
+                  "text": "How to Discover Your Product’s Aha! Moment",
+                  "url": "https://pony.studio/design-for-growth/how-to-discover-your-aha-moment"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "The aha moment guide - Appcues",
+              "url": "https://www.appcues.com/blog/aha-moment-guide"
+            },
+            {
+              "text": "How to Discover Your Product’s Aha! Moment",
+              "url": "https://pony.studio/design-for-growth/how-to-discover-your-aha-moment"
+            }
+          ]
+        },
+        {
+          "emoji": "🥅",
+          "title": "Goal Gradient Effect",
+          "description": "Motivation increases as users get closer to their goal",
+          "is_coming_soon": false,
+          "definition": "The closer users are to reaching a milestone (e.g., completing a task, reaching a goal, etc), the faster they work towards reaching it. Interestingly, even artificial or estimated progress indicators can help to motivate users. That’s why it’s crucial that your experience provides a clear indication of progress to provide this feedback to your users.",
+          "examples": [
+            {
+              "text": "A 10-stamp loyalty card pre-stamped twice will be completed faster than an 8-stamp one with 0 pre-stamps:",
+              "links": []
+            },
+            {
+              "text": "This redesign of a trial paywall uses a timeline. This helps users understand that their journey already has started, which might increase the conversion rate:",
+              "links": [
+                {
+                  "text": "Goal-Gradient Effect, fs.blog (2021)",
+                  "url": "https://fs.blog/goal-gradient-hypothesis/"
+                },
+                {
+                  "text": "Research paper on goal-gradient, K. Zheng (2006)",
+                  "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39"
+                },
+                {
+                  "text": "Laws of UX, Goal Gradient Effect (2022)",
+                  "url": "https://lawsofux.com/goal-gradient-effect/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Goal-Gradient Effect, fs.blog (2021)",
+              "url": "https://fs.blog/goal-gradient-hypothesis/"
+            },
+            {
+              "text": "Research paper on goal-gradient, K. Zheng (2006)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39"
+            },
+            {
+              "text": "Laws of UX, Goal Gradient Effect (2022)",
+              "url": "https://lawsofux.com/goal-gradient-effect/"
+            }
+          ]
+        },
+        {
+          "emoji": "💈",
+          "title": "Occam’s Razor",
+          "description": "Simple solutions are often better than the more complex ones",
+          "is_coming_soon": false,
+          "definition": "Occam’s razor is a mental model which states that “it is futile to do with more what can be done with fewer”—in other words, Be careful, simple does not mean ignoring important facts in an attempt to reduce the complexity. It requires open mindedness to seek a better solution with less complexity and less assumptions, exploring a better way of doing things.",
+          "examples": [],
+          "checklist": [
+            "Next time you open Figma/Sketch to begin a new design, ask yourself these questions:",
+            "What’s the minimum of information needed to complete the job?",
+            "Would someone without my knowledge find this action confusing?",
+            "How can I reduce the effort in half?"
+          ],
+          "sources": [
+            {
+              "text": "Designing with Occam’s Razor (2017)",
+              "url": "https://jonyablonski.medium.com/designing-with-occams-razor-3692df2f3c7f"
+            },
+            {
+              "text": "Occam’s razor - Wikipedia (2022)",
+              "url": "https://en.wikipedia.org/wiki/Occam%27s_razor"
+            }
+          ]
+        },
+        {
+          "emoji": "🎗",
+          "title": "Noble Edge Effect",
+          "description": "Users tend to prefer socially responsible companies",
+          "is_coming_soon": false,
+          "definition": "When companies demonstrate genuine caring and social responsibility, they tend to be rewarded with increased brand loyalty, and greater profits.",
+          "examples": [
+            {
+              "text": "While Adobe customers try to cancel their plan, Adobe could have shown empathy for their users by offering people whose career was affected by COVID-19 a simple option to pause their subscription:",
+              "links": [
+                {
+                  "text": "Noble Edge Effect, Decision Lab (2021)",
+                  "url": "https://thedecisionlab.com/biases/noble-edge-effect/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Noble Edge Effect, Decision Lab (2021)",
+              "url": "https://thedecisionlab.com/biases/noble-edge-effect/"
+            }
+          ]
+        },
+        {
+          "emoji": "🧿",
+          "title": "Hawthorne Effect",
+          "description": "Users change their behavior when they know they are being observed",
+          "is_coming_soon": false,
+          "definition": "The Hawthorne effect is a theory that describes a type of reactivity in which individuals modify an aspect of their behavior in response to their awareness of being observed.",
+          "examples": [
+            {
+              "text": "For apps that rely on behavior-based personalization (like TikTok), that’s a problem because people will eventually hesitate to explore, fearing that they’ll get stuck in the same content rabbit hole.",
+              "links": [
+                {
+                  "text": "Hawthorne Effect, Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Hawthorne_effect"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Hawthorne Effect, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hawthorne_effect"
+            }
+          ]
+        },
+        {
+          "emoji": "👼",
+          "title": "Halo Effect",
+          "description": "People judge things (or people) based on their feelings towards one trait",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "☎️",
+          "title": "Miller’s Law",
+          "description": "Users can only keep 7±2 items in their working memory",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🍱",
+          "title": "Unit Bias",
+          "description": "One unit of something feels like the optimal amount",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌊",
+          "title": "Flow State",
+          "description": "Being fully immersed and focused on a task",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "👑",
+          "title": "Authority Bias",
+          "description": "Users attribute more importance to the opinion of an authority figure",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🏺",
+          "title": "Pseudo-Set Framing",
+          "description": "Tasks that are part of a group are more tempting to complete",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎊",
+          "title": "Group Attractiveness Effect",
+          "description": "Individual items seem more attractive when presented in a group",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🚰",
+          "title": "Curse of Knowledge",
+          "description": "Not realizing that people don't have the same level of knowledge",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "📮",
+          "title": "Self-Initiated Triggers",
+          "description": "Users are more likely to interact with prompts they setup for themselves",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "✏️",
+          "title": "Survey Bias",
+          "description": "Users tend to skew survey answers towards what's socially acceptable",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎭",
+          "title": "Cognitive Dissonance",
+          "description": "It's painful to hold two opposing ideas in our mind",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "💫",
+          "title": "Feedforward",
+          "description": "When users know what to expect before they take action",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🏒",
+          "title": "Hindsight Bias",
+          "description": "People overestimate their ability to predict outcomes after the fact",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎏",
+          "title": "Law of Similarity",
+          "description": "Users perceive a relationship between elements that look similar",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌓",
+          "title": "Law of Prägnanz",
+          "description": "Users interpret ambiguous images in a simpler and more complete form",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🐘",
+          "title": "Streisand Effect",
+          "description": "When trying to censor information ends up increasing awareness of that information",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🔦",
+          "title": "Spotlight Effect",
+          "description": "People tend to believe they are being noticed more than they really are",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🗓",
+          "title": "Fresh Start Effect",
+          "description": "Users are more likely to take action if there's a feeling of new beginnings",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "name": "Time",
+      "emoji": "⏰",
+      "description": "Users are busy so they look for shortcuts and jump to conclusions quickly.",
+      "biases": [
+        {
+          "emoji": "🧗‍♂️",
+          "title": "Labor Illusion",
+          "description": "People value things more when they see the work behind them",
+          "is_coming_soon": false,
+          "definition": "Making users wait for something they requested while showing them how it is being prepared creates the appearance of effort. Customers are usually more likely to appreciate the results of that effort. This is also called the “KAYAK Effect” (based on the travel booking site that used that tactic).",
+          "examples": [
+            {
+              "text": "KAYAK (travel booking site) once delayed the time search results page to show that it is “crunching data”.",
+              "links": []
+            },
+            {
+              "text": "TurboTax showed “validation and analysis” screens when you submit your taxes.",
+              "links": [
+                {
+                  "text": "Response Time Thresholds, Akamai (2009)",
+                  "url": "https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp"
+                },
+                {
+                  "text": "Why Some Apps Use Fake Progress Bars, The Atlantic (2017)",
+                  "url": "https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Response Time Thresholds, Akamai (2009)",
+              "url": "https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp"
+            },
+            {
+              "text": "Why Some Apps Use Fake Progress Bars, The Atlantic (2017)",
+              "url": "https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/"
+            }
+          ]
+        },
+        {
+          "emoji": "🚶‍♂️",
+          "title": "Default Bias",
+          "description": "Users tend not to change an established behavior",
+          "is_coming_soon": false,
+          "definition": "Unless the incentive to change is compelling, people are more likely to stick to the default situation presented to them. This is also called the Status quo bias. It can be a powerful actor when trying to change behaviors.",
+          "examples": [
+            {
+              "text": "Adobe generates revenues from “zombie customers”. Those are users who don’t cancel their subscription because of this human tendance to leave things as they are. That’s amplified by the fact that Adobe is concealing their subscription reminders, the user incentives to change (e.g., cost) and the shortcuts to cancel.",
+              "links": []
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Brainy Business, Defaults: Why The Pre-Selected Choice Wins More Often Than Not (2018)",
+              "url": "https://overcast.fm/+NvJ9veSFI"
+            }
+          ]
+        },
+        {
+          "emoji": "🏦",
+          "title": "Investment Loops",
+          "description": "When users invest themselves, they're more likely to come back",
+          "is_coming_soon": false,
+          "definition": "People invest time, money, information, or effort into a product in anticipation of future benefits. It makes them more likely to return because of the increase in perceived value. When executed properly, user investments load the next trigger to use your product.",
+          "examples": [
+            {
+              "text": "Spotify could encourage users to invest time to take podcast notes in-app:",
+              "links": []
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Hooked: How to Build Habit-Forming Products, Nir Eyal (2014)",
+              "url": "https://www.goodreads.com/book/show/22668729-hooked"
+            },
+            {
+              "text": "User Investment: Make Your Users Do the Work, Nir Eyal (2012)",
+              "url": "https://www.nirandfar.com/makeyourusersdothework/"
+            }
+          ]
+        },
+        {
+          "emoji": "🕯",
+          "title": "Loss Aversion",
+          "description": "People prefer to avoid losses more than earning equivalent gains",
+          "is_coming_soon": false,
+          "definition": "We hate losing or letting go of what we have (even if more could be had). Prospect theory says that a loss hurts more than an equal gain feels good. In other words, losing $1,000 will “hurt” more than the joy of gaining $1,000. Loss aversion can also lead to . (Related: )",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Prospect Theory, NNGroup (2020)",
+              "url": "https://www.nngroup.com/articles/prospect-theory/"
+            },
+            {
+              "text": "“Advances in prospect theory: Cumulative representation of uncertainty”, Kahneman & Tversky (1992)",
+              "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.320.8769"
+            }
+          ]
+        },
+        {
+          "emoji": "👞",
+          "title": "Commitment & Consistency",
+          "description": "Users tend to be consistent with their previous actions",
+          "is_coming_soon": false,
+          "definition": "When users are asked to do something, their brain instinctually perceive it as a threat. The smaller the initial ask, the smaller the fight or flight response and the more likely they are to agree to gradually bigger requests. Especially since the brain likes to be consistent with its previous actions. It’s part of the reason why multi-step forms can perform up to 271% better than a big single-step form.",
+          "examples": [
+            {
+              "text": "Depending of the visitors context, some of our Growth.Design newsletter opt-in prompts use two steps. We AB tested it against a single step (email field) variant and it generated a lift of +11%.",
+              "links": [
+                {
+                  "text": "The Science of Micro-Commitments, CrazyEgg (2017)",
+                  "url": "https://www.crazyegg.com/blog/science-of-micro-commitments/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Influence: The Psychology of Persuasion, Robert Cialdini (2006)",
+              "url": "https://www.goodreads.com/book/show/28815.Influence"
+            },
+            {
+              "text": "The Science of Micro-Commitments, CrazyEgg (2017)",
+              "url": "https://www.crazyegg.com/blog/science-of-micro-commitments/"
+            }
+          ]
+        },
+        {
+          "emoji": "🏝",
+          "title": "Sunk Cost Effect",
+          "description": "Users are reluctant to pull out of something they're invested in.",
+          "is_coming_soon": false,
+          "definition": "People experience the sunk cost effect when they keep doing something as a result of previously invested resources (time, effort, money, etc). That effect becomes a fallacy if it’s pushing them to do things that won’t make them happier.",
+          "examples": [
+            {
+              "text": "Netflix: Have you ever watched a boring movie until the end, simply because you started it? That’s sunk cost fallacy in action.",
+              "links": []
+            },
+            {
+              "text": "World of Warcraft MMORPG: millions of players keep playing (and paying 15$/month) partly because they’ve already invested so much time and money in the virtual game.",
+              "links": [
+                {
+                  "text": "Arkes, Hal R., and Catherine Blumer, The psychology of sunk cost (1995)",
+                  "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Arkes, Hal R., and Catherine Blumer, The psychology of sunk cost (1995)",
+              "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost"
+            }
+          ]
+        },
+        {
+          "emoji": "🌋",
+          "title": "Reactance",
+          "description": "Users are less likely to adopt a behavior when they feel forced",
+          "is_coming_soon": false,
+          "definition": "Reactance occurs when a person feels that someone or something is taking away their choices or limiting the range of alternatives. It’ll trigger an opposite response to what was intended, and also increases resistance to persuasion.",
+          "examples": [
+            {
+              "text": "In a previous variant of Blinkist’s trial paywall, the exit was concealed, which made users feel trapped. Paradoxically, this made them want to reject the suggested behavior even more. When only to push their premium subscription. When you get so many notifications, that ...",
+              "links": [
+                {
+                  "text": "YouTube is increasing the number ads",
+                  "url": "https://growth.design/case-studies/youtube-user-retention#/8/0/0"
+                },
+                {
+                  "text": "you want to turn them all off",
+                  "url": "https://growth.design/case-studies/clubhouse-user-retention#/18/0/3"
+                }
+              ]
+            },
+            {
+              "text": "When you use so many dark patterns that there’s no more psych left to do anything:",
+              "links": []
+            }
+          ],
+          "checklist": [
+            "Use nudges carefully. They could cause the exact opposite reaction.",
+            "Remember a person is behind every screen. Not a point of data."
+          ],
+          "sources": [
+            {
+              "text": "Reactance - Wikipedia (2021)",
+              "url": "https://en.wikipedia.org/wiki/Reactance_(psychology)"
+            }
+          ]
+        },
+        {
+          "emoji": "🔨",
+          "title": "Law of the Instrument",
+          "description": "If all you have is a hammer, everything looks like a nail",
+          "is_coming_soon": false,
+          "definition": "When we acquire a new skill, we tend to see opportunities to use it everywhere. This bias is also known as “the law of the hammer”, or “Maslow’s hammer”, in reference to psychologist Abraham Maslow’s famous quote: “I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail”",
+          "examples": [],
+          "checklist": [
+            "When something feels difficult when it should be easy, ask yourself:",
+            "Am I using the right tool for the right job?"
+          ],
+          "sources": [
+            {
+              "text": "The Decision Lab, Why do we use the same skills everywhere? (2019)",
+              "url": "https://thedecisionlab.com/biases/law-of-the-instrument/"
+            }
+          ]
+        },
+        {
+          "emoji": "🍭",
+          "title": "Temptation Bundling",
+          "description": "Hard tasks are less scary when coupled with something users desire",
+          "is_coming_soon": false,
+          "definition": "We’re more likely to do the hard stuff when tightly coupled with something tempting. Researchers showed that bundling a want, or an instant gratification experience, with a should, or a valuable but delayed gratification experience would increase the chances of taking action.",
+          "examples": [
+            {
+              "text": "When booking a vacations seems easy (when we all know it is NOT!):",
+              "links": [
+                {
+                  "text": "Lead me not into temptation. For, I know the way! - The Decision Lab",
+                  "url": "https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/"
+                },
+                {
+                  "text": "Boost Your Willpower by Using “Temptation Bundling” - James Clear",
+                  "url": "https://jamesclear.com/temptation-bundling"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Lead me not into temptation. For, I know the way! - The Decision Lab",
+              "url": "https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/"
+            },
+            {
+              "text": "Boost Your Willpower by Using “Temptation Bundling” - James Clear",
+              "url": "https://jamesclear.com/temptation-bundling"
+            }
+          ]
+        },
+        {
+          "emoji": "🎩",
+          "title": "Dunning-Kruger Effect",
+          "description": "People tend to overestimate their skills when they don't know much",
+          "is_coming_soon": false,
+          "definition": "This effect occurs when a person’s lack of knowledge and skills in a certain area cause them to overestimate their own competence. By contrast, it also causes those who excel in a given area to think the task is simple for everyone (curse of knowledge), and underestimate their relative abilities as well.",
+          "examples": [],
+          "checklist": [
+            "Next time someone with leverage (Boss) tries to sabotage a project because he thinks it’s better:",
+            "Collect the right data (Qualitative & Quantitative),",
+            "Use the right vocabulary (learn the psychology behind why something works),",
+            "Remind them why they hired you,",
+            "At last, remember that you can’t control everything! (Good luck)"
+          ],
+          "sources": [
+            {
+              "text": "The Decision Lab, Why can we not perceive our own abilities? (2019)",
+              "url": "https://thedecisionlab.com/biases/dunning-kruger-effect/"
+            }
+          ]
+        },
+        {
+          "emoji": "🔍",
+          "title": "Discoverability",
+          "description": "The ease with which users can discover your features",
+          "is_coming_soon": false,
+          "definition": "Discoverability means that the user can extract the knowledge they need of the product by looking at it. If the key elements to take action are well presented then discoverability is good.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Don Norman’s seven fundamental design principles",
+              "url": "https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84"
+            },
+            {
+              "text": "Make it Easy on the User: Designing for Discoverability within Mobile Apps",
+              "url": "https://www.interaction-design.org/literature/article/make-it-easy-on-the-user-designing-for-discoverability-within-mobile-apps"
+            }
+          ]
+        },
+        {
+          "emoji": "🐍",
+          "title": "Second-Order Effect",
+          "description": "The consequences of the consequences of actions",
+          "is_coming_soon": false,
+          "definition": "A single decision can initiate a series of cause-and-effects, and it can be hard to predict or control them all. Still, as a product community, we have the ethical responsibility of trying to predict the undesirable consequences of the experiences we create as best as we can.",
+          "examples": [
+            {
+              "text": "The Second-Order Effect is sometimes also called the “Cobra Effect.” Several years ago, the British government wanted to reduce the number of venomous cobras in India. So they offered a bounty for every dead cobra. At first, it worked, and large numbers of snakes were killed for the reward. But eventually, people began to breed cobras for extra income. The British government then scrapped the reward program, and cobras became worthless. So cobra breeders set their snakes free, and the wild cobra population further increased. Similar perverse side effects have been documented throughout history (e.g., the “ ”). Instagram’s user experiences and reward loops (social status) incentivize people to share the very best aspects of their lives. This has the side effect of when they compare their life to the distorted reality of extremely-curated Instagram feeds.",
+              "links": [
+                {
+                  "text": "Great Hanoi Rat Hunt",
+                  "url": "https://en.wikipedia.org/wiki/Perverse_incentive"
+                },
+                {
+                  "text": "making users feel worse about themselves",
+                  "url": "https://www.forbes.com/sites/kimelsesser/2021/10/05/heres-how-instagram-harms-young-women-according-to-research/?sh=741211ab255a"
+                },
+                {
+                  "text": "Second-Order Effect in Product Design and Strategy",
+                  "url": "https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Second-Order Effect in Product Design and Strategy",
+              "url": "https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6"
+            }
+          ]
+        },
+        {
+          "emoji": "🌛",
+          "title": "Decision Fatigue",
+          "description": "Making a lot of decisions lowers users' ability to make rational ones",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🥽",
+          "title": "Observer-Expectancy Effect",
+          "description": "When researchers' biases influence the participants of an experiment",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌱",
+          "title": "Weber's Law",
+          "description": "Users adapt better to small incremental changes",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🎈",
+          "title": "Parkinson’s Law",
+          "description": "The time required to complete a task will take as much time as allowed",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌤",
+          "title": "Affect Heuristic",
+          "description": "People's current emotions cloud and influence their judgment",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "📉",
+          "title": "Hyperbolic Discounting",
+          "description": "People tend to prioritize immediate benefits over bigger future gains",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "",
+          "title": "Chronoception",
+          "description": "People's perception of time is subjective",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "💳",
+          "title": "Cashless Effect",
+          "description": "People spend more when they can't actually see the money",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌚",
+          "title": "Self-serving bias",
+          "description": "People take credits for positive events and blame others if negative",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🥬",
+          "title": "Pareto Principle",
+          "description": "Roughly 80% of the effects come from 20% of the causes",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🔫",
+          "title": "Backfire Effect",
+          "description": "When people's convictions are challenged, their beliefs get stronger",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌈",
+          "title": "False Consensus Effect",
+          "description": "People overestimate how much other people agree with them",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🚋",
+          "title": "Bandwagon Effect",
+          "description": "Users tend to adopt beliefs in proportion of others who have already done so",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🧙‍♂️",
+          "title": "Barnum-Forer Effect",
+          "description": "When you believe generic personality descriptions apply specifically to you.",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🛋",
+          "title": "IKEA Effect",
+          "description": "When user partially create something, they value it way more",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🧚‍♂️",
+          "title": "Planning Fallacy",
+          "description": "People tend to underestimate how much time a task will take",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "name": "Memory",
+      "emoji": "💾",
+      "description": "Users try to remember what's most important, but their brain prefers some elements over others.",
+      "biases": [
+        {
+          "emoji": "🏕",
+          "title": "Provide Exit Points",
+          "description": "Invite users to leave your app at the right moment",
+          "is_coming_soon": false,
+          "definition": "Exit points are meant to respect people’s time. They are opportunities to “put down” the product when users feel they have reached something. They are critical to an overall experience when you want to avoid product fatigue and . (Related to: )",
+          "examples": [
+            {
+              "text": "If you scroll through the TikTok feed regularly and for long periods, TikTok will eventually encourage you to leave the app, but the strength of their nudge is weak compared to the power of the variable reward that’s just one flick of the thumb away.",
+              "links": [
+                {
+                  "text": "Exit Points - Putting Down the Game, Extra Credits (2015)",
+                  "url": "https://www.youtube.com/watch?v=GqjkWec61gQ"
+                },
+                {
+                  "text": "Provide Exit Points, Designing Mindfulness (2015)",
+                  "url": "https://www.designingmindfulness.com/principles/provide-exit-points"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Exit Points - Putting Down the Game, Extra Credits (2015)",
+              "url": "https://www.youtube.com/watch?v=GqjkWec61gQ"
+            },
+            {
+              "text": "Provide Exit Points, Designing Mindfulness (2015)",
+              "url": "https://www.designingmindfulness.com/principles/provide-exit-points"
+            }
+          ]
+        },
+        {
+          "emoji": "🎢",
+          "title": "Peak-End Rule",
+          "description": "People judge an experience by its peak and how it ends.",
+          "is_coming_soon": false,
+          "definition": "Users don’t merely evaluate an experience based on the average or a sum of all the micro-experiences. Instead, their brain heavily weighs the peaks (high or low) and the end of the experience. Peaks—when pleasant—often correspond to memorable sprinkled into the user journey.",
+          "examples": [
+            {
+              "text": "The last step of Adobe’s subscription cancellation flow isn’t clear. It pushes for more product usage while tucking away the confirmation message, which gives a bad last impression of their product: to “signal” their gratitude after a donation.",
+              "links": [
+                {
+                  "text": "Signal missed a big opportunity",
+                  "url": "https://growth.design/case-studies/signal-revenue#/11/0/1"
+                }
+              ]
+            },
+            {
+              "text": "After you finish charging a Tesla, this redesigned interface provides one last reminder of what you just accomplished.",
+              "links": []
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Kahneman, Well-Being: The Foundations of Hedonic Psychology (1999)",
+              "url": "https://psycnet.apa.org/record/1999-02842-000"
+            }
+          ]
+        },
+        {
+          "emoji": "👅",
+          "title": "Sensory Appeal",
+          "description": "Users engage more with things appealing to multiple senses",
+          "is_coming_soon": false,
+          "definition": "Why are we tempted to eat sweets when walking by a bakery in the morning? The smell out of the oven is strong enough to make us stop. The sights, sounds, feels, tastes, and smells of products are designed to engage users’ senses. And when multiple senses are engaged, people are more likely to create an emotional connection with the brand.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "The Science of Sensory Marketing, Harvard Business Review (2015)",
+              "url": "https://hbr.org/2015/03/the-science-of-sensory-marketing"
+            },
+            {
+              "text": "Sensory Branding, Wikipedia (2019)",
+              "url": "https://en.wikipedia.org/wiki/Sensory_branding"
+            },
+            {
+              "text": "An Introduction to Sensory Marketing, Robert Longley (2019)",
+              "url": "https://www.thoughtco.com/sensory-marketing-4153908"
+            }
+          ]
+        },
+        {
+          "emoji": "🧩",
+          "title": "Zeigarnik Effect",
+          "description": "People remember incomplete tasks better than completed ones",
+          "is_coming_soon": false,
+          "definition": "Lewin’s field theory states that a task in progress creates task-specific tension. This tension is relieved when the task is completed, but if the task is interrupted, it stays. That tension makes relevant information more accessible and more easily remembered.",
+          "examples": [],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "The Zeigarnik Effect: Why it is so hard to leave things incomplete, Abhishek Chakraborty (2017)",
+              "url": "https://medium.com/@coffeeandjunk/design-psychology-zeigarnik-effect-a53688b7f6d1"
+            },
+            {
+              "text": "Zeigarnik Effect Interruptions (2020)",
+              "url": "https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory"
+            },
+            {
+              "text": "Untersuchungen zur Handlungs- und Affektpsychologie. III. Zeigarnik, B. Das Behalten erledigter und unerledigter Handlungen",
+              "url": "https://psycnet.apa.org/record/1927-02365-001"
+            }
+          ]
+        },
+        {
+          "emoji": "🧤",
+          "title": "Endowment Effect",
+          "description": "Users value something more if they feel it's theirs",
+          "is_coming_soon": false,
+          "definition": "Users are more likely to want to keep something that they own than acquire that same thing when they don’t own it. They tend to overvalue the things they own, regardless of their objective market value. (Related: )",
+          "examples": [
+            {
+              "text": "Blinkist’s onboarding gets users to save book preferences to their library to encourage users stick around until the very end.",
+              "links": [
+                {
+                  "text": "Kahneman, Knetsch & Thaler (1990). Experimental Tests of the Endowment Effect",
+                  "url": "https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Kahneman, Knetsch & Thaler (1990). Experimental Tests of the Endowment Effect",
+              "url": "https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm"
+            },
+            {
+              "text": "Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1991). Anomalies: The endowment effect, loss aversion, and status quo bias.",
+              "url": "https://scholar.princeton.edu/sites/default/files/kahneman/files/anomalies_dk_jlk_rht_1991.pdf"
+            }
+          ]
+        },
+        {
+          "emoji": "🛍",
+          "title": "Chunking",
+          "description": "People remember grouped information better",
+          "is_coming_soon": false,
+          "definition": "In cognitive psychology, chunking is when individual pieces of an information set are broken down and grouped in a meaningful whole. These chunks bypass the limited working memory capacity (see Miller’s Law) and allow the working memory to be more efficient. Chunks are easier to retrieve because your brain creates higher-order cognitive representations of the items within each chunk.\n\nIn terms of interface design, it comes down to breaking down steps, text, and interface elements into smaller pieces so that users can process, understand, and remember information them better.",
+          "examples": [
+            {
+              "text": "The page you’re currently reading contains 100+ psychological principles. That’s hard to remember. To help you memorize these principles, we grouped them in 4 categories (chunks):",
+              "links": []
+            },
+            {
+              "text": "Stripe is a large company with dozens of products and use cases. But Stripe’s main navigation only has 5 simple links and their products are chunked into 3 simple categories, organized around their users’ main jobs-to-be-done:",
+              "links": [
+                {
+                  "text": "Chunking, Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)"
+                },
+                {
+                  "text": "How Chunking Helps Content Processing, NN/g",
+                  "url": "https://www.nngroup.com/articles/chunking/"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "Chunking, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)"
+            },
+            {
+              "text": "How Chunking Helps Content Processing, NN/g",
+              "url": "https://www.nngroup.com/articles/chunking/"
+            }
+          ]
+        },
+        {
+          "emoji": "💚",
+          "title": "Delighters",
+          "description": "People remember more unexpected and playful pleasures",
+          "is_coming_soon": false,
+          "definition": "We remember and respond favorably to small, unexpected, and playful pleasures. But, for your delighters to have a positive effect, you must first meet or exceed the user’s basic expectations. Otherwise, that moment will likely fall flat. Also, over time, delighters become expected features losing that slight edge.",
+          "examples": [
+            {
+              "text": "When the smallest feature can make your whole email life a lot better:",
+              "links": [
+                {
+                  "text": "The Kano Model - Wikipedia (2021)",
+                  "url": "https://en.wikipedia.org/wiki/Kano_model"
+                },
+                {
+                  "text": "Getting real about delightful design - UXPlanet (2017)",
+                  "url": "https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "sources": [
+            {
+              "text": "The Kano Model - Wikipedia (2021)",
+              "url": "https://en.wikipedia.org/wiki/Kano_model"
+            },
+            {
+              "text": "Getting real about delightful design - UXPlanet (2017)",
+              "url": "https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93"
+            }
+          ]
+        },
+        {
+          "emoji": "💛",
+          "title": "Internal Trigger",
+          "description": "When users are prompted to take action based on a memory",
+          "is_coming_soon": false,
+          "definition": "A “trigger” is a prompt of a user to take action. There are two types of triggers:\n\nExternal triggers are meant to alert people in case of an event. Slowly, by interacting with external triggers people begin to form associations with internal triggers, which become attached to existing behaviors and emotions. Soon, people are internally triggered every time they feel a certain way.",
+          "examples": [
+            {
+              "text": "15-30% of Duolingo students use the app to “make international travel more enjoyable”. The fear of not understanding important information in a different language, as well as simply being in an airport, are excellent opportunities to encourage users to practice a language:",
+              "links": []
+            }
+          ],
+          "checklist": [
+            "Ethical checkpoint:",
+            "Are your external triggers meant to develop a positive habit?"
+          ],
+          "sources": [
+            {
+              "text": "Hooked - Nir Eyal (2014)",
+              "url": "https://www.goodreads.com/book/show/22668729-hooked"
+            }
+          ]
+        },
+        {
+          "emoji": "📸",
+          "title": "Picture Superiority Effect",
+          "description": "People remember pictures better than words",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "📌",
+          "title": "Method of Loci",
+          "description": "People remember things more when they're associated with a location",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🧭",
+          "title": "Shaping",
+          "description": "Incrementally reinforcing actions to get closer to a target behavior",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "💾",
+          "title": "Recognition Over Recall",
+          "description": "It's easier to recognize things than recall them from memory",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🏰",
+          "title": "Storytelling Effect",
+          "description": "People remember stories better than facts alone",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "👹",
+          "title": "Negativity Bias",
+          "description": "Users recall negative events more than positive ones",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "",
+          "title": "Availability Heuristic",
+          "description": "Users favor recent and available information over past information",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🌌",
+          "title": "Spacing Effect",
+          "description": "People learn more effectively when study sessions are spaced out",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        },
+        {
+          "emoji": "🏁",
+          "title": "Serial Position Effect",
+          "description": "It's easier for users to recall the first and last items of a list",
+          "is_coming_soon": true,
+          "definition": "",
+          "examples": [],
+          "checklist": [],
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "emoji": "📓",
+      "title": "Cognitive Biases Codex",
+      "description": "The four categories of our list come from Buster Benson's work",
+      "is_coming_soon": false,
+      "definition": ". He did an impressive job with the which led him to build a massive Codex.\n\nThe four categories of this list are based on his research, so we want to make sure he gets the credit for this hard work. “Every single person, including myself, has many implicit associations that lead to bias that they can’t fully eradicate in themselves. It’s more effective to accept that fact, and account for it by being transparent about it, than to try to hide it.”",
+      "examples": [],
+      "checklist": [],
+      "sources": []
+    },
+    {
+      "emoji": "📘",
+      "title": "Super Thinking",
+      "description": "The big book of mental models and cognitive biases (Gabriel Weinberg)",
+      "is_coming_soon": false,
+      "definition": "(CEO of DuckDuckGo), co-authored a WSJ bestseller book that inspired us a lot: . He recently did a video interview with Jordan Harbinger where he discussed the . We completely agree with him when he says: “Knowing the names of cognitive biases and mental models is important. That’s because once you have a name for something, you can start to spot it in the real-world. And once you start to spot it, then you can really start to use the tools [and reap the benefits].”",
+      "examples": [],
+      "checklist": [],
+      "sources": []
+    },
+    {
+      "emoji": "📙",
+      "title": "Hooked",
+      "description": "How to build habit-forming products (Nir Eyal)",
+      "is_coming_soon": false,
+      "definition": "This book dives deep into the psychology of habits. It’s filled with user retention loops and examples. is the best-selling author of and .\n\nHe’s doing amazing work at the intersection of psychology, technology, business and ethics.",
+      "examples": [],
+      "checklist": [],
+      "sources": []
+    },
+    {
+      "emoji": "📕",
+      "title": "Influence",
+      "description": "The psychology of persuasion (Robert Cialdini)",
+      "is_coming_soon": true,
+      "definition": "",
+      "examples": [],
+      "checklist": [],
+      "sources": []
+    }
+  ],
+  "allLinks": [
+    {
+      "text": "make sure the items are familiar;",
+      "url": "https://www.nngroup.com/videos/hicks-law-long-menus/"
+    },
+    {
+      "text": "Redefining Hick’s Law, Smashing Magazine (2020)",
+      "url": "https://www.smashingmagazine.com/2012/02/redefining-hicks-law/"
+    },
+    {
+      "text": "Page Conversion Rate Optimization, Instapage (2020)",
+      "url": "https://instapage.com/blog/landing-page-conversion-rate-optimization"
+    },
+    {
+      "text": "Design principle: Hick’s Law — quick decision making, Anton Nikolov (2017)",
+      "url": "https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632"
+    },
+    {
+      "text": "Confirmation Bias And the Power of Disconfirming Evidence, Farnam Street (2020)",
+      "url": "https://fs.blog/2017/05/confirmation-bias/"
+    },
+    {
+      "text": "Why you think you’re right, even if you’re wrong, TED (2016)",
+      "url": "https://www.youtube.com/watch?v=w4RLfVxTGH4"
+    },
+    {
+      "text": "Confirmation Bias And the Power of Disconfirming Evidence, Farnam Street (2020)",
+      "url": "https://fs.blog/2017/05/confirmation-bias/"
+    },
+    {
+      "text": "Why you think you’re right, even if you’re wrong, TED (2016)",
+      "url": "https://www.youtube.com/watch?v=w4RLfVxTGH4"
+    },
+    {
+      "text": "Priming and the science behind onboarding, Mind the product (2019)",
+      "url": "https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/"
+    },
+    {
+      "text": "Priming Psychology, Wikipedia (2020)",
+      "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+    },
+    {
+      "text": "Priming and the science behind onboarding, Mind the product (2019)",
+      "url": "https://www.mindtheproduct.com/priming-and-the-science-behind-onboarding/"
+    },
+    {
+      "text": "Priming Psychology, Wikipedia (2020)",
+      "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+    },
+    {
+      "text": "Cognitive load, Steve Krug (2019)",
+      "url": "https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited"
+    },
+    {
+      "text": "Minimize Cognitive Load to Maximize Usability, NNGroup (2013)",
+      "url": "https://www.nngroup.com/articles/minimize-cognitive-load/"
+    },
+    {
+      "text": "Not all anchors are created equal, Journal of Economic Psychology (2013)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167487013000834"
+    },
+    {
+      "text": "Predictably Irrational, Dan Ariely (2008)",
+      "url": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+    },
+    {
+      "text": "Not all anchors are created equal, Journal of Economic Psychology (2013)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167487013000834"
+    },
+    {
+      "text": "Predictably Irrational, Dan Ariely (2008)",
+      "url": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+    },
+    {
+      "text": "Nudge: Improving Decisions About Health, Wealth, and Happiness (Book), Richard Thaler & Cass Sunstein (2008)",
+      "url": "https://www.goodreads.com/book/show/3450744-nudge"
+    },
+    {
+      "text": "10 Examples of Nudge Theory (2020)",
+      "url": "https://www.skipprichard.com/10-examples-of-nudge-theory/"
+    },
+    {
+      "text": "Progressive Disclosure, NN Group (2006)",
+      "url": "https://www.nngroup.com/articles/progressive-disclosure/"
+    },
+    {
+      "text": "Designing for Progressive Disclosure, Gabriella Campagna (2019)",
+      "url": "https://blog.prototypr.io/designing-for-progressive-disclosure-aabb5ddfbab4"
+    },
+    {
+      "text": "Fitts’s Law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fitts%27s_law"
+    },
+    {
+      "text": "Fitts’s Law, NN/G",
+      "url": "https://www.nngroup.com/videos/fittss-law/"
+    },
+    {
+      "text": "Fitts’s Law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fitts%27s_law"
+    },
+    {
+      "text": "Fitts’s Law, NN/G",
+      "url": "https://www.nngroup.com/videos/fittss-law/"
+    },
+    {
+      "text": "Banner Blindness Revisited - NNGroup (2018)",
+      "url": "https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/"
+    },
+    {
+      "text": "Decoy Effect - The Decision Lab",
+      "url": "https://thedecisionlab.com/biases/decoy-effect/"
+    },
+    {
+      "text": "The decoy effect: Why you make irrational choices every day (without even knowing it) - Kent Hendricks (2018)",
+      "url": "https://kenthendricks.com/decoy-effect/"
+    },
+    {
+      "text": "Decoy Effect - The Decision Lab",
+      "url": "https://thedecisionlab.com/biases/decoy-effect/"
+    },
+    {
+      "text": "The Framing Effect, UXDesign (2019)",
+      "url": "https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec"
+    },
+    {
+      "text": "Framing, SimplyPsychology (2022)",
+      "url": "https://www.simplypsychology.org/framing-effect.html"
+    },
+    {
+      "text": "Thinking, Fast and Slow, by Daniel Kahneman (2014)",
+      "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+    },
+    {
+      "text": "The Framing Effect, UXDesign (2019)",
+      "url": "https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec"
+    },
+    {
+      "text": "Framing, SimplyPsychology (2022)",
+      "url": "https://www.simplypsychology.org/framing-effect.html"
+    },
+    {
+      "text": "Thinking, Fast and Slow, by Daniel Kahneman (2014)",
+      "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+    },
+    {
+      "text": "Growth·Design, 7 Practical Examples For Product Teams (2019)",
+      "url": "https://growth.design/library/social-proof/"
+    },
+    {
+      "text": "Robert B. Cialdini, Influence: The Psychology of Persuasion (2006)",
+      "url": "https://www.goodreads.com/book/show/28815.Influence"
+    },
+    {
+      "text": "Growth·Design, 7 Practical Examples For Product Teams (2019)",
+      "url": "https://growth.design/library/social-proof/"
+    },
+    {
+      "text": "Scarcity Principle: Making Users Click RIGHT NOW or Lose Out, NN Group (2014)",
+      "url": "https://www.nngroup.com/articles/scarcity-principle-ux/"
+    },
+    {
+      "text": "Scarcity in UX: The psychological bias that became the norm, David Teodorescu (2018)",
+      "url": "https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a"
+    },
+    {
+      "text": "Chip & Dan Heath, Made to stick (2007)",
+      "url": "https://medium.com/@aidanhornsby/notes-on-made-to-stick-b23250f564ec"
+    },
+    {
+      "text": "Copyhackers, How the curiosity gap brought in a 927% lift - Copyhackers(2014)",
+      "url": "https://copyhackers.com/2014/04/curiosity-gap"
+    },
+    {
+      "text": "Mental Models, NNGroup (2010)",
+      "url": "https://www.nngroup.com/articles/mental-models/"
+    },
+    {
+      "text": "Novelty vs. familiarity principles in preference decisions: task context of past experience matters, Frontiers in psychology (2011)",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00043/full"
+    },
+    {
+      "text": "Attitudinal effects of mere exposure, R. Zajonc (1968)",
+      "url": "https://psycnet.apa.org/record/1968-12019-001"
+    },
+    {
+      "text": "Attitudinal effects of mere exposure, R. Zajonc (1968)",
+      "url": "https://psycnet.apa.org/record/1968-12019-001"
+    },
+    {
+      "text": "Skeuomorphism, Interaction-Design.org",
+      "url": "https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism"
+    },
+    {
+      "text": "Link Affordance, NN/G",
+      "url": "https://www.nngroup.com/articles/guidelines-for-visualizing-links/"
+    },
+    {
+      "text": "Skeuomorphism, Interaction-Design.org",
+      "url": "https://www.interaction-design.org/literature/article/skeuomorphism-is-dead-long-live-skeuomorphism"
+    },
+    {
+      "text": "Link Affordance, NN/G",
+      "url": "https://www.nngroup.com/articles/guidelines-for-visualizing-links/"
+    },
+    {
+      "text": "Reciprocity Psychology, Wikipedia (2021)",
+      "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+    },
+    {
+      "text": "Reciprocity Psychology, Wikipedia (2021)",
+      "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+    },
+    {
+      "text": "Singularity Effect, Sketchplanations",
+      "url": "https://sketchplanations.com/the-singularity-effect"
+    },
+    {
+      "text": "The singularity effect of identified victims in separate and joint evaluations",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336"
+    },
+    {
+      "text": "Singularity Effect, Sketchplanations",
+      "url": "https://sketchplanations.com/the-singularity-effect"
+    },
+    {
+      "text": "The singularity effect of identified victims in separate and joint evaluations",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749597805000336"
+    },
+    {
+      "text": "Variable-Ratio Schedules Characteristics, Very Well Mind",
+      "url": "https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012"
+    },
+    {
+      "text": "Variable rewards, Nir Eyal",
+      "url": "https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/"
+    },
+    {
+      "text": "Variable-Ratio Schedules Characteristics, Very Well Mind",
+      "url": "https://www.verywellmind.com/what-is-a-variable-ratio-schedule-2796012"
+    },
+    {
+      "text": "Variable rewards, Nir Eyal",
+      "url": "https://www.nirandfar.com/want-to-hook-your-users-drive-them-crazy/"
+    },
+    {
+      "text": "The aha moment guide - Appcues",
+      "url": "https://www.appcues.com/blog/aha-moment-guide"
+    },
+    {
+      "text": "How to Discover Your Product’s Aha! Moment",
+      "url": "https://pony.studio/design-for-growth/how-to-discover-your-aha-moment"
+    },
+    {
+      "text": "The aha moment guide - Appcues",
+      "url": "https://www.appcues.com/blog/aha-moment-guide"
+    },
+    {
+      "text": "How to Discover Your Product’s Aha! Moment",
+      "url": "https://pony.studio/design-for-growth/how-to-discover-your-aha-moment"
+    },
+    {
+      "text": "Goal-Gradient Effect, fs.blog (2021)",
+      "url": "https://fs.blog/goal-gradient-hypothesis/"
+    },
+    {
+      "text": "Research paper on goal-gradient, K. Zheng (2006)",
+      "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39"
+    },
+    {
+      "text": "Laws of UX, Goal Gradient Effect (2022)",
+      "url": "https://lawsofux.com/goal-gradient-effect/"
+    },
+    {
+      "text": "Goal-Gradient Effect, fs.blog (2021)",
+      "url": "https://fs.blog/goal-gradient-hypothesis/"
+    },
+    {
+      "text": "Research paper on goal-gradient, K. Zheng (2006)",
+      "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.1.39"
+    },
+    {
+      "text": "Laws of UX, Goal Gradient Effect (2022)",
+      "url": "https://lawsofux.com/goal-gradient-effect/"
+    },
+    {
+      "text": "Designing with Occam’s Razor (2017)",
+      "url": "https://jonyablonski.medium.com/designing-with-occams-razor-3692df2f3c7f"
+    },
+    {
+      "text": "Occam’s razor - Wikipedia (2022)",
+      "url": "https://en.wikipedia.org/wiki/Occam%27s_razor"
+    },
+    {
+      "text": "Noble Edge Effect, Decision Lab (2021)",
+      "url": "https://thedecisionlab.com/biases/noble-edge-effect/"
+    },
+    {
+      "text": "Noble Edge Effect, Decision Lab (2021)",
+      "url": "https://thedecisionlab.com/biases/noble-edge-effect/"
+    },
+    {
+      "text": "Hawthorne Effect, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hawthorne_effect"
+    },
+    {
+      "text": "Hawthorne Effect, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hawthorne_effect"
+    },
+    {
+      "text": "Response Time Thresholds, Akamai (2009)",
+      "url": "https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp"
+    },
+    {
+      "text": "Why Some Apps Use Fake Progress Bars, The Atlantic (2017)",
+      "url": "https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/"
+    },
+    {
+      "text": "Response Time Thresholds, Akamai (2009)",
+      "url": "https://www.akamai.com/uk/en/about/news/press/2009-press/akamai-reveals-2-seconds-as-the-new-threshold-of-acceptability-for-ecommerce-web-page-response-times.jsp"
+    },
+    {
+      "text": "Why Some Apps Use Fake Progress Bars, The Atlantic (2017)",
+      "url": "https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/"
+    },
+    {
+      "text": "Brainy Business, Defaults: Why The Pre-Selected Choice Wins More Often Than Not (2018)",
+      "url": "https://overcast.fm/+NvJ9veSFI"
+    },
+    {
+      "text": "Hooked: How to Build Habit-Forming Products, Nir Eyal (2014)",
+      "url": "https://www.goodreads.com/book/show/22668729-hooked"
+    },
+    {
+      "text": "User Investment: Make Your Users Do the Work, Nir Eyal (2012)",
+      "url": "https://www.nirandfar.com/makeyourusersdothework/"
+    },
+    {
+      "text": "Prospect Theory, NNGroup (2020)",
+      "url": "https://www.nngroup.com/articles/prospect-theory/"
+    },
+    {
+      "text": "“Advances in prospect theory: Cumulative representation of uncertainty”, Kahneman & Tversky (1992)",
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.320.8769"
+    },
+    {
+      "text": "Influence: The Psychology of Persuasion, Robert Cialdini (2006)",
+      "url": "https://www.goodreads.com/book/show/28815.Influence"
+    },
+    {
+      "text": "The Science of Micro-Commitments, CrazyEgg (2017)",
+      "url": "https://www.crazyegg.com/blog/science-of-micro-commitments/"
+    },
+    {
+      "text": "The Science of Micro-Commitments, CrazyEgg (2017)",
+      "url": "https://www.crazyegg.com/blog/science-of-micro-commitments/"
+    },
+    {
+      "text": "Arkes, Hal R., and Catherine Blumer, The psychology of sunk cost (1995)",
+      "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost"
+    },
+    {
+      "text": "Arkes, Hal R., and Catherine Blumer, The psychology of sunk cost (1995)",
+      "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost"
+    },
+    {
+      "text": "Reactance - Wikipedia (2021)",
+      "url": "https://en.wikipedia.org/wiki/Reactance_(psychology)"
+    },
+    {
+      "text": "YouTube is increasing the number ads",
+      "url": "https://growth.design/case-studies/youtube-user-retention#/8/0/0"
+    },
+    {
+      "text": "you want to turn them all off",
+      "url": "https://growth.design/case-studies/clubhouse-user-retention#/18/0/3"
+    },
+    {
+      "text": "The Decision Lab, Why do we use the same skills everywhere? (2019)",
+      "url": "https://thedecisionlab.com/biases/law-of-the-instrument/"
+    },
+    {
+      "text": "Lead me not into temptation. For, I know the way! - The Decision Lab",
+      "url": "https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/"
+    },
+    {
+      "text": "Boost Your Willpower by Using “Temptation Bundling” - James Clear",
+      "url": "https://jamesclear.com/temptation-bundling"
+    },
+    {
+      "text": "Lead me not into temptation. For, I know the way! - The Decision Lab",
+      "url": "https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way/"
+    },
+    {
+      "text": "Boost Your Willpower by Using “Temptation Bundling” - James Clear",
+      "url": "https://jamesclear.com/temptation-bundling"
+    },
+    {
+      "text": "The Decision Lab, Why can we not perceive our own abilities? (2019)",
+      "url": "https://thedecisionlab.com/biases/dunning-kruger-effect/"
+    },
+    {
+      "text": "Don Norman’s seven fundamental design principles",
+      "url": "https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84"
+    },
+    {
+      "text": "Make it Easy on the User: Designing for Discoverability within Mobile Apps",
+      "url": "https://www.interaction-design.org/literature/article/make-it-easy-on-the-user-designing-for-discoverability-within-mobile-apps"
+    },
+    {
+      "text": "Second-Order Effect in Product Design and Strategy",
+      "url": "https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6"
+    },
+    {
+      "text": "Great Hanoi Rat Hunt",
+      "url": "https://en.wikipedia.org/wiki/Perverse_incentive"
+    },
+    {
+      "text": "making users feel worse about themselves",
+      "url": "https://www.forbes.com/sites/kimelsesser/2021/10/05/heres-how-instagram-harms-young-women-according-to-research/?sh=741211ab255a"
+    },
+    {
+      "text": "Second-Order Effect in Product Design and Strategy",
+      "url": "https://medium.com/paloit/second-order-effect-in-product-design-and-strategy-82c7fd2c52e6"
+    },
+    {
+      "text": "Exit Points - Putting Down the Game, Extra Credits (2015)",
+      "url": "https://www.youtube.com/watch?v=GqjkWec61gQ"
+    },
+    {
+      "text": "Provide Exit Points, Designing Mindfulness (2015)",
+      "url": "https://www.designingmindfulness.com/principles/provide-exit-points"
+    },
+    {
+      "text": "Exit Points - Putting Down the Game, Extra Credits (2015)",
+      "url": "https://www.youtube.com/watch?v=GqjkWec61gQ"
+    },
+    {
+      "text": "Provide Exit Points, Designing Mindfulness (2015)",
+      "url": "https://www.designingmindfulness.com/principles/provide-exit-points"
+    },
+    {
+      "text": "Kahneman, Well-Being: The Foundations of Hedonic Psychology (1999)",
+      "url": "https://psycnet.apa.org/record/1999-02842-000"
+    },
+    {
+      "text": "Signal missed a big opportunity",
+      "url": "https://growth.design/case-studies/signal-revenue#/11/0/1"
+    },
+    {
+      "text": "The Science of Sensory Marketing, Harvard Business Review (2015)",
+      "url": "https://hbr.org/2015/03/the-science-of-sensory-marketing"
+    },
+    {
+      "text": "Sensory Branding, Wikipedia (2019)",
+      "url": "https://en.wikipedia.org/wiki/Sensory_branding"
+    },
+    {
+      "text": "An Introduction to Sensory Marketing, Robert Longley (2019)",
+      "url": "https://www.thoughtco.com/sensory-marketing-4153908"
+    },
+    {
+      "text": "The Zeigarnik Effect: Why it is so hard to leave things incomplete, Abhishek Chakraborty (2017)",
+      "url": "https://medium.com/@coffeeandjunk/design-psychology-zeigarnik-effect-a53688b7f6d1"
+    },
+    {
+      "text": "Zeigarnik Effect Interruptions (2020)",
+      "url": "https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory"
+    },
+    {
+      "text": "Untersuchungen zur Handlungs- und Affektpsychologie. III. Zeigarnik, B. Das Behalten erledigter und unerledigter Handlungen",
+      "url": "https://psycnet.apa.org/record/1927-02365-001"
+    },
+    {
+      "text": "Kahneman, Knetsch & Thaler (1990). Experimental Tests of the Endowment Effect",
+      "url": "https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm"
+    },
+    {
+      "text": "Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1991). Anomalies: The endowment effect, loss aversion, and status quo bias.",
+      "url": "https://scholar.princeton.edu/sites/default/files/kahneman/files/anomalies_dk_jlk_rht_1991.pdf"
+    },
+    {
+      "text": "Kahneman, Knetsch & Thaler (1990). Experimental Tests of the Endowment Effect",
+      "url": "https://econpapers.repec.org/article/ucpjpolec/v_3a98_3ay_3a1990_3ai_3a6_3ap_3a1325-48.htm"
+    },
+    {
+      "text": "Chunking, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)"
+    },
+    {
+      "text": "How Chunking Helps Content Processing, NN/g",
+      "url": "https://www.nngroup.com/articles/chunking/"
+    },
+    {
+      "text": "Chunking, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)"
+    },
+    {
+      "text": "How Chunking Helps Content Processing, NN/g",
+      "url": "https://www.nngroup.com/articles/chunking/"
+    },
+    {
+      "text": "The Kano Model - Wikipedia (2021)",
+      "url": "https://en.wikipedia.org/wiki/Kano_model"
+    },
+    {
+      "text": "Getting real about delightful design - UXPlanet (2017)",
+      "url": "https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93"
+    },
+    {
+      "text": "The Kano Model - Wikipedia (2021)",
+      "url": "https://en.wikipedia.org/wiki/Kano_model"
+    },
+    {
+      "text": "Getting real about delightful design - UXPlanet (2017)",
+      "url": "https://uxplanet.org/getting-real-about-delightful-design-24af65ebbe93"
+    },
+    {
+      "text": "Hooked - Nir Eyal (2014)",
+      "url": "https://www.goodreads.com/book/show/22668729-hooked"
+    }
+  ]
+}
