@@ -10,7 +10,7 @@ Bridge product vision and design execution through flows, wireframes, copy, and 
 
 ## Knowledge Base
 
-For deeper UX knowledge, load on demand from `knowledge/ux-design/`:
+For deeper UX knowledge, load on demand from `knowledge/ux-design/` - use it most of the times :
 - **106 cognitive biases for UX** (Growth.design): `knowledge/ux-design/ux-psychology/skills/ux-psychology/references/` — Start with `scenario-index.md` to find relevant principles by scenario (onboarding, pricing, forms, etc.), then load the specific category file (information-biases.md, meaning-biases.md, time-biases.md, memory-biases.md)
 - **Progressive disclosure patterns**: `knowledge/ux-design/Designing for Progressive Disclosure _ by G. L. _ Prototypr.html`
 
