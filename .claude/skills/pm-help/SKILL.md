@@ -16,6 +16,7 @@ description: List available PM skills and recommend which one to use. Use when t
 | `/pm-communications` | Reunion (agenda/summary), status update, release notes, annonce stakeholder |
 | `/pm-data-analytics` | SQL, analyse de donnees, rapport, dashboard, qualite des donnees |
 | `/pm-ai-ux` | Pipeline UX avec BMAD + /ux, decision framework, quality gate pre-merge |
+| `/pm-revenue` | Revenue architecture, PLG↔SLG, bowtie CR1-CR8, LTV/CAC/NRR, SPICED, stades croissance |
 
 ## Comment choisir
 
@@ -42,6 +43,9 @@ Que fais-tu en ce moment ?
 |
 +-- Je lance un design UX complet avec l'IA
 |   -> /pm-ai-ux
+|
++-- Je challenge une decision revenue (pricing, PLG/SLG, ICP, roadmap, onboarding, expansion)
+|   -> /pm-revenue
 ```
 
 ## Knowledge Base (chargee a la demande par les skills)
@@ -51,6 +55,7 @@ Que fais-tu en ce moment ?
 | `knowledge/ux-design/ux-psychology/` | 106 biais cognitifs UX (Growth.design) | pm-ux |
 | `knowledge/ux-design/` | Progressive disclosure, articles UX | pm-ux |
 | `knowledge/pm-course/` | Modules PRD, data analysis, product strategy | pm-strategy, pm-data-analytics, pm-ai-ux |
+| `knowledge/revenue/` | Leadership du revenu (Collective Impact) — 5 sessions, 6 frameworks, bowtie WbD, PLG↔SLG | pm-revenue |
 
 ## References rapides
 

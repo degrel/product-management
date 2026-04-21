@@ -18,6 +18,7 @@ product-management/
 │   ├── pm-communications/             # Meetings, updates, release notes
 │   ├── pm-data-analytics/             # SQL, reports, dashboards
 │   ├── pm-ai-ux/                      # AI-driven UX pipeline (BMAD + /ux)
+│   ├── pm-revenue/                    # Revenue architecture, PLG↔SLG, bowtie WbD
 │   ├── bmad-*/                        # BMAD framework skills (12 skills)
 │   └── figma-use/                     # Figma MCP integration
 │
@@ -25,8 +26,13 @@ product-management/
 │   ├── ux-design/                     # UX psychology (106 biases), articles
 │   │   ├── ux-psychology/             # Growth.design cognitive biases
 │   │   └── ...                        # Progressive disclosure, etc.
-│   └── pm-course/                     # PM training modules (Carl Vellotti)
-│       └── course-materials/          # PRD writing, data analysis, strategy
+│   ├── pm-course/                     # PM training modules (Carl Vellotti)
+│   │   └── course-materials/          # PRD writing, data analysis, strategy
+│   └── revenue/                       # Leadership du revenu (Collective Impact)
+│       ├── sessions/                  # 5 session notes (slide-by-slide + coach)
+│       ├── frameworks/                # 6 frameworks transversaux
+│       ├── glossaire.md               # VM/CR/T/SPICED/NRR/etc.
+│       └── challenge-prompts.md       # 10 prompts challenge PM
 │
 ├── references/                        # Quick-lookup files
 │   ├── pm-fundamentals.md             # PM glossary, career, tech stack
@@ -79,6 +85,7 @@ Run `/pm-help` to see all skills and a decision tree for which to use.
 | `/pm-communications` | Meetings, updates, release notes, soft skills |
 | `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
 | `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
+| `/pm-revenue` | Revenue architecture: PLG↔SLG, bowtie CR1-CR8, LTV/CAC/NRR, SPICED, growth stages |
 
 ## BMAD Framework (v6.3.0)
 

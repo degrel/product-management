@@ -61,8 +61,13 @@ product-management/
 │   ├── ux-design/                     # UX psychology (106 biases), articles
 │   │   ├── ux-psychology/             # Growth.design cognitive biases
 │   │   └── ...                        # Progressive disclosure, etc.
-│   └── pm-course/                     # PM training modules (Carl Vellotti)
-│       └── course-materials/          # PRD writing, data analysis, strategy
+│   ├── pm-course/                     # PM training modules (Carl Vellotti)
+│   │   └── course-materials/          # PRD writing, data analysis, strategy
+│   └── revenue/                       # Revenue architecture (Collective Impact)
+│       ├── sessions/                  # 5 session notes (slides + transcript)
+│       ├── frameworks/                # 6 frameworks transversaux
+│       ├── glossaire.md               # VM/CR/SPICED/NRR/etc.
+│       └── challenge-prompts.md       # 10 prompts challenges PM
 │
 ├── references/                        # Quick-lookup files
 │   ├── pm-fundamentals.md             # PM glossary, career, tech stack
@@ -113,6 +118,7 @@ Run `/pm-help` to see all skills and get oriented. Each skill is invocable via s
 | `/pm-communications` | Meetings, updates, release notes, soft skills |
 | `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
 | `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
+| `/pm-revenue` | Revenue architecture (Winning by Design bowtie, PLG↔SLG arbitrage, LTV/CAC/NRR, SPICED, growth stages) |
 
 ### BMAD Commands (v6.3.0)
 
