@@ -5,65 +5,78 @@ description: List available PM skills and recommend which one to use. Use when t
 
 # PM Toolkit — Guide
 
-## Available Skills
+## PM Skills
 
 | Commande | Quand l'utiliser |
 |----------|-----------------|
-| `/pm-discovery` | Interview, feedback utilisateur, JTBD, problem statement, hypotheses |
-| `/pm-strategy` | Strategy doc, roadmap, ROI, PRD, one-pager, prioritisation, KPIs |
+| `/pm-discovery` | Interview, feedback utilisateur, JTBD, problem statement, hypothèses |
+| `/pm-strategy` | Strategy doc, roadmap, ROI, PRD, one-pager, priorisation, KPIs |
 | `/pm-execution` | Spec feature, acceptance criteria (Gherkin), user stories, edge cases, handoff engineering |
-| `/pm-ux` | User flow, wireframe, UX copy, design review, biais cognitifs, accessibilite |
-| `/pm-communications` | Reunion (agenda/summary), status update, release notes, annonce stakeholder |
-| `/pm-data-analytics` | SQL, analyse de donnees, rapport, dashboard, qualite des donnees |
-| `/pm-ai-ux` | Pipeline UX avec BMAD + /ux, decision framework, quality gate pre-merge |
+| `/pm-communications` | Réunion (agenda/summary), status update, release notes, annonce stakeholder |
+| `/pm-data-analytics` | SQL, analyse de données, rapport, dashboard, qualité des données |
 | `/pm-revenue` | Revenue architecture, PLG↔SLG, bowtie CR1-CR8, LTV/CAC/NRR, SPICED, stades croissance |
+
+## Design Skills (nouveau produit + travail avec designer)
+
+| Commande | Quand l'utiliser |
+|----------|-----------------|
+| `/design-sprint` | Cadrer plusieurs jours de design (framing → diverge → decide → prototype → test), orchestration BMAD + /ux |
+| `/design-ia` | Information architecture, user flows, navigation, mental models, hiérarchie d'info, Nielsen heuristics |
+| `/design-craft` | Visual craft : typo, color, spacing, hiérarchie visuelle, microinteractions, responsive, dark mode |
+| `/design-system` | Tokens, composants, naming, DESIGN.md handoff, versioning du DS |
+| `/design-review` | Critique structurée, heuristic evaluation, audit a11y, pre-merge quality gate, tests légers |
+| `/design-psychology` | 106 biais cognitifs, Hook Model, Fogg, mental models, persuasion éthique |
 
 ## Comment choisir
 
 ```
 Que fais-tu en ce moment ?
-|
-+-- J'analyse du feedback / des interviews
-|   -> /pm-discovery
-|
-+-- Je redige une strategie, un PRD, ou je priorise
-|   -> /pm-strategy
-|
-+-- Je prepare une spec pour les devs
-|   -> /pm-execution
-|
-+-- Je travaille sur un ecran, un flow, du copy UX
-|   -> /pm-ux
-|
-+-- Je prepare une reunion ou un update
-|   -> /pm-communications
-|
-+-- Je fais du SQL, un rapport, un dashboard
-|   -> /pm-data-analytics
-|
-+-- Je lance un design UX complet avec l'IA
-|   -> /pm-ai-ux
-|
-+-- Je challenge une decision revenue (pricing, PLG/SLG, ICP, roadmap, onboarding, expansion)
-|   -> /pm-revenue
+│
+├── Feedback utilisateur, interviews, JTBD
+│   → /pm-discovery
+│
+├── Stratégie, PRD, roadmap, priorisation
+│   → /pm-strategy
+│
+├── Spec pour les devs
+│   → /pm-execution
+│
+├── Réunion, update, release notes
+│   → /pm-communications
+│
+├── SQL, rapport, dashboard
+│   → /pm-data-analytics
+│
+├── Décision revenue (pricing, PLG/SLG, ICP, expansion)
+│   → /pm-revenue
+│
+├── Je démarre un produit / une feature complexe → je dois cadrer les jours de design
+│   → /design-sprint
+│
+├── Je travaille sur la STRUCTURE (flows, nav, hiérarchie d'info)
+│   → /design-ia
+│
+├── Je travaille sur la QUALITÉ VISUELLE d'un mockup
+│   → /design-craft
+│
+├── Je construis / fais évoluer le design system
+│   → /design-system
+│
+├── Je review un design (critique, a11y, quality gate, pre-merge)
+│   → /design-review
+│
+└── Je cherche les bons biais à actionner (onboarding, pricing, retention…)
+    → /design-psychology
 ```
 
-## Knowledge Base (chargee a la demande par les skills)
+## Knowledge Base (chargée à la demande par les skills)
 
-| Ressource | Contenu | Utilise par |
+| Ressource | Contenu | Utilisé par |
 |-----------|---------|-------------|
-| `knowledge/ux-design/ux-psychology/` | 106 biais cognitifs UX (Growth.design) | pm-ux |
-| `knowledge/ux-design/` | Progressive disclosure, articles UX | pm-ux |
-| `knowledge/pm-course/` | Modules PRD, data analysis, product strategy | pm-strategy, pm-data-analytics, pm-ai-ux |
-| `knowledge/revenue/` | Leadership du revenu (Collective Impact) — 5 sessions, 6 frameworks, bowtie WbD, PLG↔SLG | pm-revenue |
+| `knowledge/design/` | 15 fiches distillées + 5 fiches biais Growth.design | design-* |
+| `knowledge/pm-course/` | Modules PRD, data analysis, product strategy | pm-strategy, pm-data-analytics |
+| `knowledge/revenue/` | Leadership du revenu — 5 sessions, 6 frameworks, bowtie WbD, PLG↔SLG | pm-revenue |
 
-## References rapides
+## BMAD (workflows structurés)
 
-| Fichier | Contenu |
-|---------|---------|
-| `references/pm-fundamentals.md` | Glossaire PM, tech stack, career paths |
-| `references/claude-power-user-checklist.md` | Checklist power user Claude Code |
-
-## BMAD (workflows structures)
-
-Pour des workflows plus lourds (brainstorming, review editoriale, multi-agent), utilise les commandes BMAD : `/bmad-help` pour voir ce qui est disponible.
+Pour des workflows plus lourds (brainstorming, review éditoriale, multi-agent), utilise les commandes BMAD : `/bmad-help` pour voir ce qui est disponible.

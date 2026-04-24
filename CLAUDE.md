@@ -50,17 +50,23 @@ product-management/
 │   ├── pm-discovery/                  # Interview synthesis, JTBD, feedback
 │   ├── pm-strategy/                   # Strategy, roadmap, ROI, PRDs
 │   ├── pm-execution/                  # Specs, acceptance criteria, handoff
-│   ├── pm-ux/                         # Flows, wireframes, UX copy, review
 │   ├── pm-communications/             # Meetings, updates, release notes
 │   ├── pm-data-analytics/             # SQL, reports, dashboards
-│   ├── pm-ai-ux/                      # AI-driven UX pipeline (BMAD + /ux)
-│   ├── bmad-*/                        # BMAD framework skills (12 skills)
+│   ├── pm-revenue/                    # Revenue architecture (bowtie, PLG/SLG)
+│   ├── design-sprint/                 # Multi-day design workflow, framing
+│   ├── design-ia/                     # Information architecture, flows, mental models
+│   ├── design-craft/                  # Visual craft: typo, color, spacing, hierarchy
+│   ├── design-system/                 # Tokens, components, DESIGN.md, handoff
+│   ├── design-review/                 # Heuristic eval, a11y, quality gate
+│   ├── design-psychology/             # 106 biases, Hook Model, persuasion éthique
+│   ├── bmad-*/                        # BMAD framework skills
 │   └── figma-use/                     # Figma MCP integration skill
 │
 ├── knowledge/                         # Deep reference, loaded on demand
-│   ├── ux-design/                     # UX psychology (106 biases), articles
-│   │   ├── ux-psychology/             # Growth.design cognitive biases
-│   │   └── ...                        # Progressive disclosure, etc.
+│   ├── design/                        # 15 fiches distillées (visual hierarchy,
+│   │   ├── ...                        # typography, color, states, heuristics,
+│   │   └── psychology/                # a11y, tokens, DESIGN.md, testing, critique)
+│   │                                  # + 5 fiches biais Growth.design
 │   ├── pm-course/                     # PM training modules (Carl Vellotti)
 │   │   └── course-materials/          # PRD writing, data analysis, strategy
 │   └── revenue/                       # Revenue architecture (Collective Impact)
@@ -68,10 +74,6 @@ product-management/
 │       ├── frameworks/                # 6 frameworks transversaux
 │       ├── glossaire.md               # VM/CR/SPICED/NRR/etc.
 │       └── challenge-prompts.md       # 10 prompts challenges PM
-│
-├── references/                        # Quick-lookup files
-│   ├── pm-fundamentals.md             # PM glossary, career, tech stack
-│   └── claude-power-user-checklist.md # Claude Code power user checklist
 │
 ├── galigeo/                           # Company-specific context
 │   ├── 1-PLG.md                       # Product-led growth strategy
@@ -110,15 +112,28 @@ Run `/pm-help` to see all skills and get oriented. Each skill is invocable via s
 
 | Command | Purpose |
 |---------|---------|
-| `/pm-help` | List all PM skills, decision tree for which to use |
+| `/pm-help` | List all skills, decision tree |
 | `/pm-discovery` | Interview synthesis, JTBD, feedback triage |
 | `/pm-strategy` | Strategy docs, roadmap, ROI, PRDs, KPIs |
 | `/pm-execution` | Feature specs, acceptance criteria, engineering handoff |
-| `/pm-ux` | User flows, wireframes, UX copy, design review, cognitive biases |
 | `/pm-communications` | Meetings, updates, release notes, soft skills |
 | `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
-| `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
-| `/pm-revenue` | Revenue architecture (Winning by Design bowtie, PLG↔SLG arbitrage, LTV/CAC/NRR, SPICED, growth stages) |
+| `/pm-revenue` | Revenue architecture (bowtie, PLG↔SLG, LTV/CAC/NRR, SPICED) |
+
+### Design Skills
+
+6 skills ciblés pour un product manager qui fait des maquettes et travaille avec un designer. Chaque skill charge ses fiches de référence dans `knowledge/design/` à la demande.
+
+| Command | Purpose | Question répondue |
+|---------|---------|--------------------|
+| `/design-sprint` | Cadrer plusieurs jours de design, framing, orchestration AI (BMAD + /ux) | "Par où commencer, quelle question aujourd'hui ?" |
+| `/design-ia` | Information architecture, user flows, navigation, mental models, hiérarchie | "Quelle structure, quel flow ?" |
+| `/design-craft` | Visual craft : typo, color, spacing, hierarchy, microinteractions, responsive | "Comment rendre ça beau et précis ?" |
+| `/design-system` | Tokens, composants, DESIGN.md, handoff dev | "Comment le rendre réutilisable ?" |
+| `/design-review` | Critique, heuristic eval, a11y, quality gate, tests légers | "Est-ce prêt à ship ?" |
+| `/design-psychology` | 106 biais cognitifs, Hook Model, persuasion éthique | "Pourquoi les users vont faire ça ?" |
+
+Le dossier `knowledge/design/` est l'épine dorsale des skills. Les fiches y sont distillées (pas du brut téléchargé) pour être chargées rapidement sans polluer le contexte.
 
 ### BMAD Commands (v6.3.0)
 
@@ -143,19 +158,19 @@ Run `/pm-help` to see all skills and get oriented. Each skill is invocable via s
 npx bmad-method@next install
 ```
 
-### Using PM skills globally (all projects)
+### Using skills globally (all projects)
 
 Skills are symlinked to `~/.claude/skills/` so they work everywhere:
 
 ```bash
-# Install all PM skills globally
+# Install PM + design skills globally
 mkdir -p ~/.claude/skills
-for skill in /Users/gregoire/Dev/product-management/.claude/skills/pm-*; do
+for skill in /Users/gregoire/Dev/product-management/.claude/skills/{pm-*,design-*}; do
   ln -sf "$skill" ~/.claude/skills/$(basename "$skill")
 done
 ```
 
-To remove: `rm ~/.claude/skills/pm-*`
+To remove: `rm ~/.claude/skills/{pm-*,design-*}`
 
 ## Output Principles
 

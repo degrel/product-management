@@ -14,35 +14,25 @@ product-management/
 │   ├── pm-discovery/                  # Interview synthesis, JTBD, feedback
 │   ├── pm-strategy/                   # Strategy, roadmap, ROI, PRDs
 │   ├── pm-execution/                  # Specs, acceptance criteria, handoff
-│   ├── pm-ux/                         # Flows, wireframes, UX copy, review
 │   ├── pm-communications/             # Meetings, updates, release notes
 │   ├── pm-data-analytics/             # SQL, reports, dashboards
-│   ├── pm-ai-ux/                      # AI-driven UX pipeline (BMAD + /ux)
 │   ├── pm-revenue/                    # Revenue architecture, PLG↔SLG, bowtie WbD
-│   ├── bmad-*/                        # BMAD framework skills (12 skills)
+│   ├── design-sprint/                 # Multi-day design workflow, framing
+│   ├── design-ia/                     # IA, flows, mental models, hiérarchie
+│   ├── design-craft/                  # Visual craft: typo, color, spacing, motion
+│   ├── design-system/                 # Tokens, components, DESIGN.md, handoff
+│   ├── design-review/                 # Critique, heuristic eval, a11y, quality gate
+│   ├── design-psychology/             # 106 biais, Hook Model, persuasion éthique
+│   ├── bmad-*/                        # BMAD framework skills
 │   └── figma-use/                     # Figma MCP integration
 │
 ├── knowledge/                         # Deep reference, loaded on demand
-│   ├── ux-design/                     # UX psychology (106 biases), articles
-│   │   ├── ux-psychology/             # Growth.design cognitive biases
-│   │   └── ...                        # Progressive disclosure, etc.
+│   ├── design/                        # 15 fiches distillées + 5 fiches biais
+│   │   └── psychology/                # Growth.design biases (info/meaning/time/memory)
 │   ├── pm-course/                     # PM training modules (Carl Vellotti)
-│   │   └── course-materials/          # PRD writing, data analysis, strategy
 │   └── revenue/                       # Leadership du revenu (Collective Impact)
-│       ├── sessions/                  # 5 session notes (slide-by-slide + coach)
-│       ├── frameworks/                # 6 frameworks transversaux
-│       ├── glossaire.md               # VM/CR/T/SPICED/NRR/etc.
-│       └── challenge-prompts.md       # 10 prompts challenge PM
-│
-├── references/                        # Quick-lookup files
-│   ├── pm-fundamentals.md             # PM glossary, career, tech stack
-│   └── claude-power-user-checklist.md # Claude Code power user checklist
 │
 ├── galigeo/                           # Company-specific context
-│   ├── 1-PLG.md                       # Product-led growth strategy
-│   ├── Product-manager-Galigeo.md     # PM role at Galigeo
-│   └── Produits et ICP.md             # Products & ideal customer profiles
-│
 ├── docs/                              # Project documents & feature specs
 ├── _bmad/                             # BMAD framework (v6.3.0)
 ├── figma-bridge/                      # Figma MCP server & plugin
@@ -57,35 +47,42 @@ product-management/
 │  Company identity, personas, glossary           │
 │  Project-specific, not portable                 │
 ├─────────────────────────────────────────────────┤
-│  .claude/skills/pm-* — Action Layer             │
+│  .claude/skills/{pm,design}-* — Action Layer    │
 │  Templates, workflows, slash commands           │
 │  Portable: symlinked to ~/.claude/skills/       │
 ├─────────────────────────────────────────────────┤
-│  knowledge/ — Depth Layer                       │
-│  UX psychology, PM course, articles             │
+│  knowledge/design/ — Depth Layer                │
+│  15 distilled design fiches + 106 biases        │
 │  Loaded on demand by skills                     │
-├─────────────────────────────────────────────────┤
-│  references/ — Quick Lookup Layer               │
-│  Glossary, checklists                           │
-│  Loaded on demand                               │
 └─────────────────────────────────────────────────┘
 ```
 
 ## PM Skills
 
-Run `/pm-help` to see all skills and a decision tree for which to use.
+Run `/pm-help` to see all skills and the decision tree.
 
 | Command | Purpose |
 |---------|---------|
-| `/pm-help` | List all PM skills, orient on which to use |
+| `/pm-help` | List all skills, orient on which to use |
 | `/pm-discovery` | Interview synthesis, JTBD, feedback triage |
 | `/pm-strategy` | Strategy docs, roadmap, ROI, PRDs, KPIs |
 | `/pm-execution` | Feature specs, acceptance criteria, engineering handoff |
-| `/pm-ux` | User flows, wireframes, UX copy, design review, cognitive biases |
 | `/pm-communications` | Meetings, updates, release notes, soft skills |
 | `/pm-data-analytics` | SQL queries, reports, dashboards, data quality |
-| `/pm-ai-ux` | AI-driven UX pipeline (BMAD + /ux), quality gates |
-| `/pm-revenue` | Revenue architecture: PLG↔SLG, bowtie CR1-CR8, LTV/CAC/NRR, SPICED, growth stages |
+| `/pm-revenue` | Revenue architecture: PLG↔SLG, bowtie CR1-CR8, LTV/CAC/NRR, SPICED |
+
+## Design Skills
+
+6 skills ciblés pour un PM qui fait des maquettes et collabore avec un designer.
+
+| Command | Purpose |
+|---------|---------|
+| `/design-sprint` | Cadrer plusieurs jours de design (framing → diverge → decide → prototype → test) + orchestration BMAD/ux |
+| `/design-ia` | Information architecture, user flows, navigation, mental models, Nielsen heuristics |
+| `/design-craft` | Visual craft : typo, color, spacing, hiérarchie visuelle, microinteractions, responsive |
+| `/design-system` | Tokens, composants, naming, DESIGN.md handoff, versioning |
+| `/design-review` | Heuristic evaluation, audit a11y, critique, pre-merge quality gate, tests légers |
+| `/design-psychology` | 106 biais cognitifs, Hook Model, Fogg, persuasion éthique |
 
 ## BMAD Framework (v6.3.0)
 
@@ -108,23 +105,23 @@ Structured workflows for ideation, review, and document management.
 
 Update: `npx bmad-method@next install`
 
-## Using PM skills in another project
+## Using skills in another project
 
-The PM skills are already symlinked globally to `~/.claude/skills/` — they work in every project automatically.
+The PM + design skills are symlinked globally to `~/.claude/skills/` — they work in every project automatically.
 
 To install manually in a specific project:
 
 ```bash
-# Symlink all PM skills
-for skill in /path/to/product-management/.claude/skills/pm-*; do
+# Symlink all PM + design skills
+for skill in /path/to/product-management/.claude/skills/{pm-*,design-*}; do
   ln -s "$skill" .claude/skills/$(basename "$skill")
 done
 
-# Optionally, link the knowledge base (for ux-psychology, pm-course refs)
+# Optionally link the design knowledge base
 ln -s /path/to/product-management/knowledge knowledge
 ```
 
-Each skill is self-contained. Your project's own `CLAUDE.md` provides company context — the skills are generic PM methodology that adapts to any domain.
+Chaque skill est self-contained. Le `CLAUDE.md` du projet fournit le contexte métier — les skills sont de la méthodologie générique qui s'adapte à n'importe quel domaine.
 
 ## Figma Integration
 
