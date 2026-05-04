@@ -142,8 +142,9 @@ Streamline stakeholder communications with templates for meetings, updates, and 
 **Period**: [Date] - [Date]
 **Author**: [PM Name]
 
-## TL;DR
-[3 bullets max: What matters this week]
+## Overview
+[3 bullets max: What matters this week] - 
+[French version] En bref
 
 ## Key Metrics
 | Metric | This Week | Last Week | Trend |
