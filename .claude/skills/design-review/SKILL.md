@@ -20,6 +20,7 @@ Fiches distillées dans `knowledge/design/`.
 | Méthodes tests légers (5-sec, click, hallway, mining, usability) | `testing-methods.md` |
 | Les 7 états à vérifier | `states.md` |
 | Biais à surveiller dans la critique | `psychology-map.md` |
+| Lint DESIGN.md (quality gate token-level) | `design-md-workflow.md` |
 
 ## Trois modes de review
 
@@ -164,6 +165,36 @@ Objectif : faire émerger des idées sans démolir la personne. Ne pas confondre
 ## 3. Pre-merge quality gate
 
 Appliquer **avant chaque merge** d'un PR touchant l'UI. Bloquant.
+
+### Quality gate automatisé : `lint` du DESIGN.md
+
+Si le projet a un `DESIGN.md`, lancer le linter Google **avant** la review humaine. Il détecte des classes d'erreurs que l'œil rate.
+
+```bash
+npx -y @google/design.md lint DESIGN.md
+```
+
+Politique de gate :
+
+| Sévérité linter | Politique |
+|---|---|
+| `error` (broken-ref) | **Bloque le merge** — référence cassée = composant impossible à styler. |
+| `warning` (contrast-ratio) | **Bloque le merge** sauf justification écrite (texte décoratif, etc.). |
+| `warning` (orphaned-tokens, missing-primary, missing-typography, section-order) | À traiter dans la review, pas bloquant en soi. |
+| `info` (token-summary, missing-sections) | Information, pas d'action obligatoire. |
+
+Les 7 règles couvertes : `broken-ref`, `missing-primary`, `contrast-ratio` (WCAG AA 4.5:1), `orphaned-tokens`, `missing-typography`, `section-order`, `missing-sections`, `token-summary`. Détail dans `knowledge/design/design-md-workflow.md`.
+
+Bonus régression : si le PR modifie `DESIGN.md`, comparer avec la version `main` pour bloquer les régressions involontaires :
+
+```bash
+git show main:DESIGN.md > /tmp/DESIGN.before.md
+npx -y @google/design.md diff /tmp/DESIGN.before.md DESIGN.md
+```
+
+Le flag `regression: true` dans la sortie = ship blocker.
+
+
 
 ```markdown
 # Quality Gate UX — Pre-merge

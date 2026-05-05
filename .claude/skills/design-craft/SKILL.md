@@ -21,6 +21,8 @@ Fiches distillées dans `knowledge/design/`. Charger **une** fiche à la fois, p
 | Microinteractions (triggers, rules, feedback, motion) | `microinteractions.md` |
 | Les 7 états à dessiner (empty, loading, error…) | `states.md` |
 | Progressive disclosure (P0/P1/P2) | `progressive-disclosure.md` |
+| Format DESIGN.md (cible de tokenisation) | `design-md-format.md` |
+| Workflow DESIGN.md (lint, briefing Claude) | `design-md-workflow.md` |
 
 ## Mindset : contraintes > options
 
@@ -151,6 +153,8 @@ Référence : `designer-skills-main/ui-design/skills/data-visualization/`.
 6. **Motion pass** : transitions ≤ 300 ms, `prefers-reduced-motion` OK ?
 7. **Responsive pass** : mobile, tablette, desktop, très grand écran ?
 8. **Cross-check** : cohérent avec le design system (`design-system`) ?
+
+> **Tokenisation = condition de sortie**. Toute valeur retenue à l'issue de ce workflow (couleur hex, taille px, radius, durée d'anim) doit finir dans le `DESIGN.md` du projet, sous le bon nom de token. Une valeur visuelle qui n'est pas tokenisée est de la dette : elle dérivera dès le prochain mockup. Voir `design-md-workflow.md` pour le pattern et `npx -y @google/design.md lint` pour le contrôle.
 
 ## Checklist craft avant livraison
 

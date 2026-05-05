@@ -15,7 +15,9 @@ Fiches distillées dans `knowledge/design/`.
 | Besoin | Fichier |
 |---|---|
 | Architecture tokens (global → alias → component) + naming | `design-tokens.md` |
-| Format DESIGN.md (YAML + markdown pour coding agents) | `design-md-format.md` |
+| Format DESIGN.md (spec YAML + markdown pour coding agents) | `design-md-format.md` |
+| Workflow DESIGN.md ↔ Claude ↔ Figma (CLI, briefing, ponts) | `design-md-workflow.md` |
+| Spec normative + 3 patterns Google de référence | `design.md-main/` (vendorisé) |
 | Color, contraste, palette, dark mode, data viz | `color-and-contrast.md` |
 | Typography (échelle, weights, performance) | `typography.md` |
 | Spacing & layout (échelle, grilles, densité) | `spacing-layout.md` |
@@ -139,9 +141,11 @@ Règles :
 
 ## Format DESIGN.md — handoff à des coding agents
 
-DESIGN.md est un format qui combine **YAML front matter** (tokens machine-readable) + **markdown prose** (pourquoi des choix). À utiliser quand on handoff à Cursor, Claude Code, Copilot, BMAD.
+DESIGN.md est un format **Google** qui combine **YAML front matter** (tokens machine-readable) + **markdown prose** (pourquoi des choix). C'est le pivot quand on handoff à Cursor, Claude Code, Copilot, BMAD : un seul fichier portable, versionnable, lintable.
 
-Voir la spec complète : `knowledge/design/design.md-main/docs/spec.md`.
+- **Spec normative** : `knowledge/design/design.md-main/docs/spec.md`
+- **Primer rapide** : `knowledge/design/design-md-format.md`
+- **Workflow opérationnel** (CLI, briefing, ponts Figma) : `knowledge/design/design-md-workflow.md`
 
 Exemple minimal :
 
@@ -213,7 +217,56 @@ Line-height généreux car beaucoup de data.
 - Badge alerte → state-warning, jamais state-danger sauf blocage
 ```
 
-Validation : `npx @google/design.md lint DESIGN.md` (voir `knowledge/design/design.md-main/README.md`).
+### Workflow CLI
+
+Outil de référence : `@google/design.md` (npm). Aucune install locale, `npx` résout depuis le registry.
+
+```bash
+# Quality gate : 7 règles, exit 1 si erreurs
+npx -y @google/design.md lint DESIGN.md
+
+# Export Tailwind v3 (theme.extend JSON pour tailwind.config.js)
+npx -y @google/design.md export --format tailwind DESIGN.md > tailwind.theme.json
+
+# Export DTCG (W3C, interop Style Dictionary, Token Studio Figma)
+npx -y @google/design.md export --format dtcg DESIGN.md > tokens.json
+
+# Régression check entre versions
+npx -y @google/design.md diff DESIGN.md DESIGN-v2.md
+```
+
+7 règles linter (cf. `design-md-workflow.md` pour le détail) :
+`broken-ref` (error), `missing-primary`, `contrast-ratio` (WCAG AA), `orphaned-tokens`, `missing-typography`, `section-order` (warnings), `missing-sections`, `token-summary` (info).
+
+### Patterns de référence
+
+3 DESIGN.md complets vendorisés depuis `@google/design.md` à copier/adapter :
+
+| Pattern | Style | Quand s'en inspirer |
+|---|---|---|
+| `design.md-main/examples/atmospheric-glass/` | Glassmorphism, monochromatic blanc + alpha, gradients vifs | UI ambient, météo, dashboards créatifs |
+| `design.md-main/examples/paws-and-paths/` | Warm consumer, orange + sky blue, sans-serif amical | Produit grand public, onboarding chaleureux |
+| `design.md-main/examples/totality-festival/` | Dark editorial, obsidian + corona gold | Event, premium, lecture intensive |
+
+Chaque dossier contient : `DESIGN.md` + `tailwind.config.js` (généré par export) + `design_tokens.json` (DTCG). À ouvrir avant de partir d'une page blanche.
+
+### Briefer Claude (ou tout coding agent) avec ce DS
+
+Une fois ton `DESIGN.md` à la racine du projet, ajoute dans `CLAUDE.md` :
+
+```markdown
+## Design system
+
+La référence visuelle est dans `DESIGN.md` (format @google/design.md).
+Tout composant créé doit :
+- Utiliser uniquement les tokens déclarés (colors, typography, spacing, rounded)
+- Respecter "Do's and Don'ts" et la prose des sections
+- Ne jamais hardcoder une valeur hors échelle
+
+Avant handoff : `npx -y @google/design.md lint DESIGN.md`.
+```
+
+Détails et patterns alternatifs (prompt one-shot, injection de spec) dans `knowledge/design/design-md-workflow.md`.
 
 ## Handoff design → dev
 

@@ -22,7 +22,9 @@
       "mcp__notion__API-retrieve-a-page",
       "mcp__notion__API-get-block-children",
       "mcp__datagouv__search_datasets",
-      "mcp__datagouv__list_dataset_resources"
+      "mcp__datagouv__list_dataset_resources",
+      "mcp__datagouv__get_dataset_info",
+      "mcp__datagouv__query_resource_data"
     ]
   },
   "enableAllProjectMcpServers": true,

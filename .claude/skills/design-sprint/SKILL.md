@@ -252,3 +252,4 @@ Intégrable dans n'importe quel sprint, même en solo.
 - [ ] Prochaines actions assignées avec owner + date
 - [ ] Artefacts archivés : brief, storyboard, prototype, notes de test
 - [ ] Apprentissage documenté pour les prochains sprints
+- [ ] **DESIGN.md** produit (ou mis à jour) pour handoff aux coding agents (Claude Code, Cursor, BMAD). Format Google `@google/design.md` — voir skill `design-system` + `knowledge/design/design-md-workflow.md`. C'est l'artefact qui transforme le sprint en input réutilisable pour la phase suivante (build), pas un livrable optionnel.
